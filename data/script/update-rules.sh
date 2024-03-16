@@ -13,7 +13,7 @@ cp ./data/rules/whitelist.txt ./tmp/allow01.txt
 
 cd tmp
 #下载yhosts规则
-curl https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts | sed '/0.0.0.0 /!d; /#/d; s/0.0.0.0 /||/; s/$/\^/' > rules001.txt
+curl https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts | sed '/127.0.0.1 /!d; /#/d; s/127.0.0.1 /||/; s/$/\^/' > rules001.txt
 
 #下载大圣净化规则
 curl https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts > rules002.txt
@@ -35,7 +35,8 @@ rules=(
   "https://easylist-downloads.adblockplus.org/easyprivacy.txt" #EasyPrivacy隐私保护规则
   "https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt" #去APP下载提示规则
   "https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.adblock" #d3ward规则
-  "https://small.oisd.nl/" #oisd规则
+  "https://small.oisd.nl/" #AdRules DNS List
+  "https://https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt/" #oisd规则
   "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt" #秋风规则
  )
 
