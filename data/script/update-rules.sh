@@ -40,7 +40,15 @@ rules=(
   "https://https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt/" #oisd规则
   "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt" #秋风规则
   "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt" #NoCoin adblock list
-  "https://github.com/nickspaargaren/no-google/raw/master/pihole-google-adguard.txt" #No Google
+  "https://github.com/nickspaargaren/no-google/raw/master/pihole-google-adguard.txt" #No Google#anti-anti-ad
+  "https://raw.githubusercontent.com/reek/anti-adblock-killer/master/anti-adblock-killer-filters.txt" #anti-anti-ad
+  "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt" #anti-anti-ad
+  "https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt" #anti-anti-ad
+  "https://filters.adtidy.org/windows/filters/11.txt" #Mobile Ads
+  "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt" #cjx
+  "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt" #Spam404
+  "https://raw.githubusercontent.com/Cats-Team/dns-filter/main/abp.txt" #Cats-Tea
+  "https://raw.githubusercontent.com/StevenBlack/hosts/master/data/StevenBlack/hosts" #StevenBlack
  )
 
 allow=(
