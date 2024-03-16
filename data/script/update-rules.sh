@@ -36,8 +36,10 @@ rules=(
   "https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt" #去APP下载提示规则
   "https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.adblock" #d3ward规则
   "https://small.oisd.nl/" #AdRules DNS List
+  "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt/" #轻量广告拦截规则
   "https://https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt/" #oisd规则
   "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt" #秋风规则
+  "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt" #NoCoin adblock list
  )
 
 allow=(
@@ -45,6 +47,7 @@ allow=(
   "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/GermanFilter/sections/allowlist.txt"
   "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/TurkishFilter/sections/allowlist.txt"
   "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/allowlist.txt"
+  "https://raw.githubusercontent.com/ChengJi-e/AFDNS/master/QD.txt"
 )
 
 for i in "${!rules[@]}" "${!allow[@]}"
