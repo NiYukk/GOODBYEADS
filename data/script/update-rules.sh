@@ -40,6 +40,7 @@ rules=(
   "https://https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt/" #oisd规则
   "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt" #秋风规则
   "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt" #NoCoin adblock list
+  "https://github.com/nickspaargaren/no-google/raw/master/pihole-google-adguard.txt" #No Google
  )
 
 allow=(
