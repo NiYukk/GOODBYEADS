@@ -31,6 +31,7 @@ rules=(
   "https://filters.adtidy.org/android/filters/17_optimized.txt"  #adgURL过滤器
   "https://filters.adtidy.org/android/filters/3_optimized.txt" #adg防跟踪
   "https://filters.adtidy.org/android/filters/224_optimized.txt" #adg中文过滤器
+  "https://filters.adtidy.org/android/filters/14_optimized.txt" # 恼人广告过滤器
   "https://perflyst.github.io/PiHoleBlocklist/SmartTV-AGH.txt" #Tv规则
   "https://easylist-downloads.adblockplus.org/easyprivacy.txt" #EasyPrivacy隐私保护规则
   "https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt" #去APP下载提示规则
@@ -45,6 +46,11 @@ rules=(
   "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt" #anti-ad
   "https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt" #anti-ad
   "https://filters.adtidy.org/windows/filters/11.txt" #Mobile Ads
+  "https://raw.githubusercontent.com/banbendalao/ADgk/master/kill-baidu-ad.txt"  #百度超级净化 @坂本大佬
+  "https://www.i-dont-care-about-cookies.eu/abp/" #I don't care about cookies
+  "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter.txt" #Online Malicious URL Blocklist URL-based
+  "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt" #Clean Url 
+  "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt" #Clean Url
  )
 
 allow=(
