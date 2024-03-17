@@ -51,13 +51,12 @@ rules=(
   "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter.txt" #Online Malicious URL Blocklist URL-based
   "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt" #Clean Url 
   "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt" #Clean Url
+  "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-agh-online.txt" #Online Malicious URL Blocklist Domain-based
  )
 
 allow=(
   "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/allowlist.txt"
-  "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/GermanFilter/sections/allowlist.txt"
-  "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/TurkishFilter/sections/allowlist.txt"
-  "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/allowlist.txt"
+  "https://raw.githubusercontent.com/Cats-Team/AdRules/main/mod/rules/allowlist.txt"
   "https://raw.githubusercontent.com/ChengJi-e/AFDNS/master/QD.txt"
 )
 
