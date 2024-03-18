@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2024-03-18 09:13:13（北京时间）
+! Version: 2024-03-18 20:30:39（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8160
+! Total count: 8170
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -31,7 +31,6 @@
 @@.instantservice.com$document
 @@.it/rcs_data-tracking/v*/distro/openx/gazzetta/openx_async.js$domain=gazzetta.it
 @@.jpg#$domain=huhupan.com
-@@.m3u8$stealth,domain=luluvdo.com
 @@.net/click-$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@.online^$xmlhttprequest,stealth=referrer,domain=playru.net
 @@.png#$domain=3dpchip.com|9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com|digit77.com|e9china.net|upxin.net
@@ -772,6 +771,7 @@
 @@||adsales.snidigital.com/*/ads-config.min.js$script
 @@||adscale.de/getads.js$image,domain=dasolo.org
 @@||adscendmedia.com/gwjs.php?aff=$script,third-party
+@@||adsco.re/p$domain=shorterall.com
 @@||adsense.woso.cn^$~third-party
 @@||adsensecustomsearchads.com/adsense/$script,domain=last.fm
 @@||adserver.adtech.de/?adrawdata/$xmlhttprequest,domain=ruutu.fi
@@ -1333,6 +1333,7 @@
 @@||b.scorecardresearch.com/r$domain=techhive.com
 @@||b.scorecardresearch.com/r?$domain=bedfordshire-news.co.uk
 @@||b.scorecardresearch.com^$xmlhttprequest,object-subrequest,domain=tv.majorleaguegaming.com
+@@||b1.best-hit.tv^$generichide
 @@||b92.net/a/cmt_submit.php$document
 @@||b92.yahoo.co.jp^$app=jp.co.alc.eow
 @@||b97.yahoo.co.jp^$app=jp.co.alc.eow
@@ -1419,6 +1420,7 @@
 @@||beyondsoft.com/dataservice/img/ad_
 @@||bf.sbdm.cc^$stealth
 @@||bgp.he.net/images/flags/*.gif?$image,~third-party
+@@||bhavanijewellery.in/ads9.gif$domain=atozmath.com
 @@||bhc.co.kr^$stealth=dpi
 @@||bhg.com/web/js-min/common/js/dwr/RemoteTargetingService.js
 @@||bid.g.doubleclick.net/$object-subrequest,domain=play.tv|playtv.fr
@@ -1465,6 +1467,7 @@
 @@||blackcircles.ca^$script,~third-party
 @@||blackmod.net^$generichide
 @@||blancvpn.com/_nuxt/CookieConsent.
+@@||bleepingcomputer.com/download/ads-spy/
 @@||blizzard.com/oauth2$removeparam
 @@||blob.core.windows.net/bge/src/js/google-analytics.js$domain=secure2.bge.com
 @@||blocket.se/annonser^
@@ -1663,6 +1666,7 @@
 @@||cdn.ampproject.org/v0.js$domain=amp.fakty.ua
 @@||cdn.ampproject.org/v0.js$domain=novosti-n.org
 @@||cdn.ampproject.org/v0.js$domain=politnavigator.net
+@@||cdn.anilife.*/assets/img/cover/$domain=anilife.*,stealth=referrer
 @@||cdn.animenewsnetwork.com/javascripts/ads.js$~third-party
 @@||cdn.appconsent.io/*.js$domain=commentcamarche.net
 @@||cdn.appconsent.io/*.js$domain=journaldesfemmes.fr|linternaute.com
@@ -1919,6 +1923,7 @@
 @@||cdn.questionpro.com^$domain=questionpro.*
 @@||cdn.radiostreamlive.com/v*/js/adblock/advert-1bb.js
 @@||cdn.rawgit.com/*/lazyload.js$domain=javmost.com
+@@||cdn.reamaze.com/assets/$domain=strongboxsafe.com
 @@||cdn.reproio.com^$app=jp.co.bookoff.bookoffapp
 @@||cdn.retailrocket.*/*/tracking.js$domain=ozerki.ru
 @@||cdn.retailrocket.ru/content/javascript/tracking.js$domain=comfy.ua
@@ -2015,6 +2020,7 @@
 @@||cdnjs.cloudflare.com/ajax/libs/*.min.js$domain=audioz.download
 @@||cdnjs.cloudflare.com/ajax/libs/Swiper/*/js/swiper.min.js$domain=9anime.*
 @@||cdnjs.cloudflare.com/ajax/libs/blockadblock/3.2.1/blockadblock.js
+@@||cdnjs.cloudflare.com/ajax/libs/blockadblock/3.2.1/blockadblock.js$domain=dutchycorp.ovh
 @@||cdnjs.cloudflare.com/ajax/libs/blockadblock/3.2.1/blockadblock.js$domain=dutchycorp.space
 @@||cdnjs.cloudflare.com/ajax/libs/blockadblock/3.2.1/blockadblock.min.js
 @@||cdnjs.cloudflare.com/ajax/libs/blockadblock/3.2.1/blockadblock.min.js$domain=cpmlink.net
@@ -4043,6 +4049,7 @@
 @@||h-cast.jp^$script,domain=bookoffonline.co.jp
 @@||h-sdk.online-metrix.net^$app=com.ebay.mobile
 @@||h.imedia.cz/js/cmp2/scmp.js$domain=seznam.cz
+@@||h178.com^$generichide
 @@||h1g.jp/img/ad/ad_heigu.html$~third-party
 @@||haaretz.co.il/logger/p.gif?$image,xmlhttprequest
 @@||haaretz.co.il/logger/p.gif?*=COMMENTS$xmlhttprequest
@@ -4630,6 +4637,7 @@
 @@||ip.rtbasia.com^
 @@||ipapi.co/json/$xmlhttprequest,domain=168.dailymaverick.co.za|audius.co
 @@||ipfs-lab.com^$generichide
+@@||iphoned.nl/wp-content/themes/*/scripts/adv_out.js
 @@||ipinfo.io/?token=$domain=assurancemortgage.com|webtv.ert.gr
 @@||ipip.net/ping.php?
 @@||ipstatp.com/business_center/dist/img/ad-$domain=tiktok.com
@@ -4658,6 +4666,8 @@
 @@||izifilm.net^$stealth,app=Kinoplay.exe
 @@||izo.tw/wp-content/advert1.js
 @@||izzylaif.com/en/js/ad$script,~third-party
+@@||j-baseball.club^$generichide
+@@||j-basketball.club^$generichide
 @@||j.gs^$generichide
 @@||j.wit.qq.com/sc/crystal_ad.js?$domain=888.sports.qq.com
 @@||jagran.com/*/ads.js$script
@@ -5023,7 +5033,6 @@
 @@||lr-ingest.io/LogRocket.min.js$domain=smartcare.com
 @@||lsi.com^*/google-analytics.js
 @@||lso.ca^$stealth=dpi
-@@||luluvdo.com^$stealth=useragent
 @@||lumload.com/pop.js$script
 @@||luzernerzeitung.ch^$generichide
 @@||lwadm.com/lw/pbjs?pid=$script,domain=sydostran.se
@@ -7810,6 +7819,7 @@
 @@||vulture.com/decor/javascript/magnify_stats.js
 @@||vvic.com/monetize/ads/index/
 @@||vvvvid.it/img/ad/advertisement.xml$xmlhttprequest
+@@||w2g.tv/rooms/$stealth
 @@||w3-reporting.reddit.com^$app=com.reddit.frontpage
 @@||w3spy.org/etc/geo.php?
 @@||w88.espn.com/id?$domain=espn.com
