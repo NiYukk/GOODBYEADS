@@ -42,8 +42,9 @@ rules=(
  )
 
 allow=(
-  "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/allowlist.txt"
-  "https://raw.githubusercontent.com/ChengJi-e/AFDNS/master/QD.txt"
+  "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/allowlist.txt" # AdGuard Chinese Filters whitelist
+  "https://raw.githubusercontent.com/ChengJi-e/AFDNS/master/QD.txt"  #各大应用白名单
+  "https://raw.githubusercontent.com/Cats-Team/AdRules/main/mod/rules/allowlist.txt" #Cats-Team 自定义白名单规则
 )
 
 for i in "${!rules[@]}" "${!allow[@]}"
