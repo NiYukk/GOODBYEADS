@@ -26,37 +26,23 @@ curl https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt |
 
 echo '下载规则'
 rules=(
-  "https://filters.adtidy.org/android/filters/2_optimized.txt" #adg基础过滤器
-  "https://filters.adtidy.org/android/filters/11_optimized.txt" #adg移动设备过滤器
-  "https://filters.adtidy.org/android/filters/17_optimized.txt"  #adgURL过滤器
-  "https://filters.adtidy.org/android/filters/3_optimized.txt" #adg防跟踪
-  "https://filters.adtidy.org/android/filters/224_optimized.txt" #adg中文过滤器
-  "https://filters.adtidy.org/android/filters/14_optimized.txt" # 恼人广告过滤器
+  "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt" # AdGuard DNS filter
   "https://perflyst.github.io/PiHoleBlocklist/SmartTV-AGH.txt" #Tv规则
-  "https://easylist-downloads.adblockplus.org/easyprivacy.txt" #EasyPrivacy隐私保护规则
   "https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt" #去APP下载提示规则
-  "https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.adblock" #d3ward规则
   "https://small.oisd.nl/" #AdRules DNS List
   "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt/" #轻量广告拦截规则
   "https://https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt/" #oisd规则
   "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt" #秋风规则
   "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt" #NoCoin adblock list
-  "https://github.com/nickspaargaren/no-google/raw/master/pihole-google-adguard.txt" #No Google#anti
-  "https://raw.githubusercontent.com/reek/anti-adblock-killer/master/anti-adblock-killer-filters.txt" #anti-ad
-  "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt" #anti-ad
-  "https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt" #anti-ad
-  "https://filters.adtidy.org/windows/filters/11.txt" #Mobile Ads
+  "https://github.com/nickspaargaren/no-google/raw/master/pihole-google-adguard.txt" #No Google
   "https://raw.githubusercontent.com/banbendalao/ADgk/master/kill-baidu-ad.txt"  #百度超级净化 @坂本大佬
   "https://www.i-dont-care-about-cookies.eu/abp/" #I don't care about cookies
   "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter.txt" #Online Malicious URL Blocklist URL-based
-  "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt" #Clean Url 
-  "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt" #Clean Url
   "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-agh-online.txt" #Online Malicious URL Blocklist Domain-based
  )
 
 allow=(
   "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/allowlist.txt"
-  "https://raw.githubusercontent.com/Cats-Team/AdRules/main/mod/rules/allowlist.txt"
   "https://raw.githubusercontent.com/ChengJi-e/AFDNS/master/QD.txt"
 )
 
