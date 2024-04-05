@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2024-04-05 09:13:37（北京时间）
+! Version: 2024-04-05 20:30:24（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 141260
+! Total count: 141269
 
 #  TODO: Check for breakages (used by tamasha.com), investigate into more tracking
 #  TODO: Remove it, Used by dlfox.com
@@ -43188,6 +43188,7 @@ ipon.hu##div[x-data="cookiePolicy"]
 ipovpn.com
 ipper.ru##body > div:not([id]):not([class])
 iproeb.ro###gg
+iqiyi.com##+js(set, Object.prototype.blackscreenDuration, 1)
 iqiyi.com##+js(set, QiyiPlayerProphetData.a.data, {})
 iqiyi.com##.black-screen[data-cupid=adblock-blackscreen], .qy-plist-ad
 iqiyi.com##.cupid-panel + div, div[data-adzone],#block-V
@@ -51157,6 +51158,7 @@ zyro.com##.zyro-cookies
 ||1267a.xyz^
 ||1268402.fls.doubleclick.net^
 ||126ccb.xyz^
+||127.0.0.1^$script,domain=iqiyi.com
 ||1271cc0c-dnsotls-ds.metric.gstatic.com^
 ||1274355588.rsc.cdn77.org^
 ||1287a.xyz^
@@ -51974,7 +51976,6 @@ zyro.com##.zyro-cookies
 ||25ktra.cn^
 ||25obpfr.de^
 ||25serve.yourporngod.com^
-||25t6ioaooca2.top^
 ||2639iqjkl.de^
 ||26485.top^
 ||2685da0b4d.com^
@@ -52124,6 +52125,7 @@ zyro.com##.zyro-cookies
 ||2qj7mq3w4uxe.com^
 ||2qpqwkx.cn^
 ||2quality.de^
+||2qy9zm.cn^
 ||2rb5hh5t6.de^
 ||2re6rpip2.de^
 ||2rich4bitches.com^
@@ -55129,7 +55131,6 @@ zyro.com##.zyro-cookies
 ||ad.bg.doubleclick.net^
 ||ad.birdmedia.com
 ||ad.bitmedia.io^
-||ad.bizo.com^
 ||ad.bluepartner.eu^
 ||ad.bobi.tw^
 ||ad.bondage.com^
@@ -77918,7 +77919,6 @@ zyro.com##.zyro-cookies
 ||ds7hds92.de^
 ||ds88pc0kw6cvc.cloudfront.net^
 ||dsas.danawa.com^
-||dsaxuytppkc.xyz^
 ||dsb.yahoo.co.jp^
 ||dsb6jelx4yhln.cloudfront.net^
 ||dsbahmgppc0j4.cloudfront.net^
@@ -77942,6 +77942,7 @@ zyro.com##.zyro-cookies
 ||dsixipuj.com^
 ||dsj4qf77pyncykf2dki6isfcuy0orwhc.lambda-url.eu-west-1.on.aws^
 ||dsj66.cn
+||dsjhcgvhjsvc.com^
 ||dsjkbcjsjkbvs.com^
 ||dskjbvzvs.com^
 ||dskjhs.com^
@@ -80013,7 +80014,6 @@ zyro.com##.zyro-cookies
 ||epushclick.com^
 ||eputysolomon.com^
 ||epvusxjbpodbh.com^
-||epwefjppare.com^
 ||epxfjcb.xyz^
 ||epxmxnhjqknsuql.com^
 ||epxprfk.xyz^
@@ -84893,6 +84893,7 @@ zyro.com##.zyro-cookies
 ||gfbpijvtoxpit.com^
 ||gfbxgrfnljmxs.com^
 ||gfhkcfdqaongo.com^
+||gfjn5.xyz^
 ||gfkefmmnludbkj.com^
 ||gfkhapiuxjkspbq.xyz^
 ||gfn1.ugap.fr^
@@ -88789,6 +88790,7 @@ zyro.com##.zyro-cookies
 ||hn1l.online^
 ||hn1l.site^
 ||hnalzlu.top^
+||hnartcqab847.live^
 ||hncadh.com^
 ||hnfnjn.xyz^
 ||hnifdlau.top^
@@ -99879,6 +99881,7 @@ zyro.com##.zyro-cookies
 ||medianmuftis.com^
 ||mediaoaktree.com^
 ||mediaonenetwork.net^
+||mediaownerscloud.com^
 ||mediapalmtree.com^
 ||mediapeartree.com^
 ||mediaplan.ru^
@@ -100202,6 +100205,7 @@ zyro.com##.zyro-cookies
 ||merzostueru2hu8jr09.com^
 ||mes-x-dev.corp.google.com^
 ||mesallyrewoke.com^
+||mesh.if.iqiyi.com/player/pcw/update/commonAppDownloadData^$xhr
 ||meshca.googleapis.com^
 ||meshconfig.googleapis.com^
 ||meshpetrols.com^
@@ -114785,6 +114789,7 @@ zyro.com##.zyro-cookies
 ||re0y7d.cyou^
 ||reabitheconti.com^
 ||reach-id.orbit.tm-awx.com^
+||reachableads-av.*.amazonaws.com^
 ||reachadv.it^
 ||reacheffect.com^
 ||reachforce.com^
@@ -122675,6 +122680,7 @@ zyro.com##.zyro-cookies
 ||static.hyprmx.com^
 ||static.ichehome.com^
 ||static.inter1ads.com
+||static.iqiyi.com/js/common/mars_v.js^$script
 ||static.itrack.it^
 ||static.jampp.com^
 ||static.javhd.com
@@ -124497,6 +124503,7 @@ zyro.com##.zyro-cookies
 ||szptp.cn^
 ||szpwg.cn^
 ||szpwh.cn^
+||szpzm.cn^
 ||szqxvo.com^
 ||szsbiw.xyz^
 ||szsmtk.com^
@@ -132106,6 +132113,7 @@ zyro.com##.zyro-cookies
 ||video.ft.nest.com^
 ||video.ftwest.nest.com^
 ||video.google.com^
+||video.iqiyi.com/ws$websocket
 ||video.market-place.su^
 ||video.mpush.qq.com^
 ||video.nest.com^
@@ -137351,6 +137359,7 @@ zyro.com##.zyro-cookies
 ||www.intimacao0293984.page.link^
 ||www.investor.fitbit.com^
 ||www.investors.fitbit.com^
+||www.iqiyi.com/service-worker.js
 ||www.it.advertisercommunity.com^
 ||www.j77777777.com
 ||www.ja.advertisercommunity.com^
