@@ -2,7 +2,7 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2024-04-27 20:29:36（北京时间）
+! Version: 2024-04-28 09:20:32（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
 ! Total count: 301
 @@-ds.metric.gstatic.com^|
@@ -202,6 +202,7 @@
 @@||links.e.theatlantic.com^|
 @@||links.getblueshift.com^|
 @@||live.api.stream^$websocket
+@@||log.mmstat.com/eg.js^$script
 @@||log.mmstat.com^|
 @@||logentries.com^|
 @@||login.bce.baidu.com^$domain=login.bce.baidu.com
@@ -221,7 +222,6 @@
 @@||mhc-xpana-eu-s2.myhomescreen.tv^
 @@||mhc-xpana-eu.myhomescreen.tv^
 @@||mlbstatic.com/mlb.com/video/config/mlb-vpp-aws^
-@@||mmstat.com^$domain=youku.com
 @@||mparticle.uc.cn^$important
 @@||my.tealiumiq.com^|
 @@||nav.browser.miui.com^
@@ -275,7 +275,7 @@
 @@||szmg.qq.com^
 @@||t5.a.market.xiaomi.com^$important
 @@||tags.crwdcntrl.net^|
-@@||tb.mgtv.com/sdk/*/ad-sdk.
+@@||tb.mgtv.com/sdk/*/ad-sdk.js^$script
 @@||technews.tw/www/delivery/$badfilter
 @@||technews.tw^$generichide,badfilter
 @@||thumbnail.thench.net^|
