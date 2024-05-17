@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2024-05-17 09:18:21（北京时间）
+! Version: 2024-05-17 20:33:07（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 160043
+! Total count: 160184
 
 #  TODO: Check for breakages (used by tamasha.com), investigate into more tracking
 #  TODO: Remove it, Used by dlfox.com
@@ -14476,6 +14476,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 1.53.7.68
 1.55.182.8
 1.55.243.196
+1.58.139.135
 1.58.212.215
 1.62.16.25
 1.62.25.238
@@ -14543,6 +14544,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 1.70.14.32
 1.70.140.26
 1.70.141.44
+1.70.142.84
 1.70.142.90
 1.70.162.24
 1.70.164.17
@@ -14800,6 +14802,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 102.33.42.171
 102.33.42.194
 102.33.42.2
+102.33.42.21
 102.33.43.158
 102.33.43.180
 102.33.43.211
@@ -14908,6 +14911,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 103.132.128.3
 103.132.129.4
 103.133.127.171
+103.133.214.139
 103.133.58.204
 103.136.39.114
 103.137.36.6
@@ -15082,12 +15086,14 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 103.35.190.189
 103.35.190.238
 103.36.11.31
+103.38.12.88
 103.38.70.148
 103.39.225.134
 103.4.102.22
 103.4.117.30
 103.4.147.109
 103.42.201.36
+103.42.243.130
 103.42.31.29
 103.43.6.68
 103.43.7.93
@@ -15225,6 +15231,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 106.41.126.228
 106.41.137.227
 106.41.140.241
+106.41.140.56
 106.41.26.64
 106.41.27.245
 106.41.27.33
@@ -15334,6 +15341,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 109.235.7.161
 109.245.220.229
 109.248.207.133
+109.248.58.238
 109.248.59.251
 109.251.89.47
 109.61.233.168
@@ -15700,6 +15708,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 112.225.167.252
 112.225.179.226
 112.225.183.145
+112.225.199.219
 112.225.249.190
 112.225.252.201
 112.225.26.198
@@ -15760,7 +15769,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 112.237.228.13
 112.237.23.220
 112.237.233.2
-112.237.233.72
 112.237.38.247
 112.237.47.188
 112.237.5.170
@@ -15776,7 +15784,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 112.238.156.213
 112.238.156.241
 112.238.157.86
-112.238.159.181
 112.238.200.60
 112.238.22.184
 112.238.28.133
@@ -15899,6 +15906,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 112.242.167.52
 112.242.188.28
 112.242.20.148
+112.242.221.144
 112.242.236.28
 112.242.237.178
 112.242.239.197
@@ -15935,7 +15943,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 112.246.22.184
 112.246.61.62
 112.246.81.142
-112.246.86.45
 112.247.130.182
 112.247.59.148
 112.247.67.114
@@ -15997,7 +16004,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 112.248.105.223
 112.248.105.244
 112.248.105.3
-112.248.105.63
 112.248.105.66
 112.248.105.69
 112.248.105.74
@@ -16037,7 +16043,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 112.248.110.80
 112.248.110.81
 112.248.111.164
-112.248.111.187
 112.248.111.229
 112.248.111.23
 112.248.111.232
@@ -16170,7 +16175,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 112.248.244.18
 112.248.244.213
 112.248.245.125
-112.248.245.173
 112.248.245.98
 112.248.246.123
 112.248.247.132
@@ -16186,6 +16190,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 112.248.29.15
 112.248.3.218
 112.248.30.207
+112.248.30.57
 112.248.31.62
 112.248.60.112
 112.248.60.143
@@ -16337,7 +16342,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 113.186.164.233
 113.186.165.164
 113.187.30.222
-113.190.168.33
 113.190.176.27
 113.190.177.171
 113.190.185.97
@@ -16466,7 +16470,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 113.231.239.247
 113.231.248.158
 113.231.249.196
-113.231.250.78
 113.231.251.18
 113.231.71.29
 113.231.80.55
@@ -16480,11 +16483,13 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 113.236.1.103
 113.236.101.161
 113.236.105.239
+113.236.108.254
 113.236.124.70
 113.236.125.206
 113.236.127.245
 113.236.133.128
 113.236.134.1
+113.236.135.116
 113.236.150.107
 113.236.151.116
 113.236.154.145
@@ -16746,6 +16751,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 114.226.102.208
 114.226.102.227
 114.226.102.67
+114.226.105.15
 114.226.111.110
 114.226.125.194
 114.226.126.209
@@ -17022,6 +17028,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 115.48.155.77
 115.48.155.79
 115.48.155.9
+115.48.156.107
 115.48.156.159
 115.48.156.248
 115.48.156.46
@@ -17185,6 +17192,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 115.49.209.203
 115.49.209.248
 115.49.209.71
+115.49.209.73
 115.49.209.99
 115.49.210.125
 115.49.210.132
@@ -17266,6 +17274,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 115.49.4.201
 115.49.44.65
 115.49.45.54
+115.49.47.49
 115.49.5.102
 115.49.5.131
 115.49.5.145
@@ -17309,7 +17318,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 115.49.72.162
 115.49.73.190
 115.49.73.20
-115.49.73.89
 115.49.74.253
 115.49.75.234
 115.49.76.52
@@ -17327,7 +17335,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 115.49.79.222
 115.49.81.207
 115.49.84.171
-115.49.85.1
+115.49.85.39
 115.49.87.0
 115.49.92.252
 115.49.92.64
@@ -17433,7 +17441,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 115.50.208.3
 115.50.209.112
 115.50.209.114
-115.50.209.216
 115.50.209.79
 115.50.210.211
 115.50.210.248
@@ -17530,7 +17537,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 115.50.239.24
 115.50.239.26
 115.50.24.211
-115.50.24.87
 115.50.25.123
 115.50.25.147
 115.50.25.151
@@ -17541,7 +17547,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 115.50.252.55
 115.50.253.67
 115.50.254.236
-115.50.255.155
 115.50.26.1
 115.50.26.217
 115.50.26.45
@@ -17591,7 +17596,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 115.50.53.190
 115.50.53.5
 115.50.54.102
-115.50.54.176
 115.50.54.243
 115.50.55.210
 115.50.55.67
@@ -17940,7 +17944,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 115.53.243.103
 115.53.243.206
 115.53.243.214
-115.53.244.185
 115.53.244.192
 115.53.245.129
 115.53.245.45
@@ -18039,6 +18042,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 115.54.238.145
 115.54.238.187
 115.54.238.8
+115.54.239.192
 115.54.250.17
 115.54.5.223
 115.54.5.90
@@ -18276,7 +18280,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 115.55.2.42
 115.55.20.222
 115.55.20.223
-115.55.20.238
 115.55.20.255
 115.55.20.28
 115.55.20.37
@@ -18354,13 +18357,13 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 115.55.226.18
 115.55.226.184
 115.55.226.194
+115.55.226.195
 115.55.226.197
 115.55.226.204
 115.55.226.226
 115.55.226.235
 115.55.226.41
 115.55.226.42
-115.55.226.50
 115.55.226.98
 115.55.227.1
 115.55.227.100
@@ -18370,6 +18373,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 115.55.227.18
 115.55.227.180
 115.55.227.198
+115.55.227.219
 115.55.227.227
 115.55.227.229
 115.55.227.240
@@ -18425,7 +18429,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 115.55.230.235
 115.55.230.250
 115.55.230.39
-115.55.230.43
 115.55.230.71
 115.55.231.109
 115.55.231.116
@@ -18729,7 +18732,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 115.55.248.127
 115.55.248.136
 115.55.248.144
-115.55.248.16
 115.55.248.178
 115.55.248.19
 115.55.248.194
@@ -18789,6 +18791,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 115.55.251.162
 115.55.251.164
 115.55.251.171
+115.55.251.2
 115.55.251.216
 115.55.251.22
 115.55.251.236
@@ -19106,6 +19109,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 115.56.144.113
 115.56.144.180
 115.56.144.194
+115.56.144.219
 115.56.144.231
 115.56.144.80
 115.56.145.108
@@ -19193,6 +19197,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 115.56.154.73
 115.56.154.94
 115.56.155.0
+115.56.155.112
 115.56.155.14
 115.56.155.143
 115.56.155.151
@@ -19428,7 +19433,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 115.58.1.164
 115.58.1.254
 115.58.10.179
-115.58.112.122
 115.58.112.171
 115.58.112.18
 115.58.112.245
@@ -19498,7 +19502,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 115.58.134.15
 115.58.134.180
 115.58.134.39
-115.58.134.41
 115.58.134.87
 115.58.135.124
 115.58.135.150
@@ -19526,6 +19529,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 115.58.144.83
 115.58.145.45
 115.58.145.52
+115.58.146.168
 115.58.146.190
 115.58.146.226
 115.58.146.249
@@ -19613,6 +19617,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 115.58.83.53
 115.58.83.79
 115.58.83.82
+115.58.83.88
 115.58.84.100
 115.58.84.176
 115.58.84.182
@@ -19628,7 +19633,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 115.58.85.69
 115.58.85.79
 115.58.86.134
-115.58.86.187
 115.58.86.235
 115.58.86.66
 115.58.88.132
@@ -19755,6 +19759,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 115.59.79.175
 115.59.8.209
 115.59.8.254
+115.59.81.104
 115.59.83.131
 115.59.83.212
 115.59.89.174
@@ -19767,7 +19772,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 115.59.93.203
 115.59.94.14
 115.60.12.135
-115.60.149.174
 115.60.157.228
 115.60.18.172
 115.60.202.57
@@ -19827,6 +19831,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 115.61.105.110
 115.61.105.12
 115.61.105.124
+115.61.105.129
 115.61.105.24
 115.61.106.161
 115.61.106.174
@@ -19898,7 +19903,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 115.61.16.159
 115.61.16.163
 115.61.16.164
-115.61.16.211
 115.61.17.107
 115.61.17.108
 115.61.17.17
@@ -19956,10 +19960,12 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 115.62.149.115
 115.62.15.167
 115.62.15.176
+115.62.15.205
 115.62.150.254
 115.62.151.234
 115.62.151.40
 115.62.152.103
+115.62.153.176
 115.62.156.240
 115.62.156.73
 115.62.157.129
@@ -19991,7 +19997,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 115.62.72.163
 115.62.73.212
 115.62.76.107
-115.62.8.62
 115.63.10.126
 115.63.10.157
 115.63.10.216
@@ -20084,7 +20089,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 115.63.180.6
 115.63.181.127
 115.63.181.245
-115.63.181.64
 115.63.182.95
 115.63.183.153
 115.63.183.177
@@ -20102,7 +20106,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 115.63.201.81
 115.63.203.173
 115.63.203.175
-115.63.205.154
 115.63.22.221
 115.63.228.218
 115.63.228.27
@@ -20272,6 +20275,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 115.97.139.103
 115.97.139.152
 115.97.139.209
+115.97.141.36
 115.97.142.216
 115.97.146.156
 115.97.147.121
@@ -20308,6 +20312,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 116.138.106.124
 116.138.106.46
 116.138.109.206
+116.138.15.181
 116.138.176.149
 116.138.176.173
 116.138.177.234
@@ -20323,7 +20328,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 116.138.255.115
 116.138.255.157
 116.138.255.205
-116.138.34.177
 116.138.4.71
 116.139.105.75
 116.139.107.180
@@ -20403,7 +20407,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 116.73.94.48
 116.74.113.73
 116.74.141.18
-116.74.159.140
 116.74.16.16
 116.74.167.178
 116.74.18.17
@@ -20420,7 +20423,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 116.74.76.201
 116.74.8.61
 116.74.9.210
-116.75.124.125
 116.75.203.23
 116.75.208.208
 116.75.208.28
@@ -20637,6 +20639,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.194.163.89
 117.194.164.115
 117.194.164.136
+117.194.164.137
 117.194.164.14
 117.194.164.152
 117.194.164.184
@@ -20714,6 +20717,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.194.168.222
 117.194.168.232
 117.194.168.246
+117.194.168.250
 117.194.168.62
 117.194.168.80
 117.194.168.85
@@ -20753,7 +20757,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.194.171.173
 117.194.171.192
 117.194.171.193
-117.194.171.219
 117.194.171.228
 117.194.171.43
 117.194.171.76
@@ -20769,7 +20772,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.194.172.230
 117.194.172.30
 117.194.172.45
-117.194.172.65
 117.194.172.68
 117.194.173.10
 117.194.173.101
@@ -20804,6 +20806,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.194.175.116
 117.194.175.14
 117.194.175.163
+117.194.175.181
 117.194.175.210
 117.194.175.222
 117.194.175.239
@@ -20836,6 +20839,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.194.209.165
 117.194.209.174
 117.194.209.175
+117.194.209.18
 117.194.209.226
 117.194.209.238
 117.194.209.34
@@ -20887,6 +20891,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.194.213.12
 117.194.213.129
 117.194.213.133
+117.194.213.154
 117.194.213.156
 117.194.213.187
 117.194.213.189
@@ -20901,6 +20906,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.194.214.160
 117.194.214.172
 117.194.214.204
+117.194.214.219
 117.194.214.237
 117.194.214.24
 117.194.214.251
@@ -21031,6 +21037,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.194.222.42
 117.194.222.43
 117.194.222.65
+117.194.222.79
 117.194.222.8
 117.194.222.98
 117.194.223.150
@@ -21214,6 +21221,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.197.166.215
 117.197.167.199
 117.197.169.44
+117.197.171.40
 117.197.172.104
 117.197.173.34
 117.197.174.37
@@ -21299,7 +21307,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.199.10.199
 117.199.10.213
 117.199.10.251
-117.199.10.33
 117.199.10.35
 117.199.10.56
 117.199.10.81
@@ -21309,11 +21316,13 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.199.11.197
 117.199.11.217
 117.199.11.218
+117.199.11.226
 117.199.11.235
 117.199.11.26
 117.199.11.47
 117.199.11.93
 117.199.12.145
+117.199.12.15
 117.199.12.154
 117.199.12.157
 117.199.12.169
@@ -21343,6 +21352,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.199.13.212
 117.199.13.222
 117.199.13.228
+117.199.13.231
 117.199.13.240
 117.199.13.243
 117.199.13.62
@@ -21361,7 +21371,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.199.15.107
 117.199.15.143
 117.199.15.151
-117.199.15.161
 117.199.15.176
 117.199.15.207
 117.199.15.216
@@ -21530,6 +21539,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.199.77.182
 117.199.77.191
 117.199.77.192
+117.199.77.239
 117.199.77.240
 117.199.77.246
 117.199.77.249
@@ -21540,7 +21550,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.199.77.97
 117.199.78.145
 117.199.78.211
-117.199.78.249
 117.199.79.105
 117.199.79.175
 117.199.79.202
@@ -21694,6 +21703,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.200.201.225
 117.200.202.84
 117.200.44.83
+117.200.81.95
 117.200.85.66
 117.200.87.125
 117.200.88.182
@@ -21702,6 +21712,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.201.0.165
 117.201.0.181
 117.201.0.197
+117.201.0.211
 117.201.0.242
 117.201.0.27
 117.201.0.88
@@ -21815,7 +21826,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.201.5.230
 117.201.5.254
 117.201.5.44
-117.201.5.80
 117.201.53.147
 117.201.6.10
 117.201.6.39
@@ -21844,6 +21854,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.202.111.37
 117.202.149.105
 117.202.149.99
+117.202.183.221
 117.202.64.108
 117.202.64.124
 117.202.64.164
@@ -21860,7 +21871,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.202.65.80
 117.202.65.83
 117.202.66.131
-117.202.66.138
 117.202.66.163
 117.202.66.166
 117.202.66.174
@@ -22000,6 +22010,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.203.123.71
 117.203.124.49
 117.203.125.130
+117.203.125.83
 117.203.126.122
 117.203.131.209
 117.203.132.78
@@ -22041,6 +22052,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.204.192.135
 117.204.192.136
 117.204.192.137
+117.204.192.139
 117.204.192.141
 117.204.192.144
 117.204.192.147
@@ -22063,6 +22075,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.204.192.19
 117.204.192.191
 117.204.192.198
+117.204.192.20
 117.204.192.200
 117.204.192.201
 117.204.192.202
@@ -22224,12 +22237,14 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.204.194.103
 117.204.194.104
 117.204.194.106
+117.204.194.107
 117.204.194.114
 117.204.194.115
 117.204.194.116
 117.204.194.12
 117.204.194.120
 117.204.194.122
+117.204.194.128
 117.204.194.132
 117.204.194.134
 117.204.194.140
@@ -22320,6 +22335,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.204.195.11
 117.204.195.112
 117.204.195.113
+117.204.195.114
 117.204.195.115
 117.204.195.12
 117.204.195.130
@@ -22476,8 +22492,10 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.204.196.251
 117.204.196.253
 117.204.196.255
+117.204.196.27
 117.204.196.28
 117.204.196.30
+117.204.196.31
 117.204.196.32
 117.204.196.33
 117.204.196.35
@@ -22603,6 +22621,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.204.198.110
 117.204.198.111
 117.204.198.118
+117.204.198.120
 117.204.198.122
 117.204.198.125
 117.204.198.126
@@ -22623,6 +22642,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.204.198.157
 117.204.198.159
 117.204.198.160
+117.204.198.163
 117.204.198.165
 117.204.198.168
 117.204.198.169
@@ -22692,6 +22712,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.204.199.11
 117.204.199.114
 117.204.199.119
+117.204.199.12
 117.204.199.120
 117.204.199.123
 117.204.199.125
@@ -22777,6 +22798,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.204.200.10
 117.204.200.103
 117.204.200.108
+117.204.200.110
 117.204.200.115
 117.204.200.117
 117.204.200.12
@@ -23021,6 +23043,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.204.203.100
 117.204.203.101
 117.204.203.102
+117.204.203.106
 117.204.203.107
 117.204.203.108
 117.204.203.109
@@ -23100,6 +23123,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.204.203.66
 117.204.203.69
 117.204.203.70
+117.204.203.71
 117.204.203.72
 117.204.203.74
 117.204.203.75
@@ -23277,6 +23301,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.204.205.79
 117.204.205.81
 117.204.205.83
+117.204.205.84
 117.204.205.86
 117.204.205.89
 117.204.205.91
@@ -23317,6 +23342,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.204.206.184
 117.204.206.185
 117.204.206.187
+117.204.206.188
 117.204.206.19
 117.204.206.190
 117.204.206.192
@@ -23324,6 +23350,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.204.206.198
 117.204.206.199
 117.204.206.2
+117.204.206.205
 117.204.206.207
 117.204.206.213
 117.204.206.214
@@ -23342,9 +23369,11 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.204.206.238
 117.204.206.24
 117.204.206.240
+117.204.206.242
 117.204.206.243
 117.204.206.244
 117.204.206.246
+117.204.206.247
 117.204.206.25
 117.204.206.253
 117.204.206.255
@@ -23374,6 +23403,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.204.206.9
 117.204.206.90
 117.204.206.93
+117.204.206.94
 117.204.207.1
 117.204.207.101
 117.204.207.103
@@ -23435,6 +23465,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.204.207.218
 117.204.207.222
 117.204.207.223
+117.204.207.224
 117.204.207.228
 117.204.207.233
 117.204.207.234
@@ -23449,6 +23480,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.204.207.3
 117.204.207.35
 117.204.207.38
+117.204.207.43
 117.204.207.44
 117.204.207.49
 117.204.207.5
@@ -23668,6 +23700,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.205.60.35
 117.205.60.5
 117.205.60.87
+117.205.61.105
 117.205.61.110
 117.205.61.111
 117.205.61.116
@@ -23825,6 +23858,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.206.178.25
 117.206.178.4
 117.206.178.57
+117.206.178.58
 117.206.178.71
 117.206.178.92
 117.206.178.96
@@ -23922,12 +23956,14 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.206.183.242
 117.206.183.37
 117.206.183.59
+117.206.183.72
 117.206.183.78
 117.206.183.9
 117.206.183.93
 117.206.183.97
 117.206.183.99
 117.206.184.109
+117.206.184.110
 117.206.184.117
 117.206.184.129
 117.206.184.130
@@ -23948,6 +23984,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.206.185.179
 117.206.185.192
 117.206.185.230
+117.206.185.250
 117.206.185.255
 117.206.185.39
 117.206.185.46
@@ -23964,6 +24001,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.206.186.137
 117.206.186.145
 117.206.186.148
+117.206.186.152
 117.206.186.156
 117.206.186.167
 117.206.186.169
@@ -24041,6 +24079,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.206.190.15
 117.206.190.151
 117.206.190.179
+117.206.190.191
 117.206.190.225
 117.206.190.239
 117.206.190.246
@@ -24169,7 +24208,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.207.251.88
 117.207.252.22
 117.207.252.251
-117.207.252.89
 117.207.253.5
 117.207.253.97
 117.207.254.126
@@ -24225,7 +24263,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.207.67.180
 117.207.67.181
 117.207.67.199
-117.207.67.218
 117.207.67.83
 117.207.67.99
 117.207.68.191
@@ -24291,7 +24328,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.207.75.85
 117.207.76.14
 117.207.76.42
-117.207.76.78
 117.207.77.127
 117.207.77.184
 117.207.77.22
@@ -24353,7 +24389,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.208.235.160
 117.208.235.66
 117.208.235.76
-117.208.235.84
 117.208.236.0
 117.208.236.116
 117.208.236.139
@@ -24397,6 +24432,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.208.91.167
 117.208.91.199
 117.208.91.202
+117.208.91.72
 117.208.93.141
 117.208.93.159
 117.208.93.247
@@ -24472,6 +24508,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.210.179.33
 117.210.179.75
 117.210.180.130
+117.210.180.177
 117.210.180.73
 117.210.181.145
 117.210.181.69
@@ -24535,7 +24572,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.211.213.60
 117.211.213.91
 117.211.214.47
-117.211.215.183
 117.211.215.185
 117.211.215.190
 117.211.216.216
@@ -24561,6 +24597,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.211.36.69
 117.211.37.126
 117.211.37.19
+117.211.37.254
 117.211.38.219
 117.211.38.251
 117.211.38.3
@@ -24614,6 +24651,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.212.16.65
 117.212.161.198
 117.212.161.234
+117.212.163.30
 117.212.165.65
 117.212.166.246
 117.212.170.168
@@ -24825,7 +24863,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.213.41.123
 117.213.41.201
 117.213.41.202
-117.213.41.244
 117.213.41.77
 117.213.42.140
 117.213.42.142
@@ -24847,6 +24884,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.213.44.139
 117.213.44.151
 117.213.44.153
+117.213.44.19
 117.213.44.221
 117.213.44.235
 117.213.44.239
@@ -24989,6 +25027,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.213.87.189
 117.213.87.197
 117.213.87.206
+117.213.87.244
 117.213.87.253
 117.213.87.51
 117.213.87.54
@@ -25004,10 +25043,10 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.213.88.206
 117.213.88.208
 117.213.88.214
+117.213.88.238
 117.213.88.249
 117.213.88.28
 117.213.88.29
-117.213.88.59
 117.213.88.76
 117.213.88.92
 117.213.88.95
@@ -25269,7 +25308,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.214.15.35
 117.214.15.40
 117.214.15.41
-117.214.15.51
 117.214.15.61
 117.214.15.87
 117.214.192.175
@@ -25620,7 +25658,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.215.250.91
 117.215.251.211
 117.215.251.83
-117.215.75.117
 117.216.0.193
 117.216.16.221
 117.216.18.147
@@ -25657,7 +25694,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.216.241.179
 117.216.241.225
 117.216.241.46
-117.216.241.6
 117.216.242.179
 117.216.242.3
 117.216.243.156
@@ -25775,7 +25811,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.216.68.82
 117.216.68.98
 117.216.69.138
-117.216.69.139
 117.216.69.151
 117.216.69.161
 117.216.69.179
@@ -26054,6 +26089,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.217.49.106
 117.217.51.170
 117.217.53.232
+117.217.55.72
 117.217.57.98
 117.217.58.25
 117.217.61.179
@@ -26062,7 +26098,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.217.80.131
 117.217.80.15
 117.217.80.157
-117.217.80.165
 117.217.80.178
 117.217.80.200
 117.217.80.210
@@ -26073,6 +26108,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.217.80.83
 117.217.80.84
 117.217.81.0
+117.217.81.11
 117.217.81.119
 117.217.81.121
 117.217.81.131
@@ -26087,7 +26123,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.217.81.22
 117.217.81.36
 117.217.81.60
-117.217.81.66
 117.217.81.75
 117.217.81.86
 117.217.82.120
@@ -26189,11 +26224,14 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.219.115.197
 117.219.115.42
 117.219.116.92
+117.219.116.93
 117.219.117.9
+117.219.118.198
 117.219.118.48
 117.219.119.205
 117.219.120.151
 117.219.120.180
+117.219.120.225
 117.219.121.140
 117.219.121.4
 117.219.121.79
@@ -26202,6 +26240,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.219.124.101
 117.219.124.122
 117.219.124.127
+117.219.124.2
 117.219.124.73
 117.219.125.250
 117.219.127.189
@@ -26233,6 +26272,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.219.87.92
 117.219.87.96
 117.219.88.112
+117.219.88.178
 117.219.90.183
 117.219.90.185
 117.219.90.187
@@ -26349,6 +26389,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.220.144.67
 117.220.144.70
 117.220.144.74
+117.220.144.76
 117.220.144.96
 117.220.145.1
 117.220.145.112
@@ -26479,6 +26520,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.220.150.137
 117.220.150.141
 117.220.150.142
+117.220.150.144
 117.220.150.148
 117.220.150.159
 117.220.150.172
@@ -26798,6 +26840,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.235.119.37
 117.235.120.184
 117.235.121.12
+117.235.121.16
 117.235.122.159
 117.235.124.199
 117.235.125.162
@@ -26847,6 +26890,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.235.155.237
 117.235.156.107
 117.235.156.165
+117.235.156.177
 117.235.156.37
 117.235.156.82
 117.235.157.11
@@ -26871,9 +26915,9 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.235.28.113
 117.235.28.174
 117.235.29.167
-117.235.32.101
 117.235.32.33
 117.235.32.65
+117.235.32.84
 117.235.33.133
 117.235.33.155
 117.235.33.40
@@ -26900,6 +26944,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.235.43.105
 117.235.43.138
 117.235.43.186
+117.235.43.189
 117.235.43.76
 117.235.43.82
 117.235.43.93
@@ -26914,8 +26959,8 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.235.46.235
 117.235.46.72
 117.235.47.142
-117.235.47.220
 117.235.47.231
+117.235.48.20
 117.235.48.27
 117.235.49.173
 117.235.49.8
@@ -26942,11 +26987,11 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.235.56.234
 117.235.56.24
 117.235.56.93
-117.235.57.110
 117.235.57.165
 117.235.57.211
 117.235.57.22
 117.235.58.146
+117.235.58.195
 117.235.58.97
 117.235.59.227
 117.235.59.77
@@ -26959,6 +27004,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.235.60.99
 117.235.61.128
 117.235.62.223
+117.235.63.106
 117.235.63.172
 117.235.64.160
 117.235.64.28
@@ -27019,6 +27065,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.241.192.175
 117.241.196.71
 117.241.201.161
+117.241.212.175
 117.241.215.35
 117.241.222.253
 117.241.47.91
@@ -27036,8 +27083,10 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.242.129.135
 117.242.131.227
 117.242.192.126
+117.242.192.241
 117.242.192.68
 117.242.192.96
+117.242.193.68
 117.242.194.149
 117.242.196.249
 117.242.198.118
@@ -27217,6 +27266,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.242.238.211
 117.242.238.222
 117.242.238.227
+117.242.238.228
 117.242.238.239
 117.242.238.25
 117.242.238.41
@@ -27232,6 +27282,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.242.239.116
 117.242.239.127
 117.242.239.135
+117.242.239.144
 117.242.239.157
 117.242.239.159
 117.242.239.160
@@ -27458,7 +27509,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.248.17.234
 117.248.17.244
 117.248.17.252
-117.248.17.69
 117.248.17.7
 117.248.17.95
 117.248.18.104
@@ -27646,6 +27696,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.248.29.45
 117.248.29.46
 117.248.29.53
+117.248.29.57
 117.248.29.73
 117.248.29.88
 117.248.29.97
@@ -27670,7 +27721,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.248.30.69
 117.248.30.76
 117.248.30.84
-117.248.30.90
 117.248.30.97
 117.248.31.104
 117.248.31.144
@@ -27678,6 +27728,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.248.31.165
 117.248.31.172
 117.248.31.179
+117.248.31.193
 117.248.31.195
 117.248.31.203
 117.248.31.212
@@ -27803,11 +27854,13 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.248.44.55
 117.248.44.91
 117.248.45.203
+117.248.45.254
 117.248.45.50
 117.248.45.78
 117.248.45.90
 117.248.46.114
 117.248.46.139
+117.248.46.163
 117.248.46.207
 117.248.46.236
 117.248.46.239
@@ -27936,6 +27989,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.248.55.187
 117.248.55.189
 117.248.55.216
+117.248.55.230
 117.248.55.243
 117.248.55.251
 117.248.55.252
@@ -28149,7 +28203,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.251.68.109
 117.252.103.240
 117.252.160.121
-117.252.160.139
 117.252.160.193
 117.252.160.201
 117.252.160.226
@@ -28169,13 +28222,14 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.252.161.216
 117.252.161.231
 117.252.161.59
+117.252.161.74
 117.252.161.92
-117.252.161.99
 117.252.162.100
 117.252.162.105
 117.252.162.12
 117.252.162.148
 117.252.162.165
+117.252.162.170
 117.252.162.21
 117.252.162.237
 117.252.162.239
@@ -28206,6 +28260,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.252.164.214
 117.252.164.218
 117.252.164.239
+117.252.164.244
 117.252.164.28
 117.252.164.70
 117.252.164.86
@@ -28256,6 +28311,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.252.168.178
 117.252.168.200
 117.252.168.218
+117.252.168.235
 117.252.168.25
 117.252.168.255
 117.252.168.37
@@ -28265,6 +28321,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.252.169.198
 117.252.169.22
 117.252.169.220
+117.252.169.227
 117.252.169.233
 117.252.169.32
 117.252.169.66
@@ -28332,6 +28389,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.252.174.23
 117.252.174.237
 117.252.174.244
+117.252.174.245
 117.252.174.250
 117.252.174.46
 117.252.174.47
@@ -28369,6 +28427,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.252.193.63
 117.252.193.92
 117.252.194.118
+117.252.194.147
 117.252.194.196
 117.252.194.214
 117.252.194.251
@@ -28554,9 +28613,11 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.253.110.19
 117.253.110.238
 117.253.111.194
+117.253.12.150
 117.253.13.129
 117.253.14.65
 117.253.15.189
+117.253.15.214
 117.253.17.192
 117.253.208.109
 117.253.208.151
@@ -28712,6 +28773,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.253.26.234
 117.253.3.150
 117.253.30.22
+117.253.31.68
 117.253.4.236
 117.253.5.101
 117.253.5.78
@@ -28728,6 +28790,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.253.97.33
 117.253.98.1
 117.253.98.108
+117.253.98.143
 117.253.98.155
 117.253.99.16
 117.253.99.209
@@ -28752,17 +28815,16 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.254.176.221
 117.254.176.233
 117.254.176.27
-117.254.176.58
 117.254.176.75
 117.254.176.96
 117.254.177.109
 117.254.177.121
-117.254.177.131
 117.254.177.144
 117.254.177.147
 117.254.177.2
 117.254.177.222
 117.254.177.3
+117.254.177.36
 117.254.177.42
 117.254.178.101
 117.254.178.111
@@ -28792,7 +28854,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.254.180.114
 117.254.180.117
 117.254.180.119
-117.254.180.159
 117.254.180.203
 117.254.180.213
 117.254.180.215
@@ -28859,6 +28920,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.255.176.215
 117.255.176.3
 117.255.176.31
+117.255.176.93
 117.255.177.173
 117.255.177.84
 117.255.178.115
@@ -28893,6 +28955,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.255.189.159
 117.255.189.94
 117.255.190.16
+117.255.190.190
 117.255.190.238
 117.255.191.13
 117.255.191.187
@@ -28933,6 +28996,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 117.255.82.247
 117.255.82.6
 117.255.82.7
+117.255.82.82
 117.255.82.83
 117.255.83.130
 117.255.83.142
@@ -29179,11 +29243,12 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 119.114.158.206
 119.114.173.233
 119.114.52.30
-119.115.110.112
 119.115.179.252
+119.115.188.180
 119.115.240.145
 119.115.242.100
 119.115.242.225
+119.115.247.41
 119.115.55.141
 119.115.67.117
 119.115.79.58
@@ -29195,6 +29260,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 119.116.155.73
 119.116.165.184
 119.116.254.114
+119.117.154.147
 119.117.164.132
 119.117.165.185
 119.117.168.224
@@ -29255,7 +29321,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 119.178.218.191
 119.178.219.251
 119.178.222.139
-119.178.248.206
 119.178.248.99
 119.178.249.139
 119.178.251.186
@@ -29375,7 +29440,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 119.180.197.75
 119.180.220.240
 119.180.220.242
-119.180.227.24
 119.180.242.248
 119.180.243.118
 119.180.244.160
@@ -29611,7 +29675,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 120.211.70.84
 120.211.71.81
 120.211.85.183
-120.211.86.3
 120.211.95.60
 120.231.244.172
 120.238.89.214
@@ -29759,6 +29822,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 120.57.125.167
 120.57.125.232
 120.57.125.72
+120.57.126.209
 120.57.126.37
 120.57.127.45
 120.57.14.18
@@ -29833,7 +29897,9 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 120.61.24.207
 120.61.24.6
 120.61.24.70
+120.61.25.202
 120.61.26.103
+120.61.28.122
 120.61.29.109
 120.63.221.76
 120.79.203.123
@@ -29952,7 +30018,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 121.238.223.53
 121.238.228.199
 121.239.113.55
-121.239.208.155
 121.239.220.87
 121.239.221.146
 121.239.242.174
@@ -30135,7 +30200,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 123.10.213.228
 123.10.213.232
 123.10.213.239
-123.10.213.24
 123.10.213.25
 123.10.213.26
 123.10.213.58
@@ -30156,11 +30220,11 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 123.10.215.127
 123.10.215.157
 123.10.215.187
+123.10.215.194
 123.10.215.238
 123.10.215.49
 123.10.215.58
 123.10.224.184
-123.10.224.227
 123.10.225.154
 123.10.225.67
 123.10.226.245
@@ -30526,7 +30590,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 123.12.41.27
 123.12.42.171
 123.12.42.201
-123.12.42.71
 123.12.43.55
 123.12.44.6
 123.12.45.71
@@ -30601,6 +30664,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 123.129.134.212
 123.129.134.22
 123.129.134.31
+123.129.134.61
 123.129.135.101
 123.129.135.102
 123.129.135.121
@@ -30609,6 +30673,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 123.129.135.227
 123.129.135.241
 123.129.135.38
+123.129.15.105
 123.129.151.118
 123.129.151.124
 123.129.151.76
@@ -30840,6 +30905,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 123.14.121.119
 123.14.121.184
 123.14.123.136
+123.14.123.224
 123.14.13.132
 123.14.13.39
 123.14.145.210
@@ -30872,6 +30938,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 123.14.168.100
 123.14.169.115
 123.14.169.132
+123.14.169.76
 123.14.17.223
 123.14.17.230
 123.14.17.50
@@ -31081,7 +31148,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 123.154.118.182
 123.154.248.40
 123.154.249.181
-123.154.251.145
 123.154.255.176
 123.154.30.47
 123.156.30.174
@@ -31139,7 +31205,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 123.173.77.40
 123.173.77.8
 123.173.77.94
-123.173.78.135
 123.173.81.221
 123.173.86.177
 123.173.87.155
@@ -31155,7 +31220,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 123.175.159.88
 123.175.194.154
 123.175.198.78
-123.175.30.200
 123.175.30.228
 123.175.31.152
 123.175.31.61
@@ -31182,6 +31246,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 123.185.49.159
 123.185.49.90
 123.185.91.130
+123.188.125.34
 123.188.198.165
 123.188.221.124
 123.188.223.221
@@ -31339,7 +31404,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 123.4.248.74
 123.4.249.135
 123.4.25.58
-123.4.252.140
 123.4.252.242
 123.4.254.112
 123.4.254.185
@@ -31350,7 +31414,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 123.4.44.120
 123.4.44.170
 123.4.44.201
-123.4.44.23
 123.4.45.220
 123.4.45.228
 123.4.45.39
@@ -31477,6 +31540,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 123.5.135.71
 123.5.136.67
 123.5.137.172
+123.5.138.44
 123.5.138.67
 123.5.139.136
 123.5.139.165
@@ -31616,7 +31680,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 123.5.185.197
 123.5.185.24
 123.5.185.90
-123.5.186.193
 123.5.187.177
 123.5.187.185
 123.5.187.198
@@ -31771,6 +31834,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 123.8.29.188
 123.8.30.77
 123.8.48.187
+123.8.49.114
 123.8.5.163
 123.8.5.166
 123.8.5.82
@@ -31855,7 +31919,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 123.9.110.118
 123.9.111.115
 123.9.111.123
-123.9.111.150
 123.9.111.37
 123.9.113.36
 123.9.114.135
@@ -31970,6 +32033,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 123.9.86.63
 123.9.87.211
 123.9.87.50
+123.9.87.72
 123.9.88.209
 123.9.90.220
 123.9.91.95
@@ -32011,7 +32075,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 124.131.0.28
 124.131.1.13
 124.131.105.176
-124.131.106.137
 124.131.106.161
 124.131.122.252
 124.131.132.12
@@ -32062,7 +32125,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 124.131.83.33
 124.131.93.33
 124.133.131.32
-124.133.185.147
 124.133.89.194
 124.133.89.20
 124.133.89.225
@@ -32215,7 +32277,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 124.94.220.212
 124.94.81.121
 124.94.85.0
-124.95.106.39
 124.95.111.31
 124.95.13.142
 124.95.14.111
@@ -32393,6 +32454,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 125.41.141.214
 125.41.141.89
 125.41.142.155
+125.41.142.16
 125.41.142.177
 125.41.142.255
 125.41.143.122
@@ -32409,7 +32471,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 125.41.171.245
 125.41.172.148
 125.41.173.10
-125.41.173.28
 125.41.174.233
 125.41.175.124
 125.41.182.151
@@ -32527,6 +32588,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 125.41.6.82
 125.41.7.122
 125.41.7.135
+125.41.7.176
 125.41.7.234
 125.41.7.33
 125.41.7.41
@@ -32617,10 +32679,12 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 125.43.225.242
 125.43.230.137
 125.43.24.103
+125.43.24.12
 125.43.24.127
 125.43.24.217
 125.43.24.67
 125.43.24.75
+125.43.240.126
 125.43.241.114
 125.43.241.128
 125.43.241.167
@@ -32747,7 +32811,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 125.43.82.155
 125.43.83.94
 125.43.88.127
-125.43.88.143
 125.43.88.191
 125.43.88.199
 125.43.88.3
@@ -32799,11 +32862,11 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 125.44.180.183
 125.44.180.247
 125.44.181.115
+125.44.181.219
 125.44.181.90
 125.44.189.239
 125.44.19.173
 125.44.19.216
-125.44.192.254
 125.44.195.105
 125.44.195.129
 125.44.195.156
@@ -32864,7 +32927,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 125.44.219.128
 125.44.22.138
 125.44.22.142
-125.44.22.143
 125.44.22.190
 125.44.22.227
 125.44.22.6
@@ -32966,6 +33028,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 125.44.47.76
 125.44.48.209
 125.44.49.137
+125.44.50.17
 125.44.50.205
 125.44.52.128
 125.44.52.183
@@ -33049,6 +33112,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 125.45.55.88
 125.45.56.158
 125.45.56.177
+125.45.56.22
 125.45.57.100
 125.45.57.116
 125.45.57.117
@@ -33064,6 +33128,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 125.45.59.154
 125.45.59.167
 125.45.59.194
+125.45.59.51
 125.45.60.128
 125.45.60.13
 125.45.60.154
@@ -33085,6 +33150,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 125.45.64.90
 125.45.65.119
 125.45.65.139
+125.45.65.156
 125.45.65.178
 125.45.65.183
 125.45.65.218
@@ -33299,6 +33365,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 125.47.66.235
 125.47.68.104
 125.47.68.168
+125.47.68.229
 125.47.69.121
 125.47.69.178
 125.47.69.185
@@ -33671,7 +33738,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 147.124.213.188
 147.124.217.110
 147.135.10.151
-147.182.203.234
 147.182.249.167
 147.185.243.107
 147.219.4.29
@@ -34362,6 +34428,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 175.107.36.223
 175.107.36.233
 175.107.37.101
+175.107.37.138
 175.107.37.160
 175.107.37.168
 175.107.37.237
@@ -34389,6 +34456,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 175.13.0.155
 175.13.0.37
 175.13.1.86
+175.13.191.104
 175.13.2.75
 175.13.4.19
 175.146.152.237
@@ -34424,11 +34492,11 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 175.148.82.187
 175.148.83.203
 175.148.83.95
-175.148.85.162
 175.148.92.227
 175.149.100.86
 175.149.102.199
 175.149.103.13
+175.149.108.235
 175.149.109.3
 175.149.110.243
 175.149.114.231
@@ -34574,7 +34642,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 175.167.64.200
 175.167.64.89
 175.167.85.198
-175.167.86.250
 175.172.177.2
 175.172.178.191
 175.172.189.161
@@ -34600,9 +34667,9 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 175.174.13.73
 175.174.27.230
 175.174.45.3
+175.174.48.159
 175.174.48.197
 175.174.51.163
-175.174.71.85
 175.174.72.130
 175.174.75.134
 175.174.8.42
@@ -34679,6 +34746,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 175.31.230.41
 175.31.230.73
 175.31.246.121
+175.31.246.170
 175.31.252.180
 175.31.252.188
 175.31.254.136
@@ -34770,7 +34838,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 177.84.237.26
 177.84.249.254
 178.119.19.178
-178.124.151.232
 178.124.219.3
 178.128.212.58
 178.129.58.75
@@ -34796,7 +34863,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 178.141.145.141
 178.141.146.125
 178.141.147.26
-178.141.15.37
 178.141.152.74
 178.141.153.3
 178.141.154.0
@@ -34934,7 +35000,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 178.49.214.145
 178.69.205.250
 178.69.208.183
-178.69.215.195
 178.70.178.46
 178.74.234.114
 178.75.125.92
@@ -34952,6 +35017,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 178.94.217.227
 178.94.70.115
 178.95.105.204
+178.95.161.44
 179.108.90.49
 179.112.122.163
 179.125.61.254
@@ -35027,6 +35093,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 180.116.248.248
 180.116.248.253
 180.116.248.93
+180.116.250.76
 180.116.251.133
 180.116.65.91
 180.116.69.238
@@ -35088,7 +35155,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 181.191.128.249
 181.191.129.100
 181.191.129.78
-181.191.130.221
 181.191.130.7
 181.191.82.79
 181.193.59.78
@@ -35177,6 +35243,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.112.29.28
 182.112.29.44
 182.112.30.10
+182.112.30.101
 182.112.30.120
 182.112.30.127
 182.112.30.162
@@ -35354,6 +35421,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.113.203.43
 182.113.203.75
 182.113.203.95
+182.113.203.96
 182.113.203.97
 182.113.205.145
 182.113.205.201
@@ -35429,6 +35497,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.113.23.28
 182.113.232.187
 182.113.232.198
+182.113.233.60
 182.113.235.154
 182.113.24.205
 182.113.24.215
@@ -35544,6 +35613,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.113.44.156
 182.113.44.173
 182.113.44.176
+182.113.44.183
 182.113.44.69
 182.113.45.10
 182.113.45.138
@@ -35642,6 +35712,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.114.33.52
 182.114.33.71
 182.114.33.73
+182.114.33.86
 182.114.34.142
 182.114.34.215
 182.114.34.218
@@ -35674,7 +35745,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.115.65.81
 182.115.73.45
 182.115.76.70
-182.115.77.130
 182.116.10.100
 182.116.10.206
 182.116.10.254
@@ -35735,6 +35805,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.116.119.42
 182.116.119.51
 182.116.119.64
+182.116.12.14
 182.116.12.15
 182.116.12.186
 182.116.12.37
@@ -35800,6 +35871,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.116.22.65
 182.116.225.205
 182.116.226.84
+182.116.228.155
 182.116.228.202
 182.116.23.180
 182.116.23.183
@@ -35871,6 +35943,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.116.51.63
 182.116.51.85
 182.116.51.9
+182.116.52.157
 182.116.53.163
 182.116.53.195
 182.116.53.220
@@ -36000,7 +36073,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.117.122.216
 182.117.122.74
 182.117.123.51
-182.117.123.79
 182.117.125.200
 182.117.126.118
 182.117.126.148
@@ -36079,6 +36151,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.117.27.210
 182.117.28.106
 182.117.28.107
+182.117.28.110
 182.117.28.202
 182.117.28.231
 182.117.29.102
@@ -36112,7 +36185,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.117.41.113
 182.117.41.132
 182.117.41.144
-182.117.41.73
 182.117.43.183
 182.117.43.200
 182.117.43.206
@@ -36147,6 +36219,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.117.6.253
 182.117.68.118
 182.117.68.2
+182.117.68.214
 182.117.68.23
 182.117.68.24
 182.117.68.27
@@ -36175,7 +36248,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.117.70.29
 182.117.70.53
 182.117.70.60
-182.117.70.71
 182.117.70.72
 182.117.70.82
 182.117.71.102
@@ -36187,6 +36259,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.117.71.19
 182.117.71.192
 182.117.71.210
+182.117.71.53
 182.117.71.72
 182.117.71.88
 182.117.71.96
@@ -36197,6 +36270,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.117.76.85
 182.117.76.94
 182.117.77.2
+182.117.77.20
 182.117.77.22
 182.117.77.231
 182.117.77.91
@@ -36443,6 +36517,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.119.59.123
 182.119.59.155
 182.119.59.184
+182.119.6.133
 182.119.6.148
 182.119.6.249
 182.119.6.34
@@ -36456,6 +36531,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.119.63.163
 182.119.63.166
 182.119.8.133
+182.119.8.241
 182.119.9.138
 182.119.9.249
 182.119.96.112
@@ -36491,7 +36567,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.120.161.115
 182.120.161.208
 182.120.163.229
-182.120.164.147
 182.120.167.147
 182.120.2.238
 182.120.2.4
@@ -36572,6 +36647,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.120.61.21
 182.120.61.220
 182.120.61.4
+182.120.61.87
 182.120.62.114
 182.120.62.166
 182.120.62.27
@@ -36881,7 +36957,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.121.240.204
 182.121.240.79
 182.121.241.3
-182.121.241.37
 182.121.242.118
 182.121.242.61
 182.121.243.51
@@ -36925,7 +37000,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.121.252.29
 182.121.253.80
 182.121.254.57
-182.121.40.133
 182.121.40.135
 182.121.40.168
 182.121.41.218
@@ -37150,7 +37224,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.122.236.98
 182.122.237.67
 182.122.238.137
-182.122.238.16
 182.122.238.61
 182.122.238.94
 182.122.244.208
@@ -37425,6 +37498,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.124.61.223
 182.124.61.70
 182.124.62.239
+182.124.62.85
 182.124.63.130
 182.124.63.175
 182.124.64.166
@@ -37462,7 +37536,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.124.92.70
 182.124.94.136
 182.124.95.15
-182.125.114.148
 182.125.115.113
 182.125.115.146
 182.125.116.58
@@ -37615,6 +37688,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.126.125.74
 182.126.125.96
 182.126.126.144
+182.126.126.191
 182.126.126.213
 182.126.126.242
 182.126.126.244
@@ -37627,7 +37701,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.126.127.163
 182.126.127.18
 182.126.127.187
-182.126.127.190
 182.126.127.196
 182.126.127.211
 182.126.127.4
@@ -37719,7 +37792,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.126.80.123
 182.126.80.146
 182.126.80.182
-182.126.80.193
 182.126.80.91
 182.126.81.189
 182.126.81.225
@@ -37778,6 +37850,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.126.96.104
 182.126.96.163
 182.126.96.44
+182.126.96.45
 182.126.97.170
 182.126.97.82
 182.126.98.131
@@ -37834,12 +37907,14 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.127.111.113
 182.127.111.126
 182.127.111.145
+182.127.112.103
 182.127.112.106
 182.127.112.129
 182.127.112.14
 182.127.112.181
 182.127.112.208
 182.127.112.235
+182.127.112.32
 182.127.112.56
 182.127.112.57
 182.127.112.73
@@ -37859,6 +37934,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.127.114.153
 182.127.114.49
 182.127.114.74
+182.127.115.118
 182.127.115.37
 182.127.120.135
 182.127.120.164
@@ -37902,6 +37978,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.127.127.131
 182.127.127.210
 182.127.127.214
+182.127.127.232
 182.127.128.139
 182.127.128.45
 182.127.128.58
@@ -37922,7 +37999,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.127.141.226
 182.127.152.105
 182.127.152.114
-182.127.152.132
 182.127.152.147
 182.127.152.202
 182.127.152.213
@@ -37977,7 +38053,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.127.167.122
 182.127.168.191
 182.127.168.218
-182.127.176.167
 182.127.176.179
 182.127.176.182
 182.127.176.205
@@ -38110,6 +38185,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.127.47.219
 182.127.47.30
 182.127.48.32
+182.127.48.92
 182.127.5.217
 182.127.5.245
 182.127.50.108
@@ -38149,6 +38225,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.127.71.130
 182.127.71.143
 182.127.71.233
+182.127.71.254
 182.127.71.73
 182.127.96.61
 182.150.181.57
@@ -38223,6 +38300,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 182.53.213.32
 182.53.55.13
 182.56.123.163
+182.56.168.190
 182.56.170.63
 182.56.184.107
 182.56.185.160
@@ -38328,7 +38406,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 183.149.236.125
 183.149.236.226
 183.15.123.54
-183.150.85.169
 183.151.40.71
 183.160.224.166
 183.166.209.176
@@ -38518,7 +38595,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 185.29.9.120
 185.32.4.68
 185.32.4.69
-185.32.4.72
 185.33.87.246
 185.33.87.42
 185.34.20.221
@@ -38658,6 +38734,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 188.43.201.109
 188.44.110.215
 188.65.235.46
+188.65.41.210
 188.68.95.174
 188.72.16.74
 188.72.6.218
@@ -38727,7 +38804,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 190.109.227.99
 190.109.228.10
 190.109.228.132
-190.109.228.16
 190.109.228.182
 190.109.228.234
 190.109.228.69
@@ -38850,6 +38926,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 190.75.131.207
 190.75.176.50
 190.75.45.198
+190.77.7.39
 190.78.146.181
 190.78.148.215
 190.78.30.252
@@ -38873,6 +38950,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 192.101.10.203
 192.101.10.207
 192.101.10.217
+192.101.10.24
 192.101.10.240
 192.101.10.242
 192.101.10.61
@@ -38892,6 +38970,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 192.159.100.248
 192.159.100.250
 192.159.100.251
+192.159.100.36
 192.159.99.43
 192.165.100.20
 192.165.100.27
@@ -39296,12 +39375,10 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 200.61.163.235
 200.69.219.25
 200.69.52.10
-200.69.52.13
 200.69.52.14
 200.69.52.30
 200.69.52.33
 200.69.52.4
-200.69.52.45
 200.69.52.46
 200.69.57.4
 200.72.199.205
@@ -39531,6 +39608,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 211.186.82.229
 211.195.27.69
 211.221.10.121
+211.223.126.127
 211.223.178.178
 211.225.18.95
 211.228.29.195
@@ -39730,7 +39808,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 219.154.172.149
 219.154.172.158
 219.154.172.177
-219.154.172.206
 219.154.172.222
 219.154.173.1
 219.154.173.134
@@ -39914,6 +39991,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 219.155.69.135
 219.155.70.218
 219.155.70.32
+219.155.71.200
 219.155.72.116
 219.155.72.234
 219.155.72.75
@@ -39949,6 +40027,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 219.156.117.92
 219.156.118.15
 219.156.124.20
+219.156.125.240
 219.156.125.41
 219.156.125.57
 219.156.126.22
@@ -39956,6 +40035,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 219.156.127.146
 219.156.127.162
 219.156.129.253
+219.156.129.93
 219.156.130.12
 219.156.130.147
 219.156.131.145
@@ -40023,6 +40103,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 219.156.49.220
 219.156.56.12
 219.156.57.43
+219.156.58.145
 219.156.58.83
 219.156.59.87
 219.156.60.203
@@ -40030,6 +40111,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 219.156.61.74
 219.156.63.175
 219.156.63.217
+219.156.64.129
 219.156.64.35
 219.156.65.114
 219.156.65.83
@@ -40096,6 +40178,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 219.157.16.170
 219.157.16.22
 219.157.16.229
+219.157.16.96
 219.157.161.208
 219.157.161.248
 219.157.162.237
@@ -40218,7 +40301,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 219.157.234.0
 219.157.235.110
 219.157.235.141
-219.157.237.118
 219.157.237.125
 219.157.237.215
 219.157.237.50
@@ -40256,7 +40338,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 219.157.25.24
 219.157.25.85
 219.157.250.124
-219.157.253.56
 219.157.253.85
 219.157.255.196
 219.157.26.102
@@ -40273,6 +40354,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 219.157.29.248
 219.157.29.29
 219.157.30.127
+219.157.30.40
 219.157.30.74
 219.157.31.161
 219.157.31.190
@@ -40293,6 +40375,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 219.157.49.102
 219.157.49.172
 219.157.49.9
+219.157.49.93
 219.157.49.98
 219.157.50.11
 219.157.50.113
@@ -40341,7 +40424,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 219.157.61.183
 219.157.61.198
 219.157.61.21
-219.157.61.222
 219.157.61.248
 219.157.62.111
 219.157.62.145
@@ -40352,8 +40434,8 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 219.157.63.248
 219.157.63.252
 219.157.64.104
-219.157.64.105
 219.157.64.121
+219.157.64.141
 219.157.64.160
 219.157.64.166
 219.157.64.254
@@ -40402,6 +40484,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 220.143.42.133
 220.143.43.114
 220.143.43.50
+220.143.7.158
 220.152.162.190
 220.152.211.101
 220.152.252.242
@@ -40422,7 +40505,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 220.172.210.204
 220.172.211.0
 220.175.65.12
-220.192.249.136
 220.192.252.116
 220.192.252.32
 220.192.252.52
@@ -40430,6 +40512,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 220.201.142.43
 220.201.145.131
 220.201.156.38
+220.201.27.189
 220.201.35.77
 220.201.46.229
 220.201.56.158
@@ -40528,7 +40611,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 221.13.234.6
 221.13.235.13
 221.13.235.201
-221.13.237.6
 221.13.237.60
 221.13.239.13
 221.13.239.69
@@ -40589,6 +40671,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 221.14.163.209
 221.14.169.129
 221.14.169.245
+221.14.171.180
 221.14.171.22
 221.14.172.43
 221.14.175.55
@@ -40749,6 +40832,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 221.15.188.141
 221.15.188.187
 221.15.188.193
+221.15.188.200
 221.15.188.218
 221.15.188.25
 221.15.189.131
@@ -40844,6 +40928,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 221.15.245.245
 221.15.245.4
 221.15.245.53
+221.15.246.249
 221.15.246.58
 221.15.247.157
 221.15.247.180
@@ -41221,6 +41306,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 222.137.201.195
 222.137.204.159
 222.137.204.160
+222.137.204.231
 222.137.205.195
 222.137.205.92
 222.137.206.137
@@ -41382,7 +41468,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 222.138.113.60
 222.138.113.67
 222.138.113.88
-222.138.113.9
 222.138.114.105
 222.138.116.133
 222.138.116.162
@@ -41412,6 +41497,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 222.138.118.23
 222.138.118.232
 222.138.118.233
+222.138.118.249
 222.138.118.65
 222.138.118.78
 222.138.118.84
@@ -41431,7 +41517,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 222.138.119.78
 222.138.122.229
 222.138.124.127
-222.138.125.23
 222.138.127.118
 222.138.127.200
 222.138.133.149
@@ -41481,6 +41566,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 222.138.17.43
 222.138.17.92
 222.138.176.201
+222.138.176.224
 222.138.176.229
 222.138.176.251
 222.138.176.57
@@ -41701,6 +41787,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 222.139.61.20
 222.139.62.215
 222.139.63.108
+222.139.63.208
 222.139.63.79
 222.139.64.163
 222.139.65.182
@@ -41944,6 +42031,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 222.141.112.100
 222.141.112.107
 222.141.112.239
+222.141.113.136
 222.141.113.173
 222.141.113.181
 222.141.116.113
@@ -42138,6 +42226,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 222.142.201.207
 222.142.202.163
 222.142.203.139
+222.142.203.15
 222.142.204.55
 222.142.204.80
 222.142.205.216
@@ -42159,7 +42248,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 222.142.221.117
 222.142.221.152
 222.142.238.120
-222.142.238.218
 222.142.239.183
 222.142.239.248
 222.142.239.33
@@ -42196,7 +42284,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 222.142.245.126
 222.142.245.176
 222.142.245.187
-222.142.245.93
 222.142.245.99
 222.142.246.114
 222.142.246.167
@@ -42261,6 +42348,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 222.185.157.5
 222.185.16.40
 222.185.18.196
+222.185.18.63
 222.185.199.38
 222.185.62.195
 222.185.73.66
@@ -42514,6 +42602,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 223.151.225.246
 223.151.226.116
 223.151.226.191
+223.151.227.165
 223.151.229.172
 223.151.229.203
 223.151.229.254
@@ -42736,7 +42825,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 27.157.144.172
 27.157.144.19
 27.157.144.202
-27.157.144.242
 27.157.144.34
 27.157.144.36
 27.157.144.68
@@ -42770,7 +42858,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 27.194.190.187
 27.194.214.55
 27.194.250.217
-27.194.27.199
 27.194.57.27
 27.194.59.218
 27.194.63.84
@@ -42969,6 +43056,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 27.213.132.56
 27.213.16.196
 27.213.177.59
+27.213.192.137
 27.213.195.59
 27.213.212.77
 27.213.24.233
@@ -42977,7 +43065,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 27.213.4.51
 27.213.58.241
 27.213.6.216
-27.213.60.39
 27.213.7.38
 27.213.92.113
 27.215.108.228
@@ -43005,12 +43092,14 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 27.215.123.36
 27.215.123.63
 27.215.123.64
+27.215.123.93
 27.215.123.98
 27.215.124.14
 27.215.124.201
 27.215.124.70
 27.215.125.110
 27.215.125.152
+27.215.125.159
 27.215.125.185
 27.215.125.92
 27.215.126.124
@@ -43021,6 +43110,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 27.215.126.36
 27.215.126.44
 27.215.126.54
+27.215.126.96
 27.215.127.112
 27.215.127.144
 27.215.127.151
@@ -43078,7 +43168,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 27.215.180.182
 27.215.180.200
 27.215.180.206
-27.215.180.237
 27.215.180.90
 27.215.181.54
 27.215.181.56
@@ -43157,7 +43246,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 27.215.239.43
 27.215.241.109
 27.215.244.217
-27.215.41.175
 27.215.44.201
 27.215.44.233
 27.215.44.239
@@ -43210,6 +43298,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 27.215.77.178
 27.215.78.209
 27.215.78.230
+27.215.79.97
 27.215.80.135
 27.215.80.167
 27.215.80.199
@@ -43246,7 +43335,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 27.215.85.145
 27.215.85.173
 27.215.85.189
-27.215.85.224
 27.215.85.32
 27.215.85.50
 27.215.85.57
@@ -43279,6 +43367,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 27.217.229.159
 27.217.47.40
 27.217.51.28
+27.217.52.150
 27.217.89.248
 27.217.91.225
 27.217.91.43
@@ -43706,6 +43795,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 37.112.166.168
 37.128.35.170
 37.13.0.133
+37.13.13.16
 37.13.2.223
 37.13.236.93
 37.13.244.58
@@ -43749,7 +43839,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 37.252.69.92
 37.255.208.94
 37.255.216.183
-37.28.157.3
 37.34.209.216
 37.44.238.70
 37.44.238.77
@@ -43879,7 +43968,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 39.187.64.82
 39.187.67.71
 39.187.73.201
-39.187.73.202
 39.34.217.219
 39.34.227.68
 39.34.231.19
@@ -44029,12 +44117,12 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 39.78.5.89
 39.78.67.48
 39.79.1.195
-39.79.1.231
 39.79.111.152
 39.79.112.35
 39.79.117.71
 39.79.13.182
 39.79.130.16
+39.79.130.81
 39.79.134.78
 39.79.135.49
 39.79.142.120
@@ -44067,6 +44155,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 39.79.3.125
 39.79.47.33
 39.79.67.54
+39.79.68.75
 39.79.70.23
 39.79.71.19
 39.79.73.115
@@ -44081,9 +44170,11 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 39.80.155.137
 39.80.198.201
 39.80.203.122
+39.80.61.203
 39.81.108.33
 39.81.137.240
 39.81.159.242
+39.81.168.148
 39.81.168.251
 39.81.170.241
 39.81.170.58
@@ -44136,7 +44227,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 39.87.15.200
 39.87.15.71
 39.87.219.244
-39.87.221.205
 39.87.222.157
 39.87.28.194
 39.87.29.187
@@ -44168,6 +44258,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 39.89.42.183
 39.90.129.239
 39.90.144.103
+39.90.144.154
 39.90.144.195
 39.90.144.206
 39.90.144.207
@@ -44323,6 +44414,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 41.76.195.90
 41.77.74.90
 41.79.233.62
+41.79.67.131
 41.84.131.154
 41.84.143.178
 41.84.232.157
@@ -44428,7 +44520,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 42.224.120.133
 42.224.120.169
 42.224.120.241
-42.224.121.145
 42.224.121.18
 42.224.121.200
 42.224.121.30
@@ -44584,6 +44675,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 42.224.209.195
 42.224.209.219
 42.224.209.246
+42.224.209.254
 42.224.209.43
 42.224.21.116
 42.224.21.216
@@ -44653,7 +44745,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 42.224.26.227
 42.224.26.48
 42.224.26.63
-42.224.27.147
 42.224.27.28
 42.224.27.62
 42.224.28.129
@@ -45008,7 +45099,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 42.227.178.144
 42.227.178.180
 42.227.178.61
-42.227.179.1
 42.227.179.142
 42.227.179.165
 42.227.184.188
@@ -45089,7 +45179,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 42.227.206.128
 42.227.206.168
 42.227.206.17
-42.227.206.209
 42.227.206.223
 42.227.206.228
 42.227.206.251
@@ -45113,6 +45202,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 42.227.236.193
 42.227.236.194
 42.227.236.48
+42.227.236.59
 42.227.236.71
 42.227.236.77
 42.227.237.114
@@ -45123,6 +45213,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 42.227.237.217
 42.227.237.228
 42.227.237.41
+42.227.237.82
 42.227.237.94
 42.227.238.10
 42.227.238.114
@@ -45222,6 +45313,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 42.228.232.80
 42.228.235.202
 42.228.235.67
+42.228.235.93
 42.228.236.23
 42.228.237.94
 42.228.238.64
@@ -45392,7 +45484,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 42.230.210.229
 42.230.210.95
 42.230.211.229
-42.230.211.84
 42.230.212.195
 42.230.212.229
 42.230.212.29
@@ -45430,7 +45521,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 42.230.219.199
 42.230.219.209
 42.230.219.240
-42.230.224.67
 42.230.225.196
 42.230.226.140
 42.230.227.36
@@ -45453,6 +45543,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 42.230.33.183
 42.230.33.236
 42.230.33.242
+42.230.33.244
 42.230.33.74
 42.230.34.165
 42.230.34.48
@@ -45480,7 +45571,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 42.230.39.75
 42.230.40.141
 42.230.40.189
-42.230.40.212
 42.230.40.216
 42.230.40.237
 42.230.40.65
@@ -45491,6 +45581,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 42.230.41.246
 42.230.42.117
 42.230.42.211
+42.230.42.56
 42.230.42.57
 42.230.42.71
 42.230.43.192
@@ -45610,8 +45701,8 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 42.231.207.68
 42.231.207.82
 42.231.209.218
+42.231.209.51
 42.231.213.185
-42.231.213.73
 42.231.215.15
 42.231.216.68
 42.231.217.101
@@ -45738,6 +45829,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 42.231.91.160
 42.231.91.222
 42.231.91.5
+42.231.91.7
 42.231.91.97
 42.231.91.99
 42.231.92.106
@@ -45854,7 +45946,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 42.233.107.100
 42.233.107.135
 42.233.107.148
-42.233.107.15
 42.233.107.171
 42.233.107.33
 42.233.107.9
@@ -45961,6 +46052,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 42.234.150.220
 42.234.151.55
 42.234.152.124
+42.234.153.26
 42.234.155.42
 42.234.156.252
 42.234.158.137
@@ -46187,7 +46279,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 42.235.190.148
 42.235.190.167
 42.235.190.173
-42.235.190.208
 42.235.190.28
 42.235.191.0
 42.235.191.1
@@ -46295,7 +46386,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 42.235.80.166
 42.235.80.29
 42.235.80.33
-42.235.81.106
 42.235.81.133
 42.235.81.151
 42.235.81.219
@@ -46306,6 +46396,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 42.235.82.183
 42.235.82.47
 42.235.82.67
+42.235.82.76
 42.235.83.133
 42.235.83.138
 42.235.83.39
@@ -46558,7 +46649,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 42.239.148.132
 42.239.148.89
 42.239.149.2
-42.239.149.201
 42.239.149.48
 42.239.149.59
 42.239.149.75
@@ -46593,6 +46683,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 42.239.170.163
 42.239.170.32
 42.239.170.97
+42.239.171.122
 42.239.171.216
 42.239.171.99
 42.239.173.220
@@ -46635,6 +46726,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 42.239.22.92
 42.239.224.123
 42.239.224.134
+42.239.224.143
 42.239.224.187
 42.239.224.197
 42.239.224.57
@@ -46778,7 +46870,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 42.239.86.173
 42.239.87.92
 42.242.174.186
-42.243.138.109
 42.248.174.222
 42.4.109.110
 42.4.125.62
@@ -46801,8 +46892,10 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 42.5.48.188
 42.5.5.97
 42.5.53.19
+42.5.59.55
 42.5.65.128
 42.5.65.154
+42.5.7.148
 42.5.7.182
 42.5.89.27
 42.5.91.184
@@ -46831,7 +46924,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 42.53.182.21
 42.53.22.179
 42.53.227.235
-42.53.230.55
 42.53.37.47
 42.53.37.6
 42.53.38.238
@@ -46945,7 +47037,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 42.84.110.77
 42.85.102.205
 42.85.102.245
-42.85.114.73
 42.85.122.125
 42.85.126.145
 42.85.126.184
@@ -47035,6 +47126,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 45.128.232.21
 45.128.232.228
 45.128.232.229
+45.128.232.234
 45.128.232.235
 45.128.232.236
 45.128.232.238
@@ -47219,7 +47311,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 45.95.146.3
 45.95.146.38
 45.95.146.43
-45.95.146.71
 45.95.146.89
 45.95.146.93
 45.95.146.94
@@ -47243,7 +47334,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 46.151.56.42
 46.153.0.144
 46.153.134.82
-46.153.135.135
 46.153.135.238
 46.153.150.209
 46.153.158.92
@@ -47454,6 +47544,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 5.42.96.3
 5.42.96.32
 5.42.96.52
+5.42.96.55
 5.42.96.64
 5.42.96.7
 5.42.96.78
@@ -47551,7 +47642,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 58.45.56.74
 58.47.10.109
 58.47.10.134
-58.47.10.139
 58.47.10.76
 58.47.104.17
 58.47.104.176
@@ -47622,8 +47712,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 58.47.6.221
 58.47.6.30
 58.47.62.153
-58.47.64.96
-58.47.65.101
 58.47.65.192
 58.47.66.232
 58.47.7.121
@@ -47659,6 +47747,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.101.181.115
 59.101.181.251
 59.125.55.230
+59.126.68.129
 59.127.171.220
 59.127.60.232
 59.170.118.242
@@ -47677,6 +47766,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.178.146.70
 59.178.147.153
 59.178.147.158
+59.178.147.183
 59.178.147.224
 59.178.147.40
 59.178.148.10
@@ -47718,6 +47808,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.178.181.31
 59.178.181.37
 59.178.182.230
+59.178.183.153
 59.178.184.135
 59.178.184.72
 59.178.187.18
@@ -47946,6 +48037,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.182.126.225
 59.182.127.36
 59.182.127.83
+59.182.147.115
 59.182.147.61
 59.182.149.14
 59.182.151.226
@@ -48008,6 +48100,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.182.245.100
 59.182.245.141
 59.182.245.169
+59.182.245.200
 59.182.245.22
 59.182.246.12
 59.182.246.140
@@ -48088,6 +48181,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.182.80.195
 59.182.80.83
 59.182.82.123
+59.182.82.161
 59.182.83.118
 59.182.83.2
 59.182.84.17
@@ -48095,6 +48189,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.182.86.234
 59.182.86.29
 59.182.86.66
+59.182.87.25
 59.182.87.31
 59.182.87.92
 59.182.88.44
@@ -48102,6 +48197,8 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.182.89.229
 59.182.89.92
 59.182.90.142
+59.182.90.23
+59.182.90.72
 59.182.90.77
 59.182.91.247
 59.182.91.80
@@ -48117,6 +48214,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.183.14.31
 59.183.15.129
 59.183.15.171
+59.183.15.83
 59.183.162.125
 59.183.162.40
 59.183.163.220
@@ -48129,7 +48227,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.183.170.220
 59.183.171.114
 59.183.172.134
-59.183.35.112
 59.183.36.226
 59.183.39.174
 59.183.4.98
@@ -48176,6 +48273,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.184.54.238
 59.184.55.115
 59.184.55.136
+59.184.55.180
 59.184.55.193
 59.184.55.251
 59.184.55.34
@@ -48246,6 +48344,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.184.78.171
 59.25.1.25
 59.29.39.111
+59.30.12.254
 59.35.92.202
 59.35.93.105
 59.35.93.31
@@ -48254,6 +48353,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.55.124.181
 59.59.6.86
 59.88.120.26
+59.88.121.166
 59.88.121.34
 59.88.125.166
 59.88.125.239
@@ -48382,6 +48482,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.88.219.67
 59.88.222.30
 59.88.224.137
+59.88.225.122
 59.88.225.170
 59.88.226.223
 59.88.226.55
@@ -48395,6 +48496,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.88.228.184
 59.88.229.121
 59.88.230.209
+59.88.230.22
 59.88.231.122
 59.88.231.145
 59.88.231.152
@@ -48403,6 +48505,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.88.232.175
 59.88.232.190
 59.88.232.36
+59.88.233.22
 59.88.233.73
 59.88.233.8
 59.88.233.99
@@ -48411,6 +48514,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.88.234.40
 59.88.234.57
 59.88.235.18
+59.88.235.193
 59.88.237.233
 59.88.237.47
 59.88.237.95
@@ -48615,6 +48719,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.89.198.33
 59.89.198.38
 59.89.198.63
+59.89.198.74
 59.89.199.103
 59.89.199.119
 59.89.199.120
@@ -48623,7 +48728,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.89.199.160
 59.89.199.180
 59.89.199.188
-59.89.199.197
 59.89.199.209
 59.89.199.222
 59.89.199.236
@@ -48721,6 +48825,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.89.203.156
 59.89.203.157
 59.89.203.176
+59.89.203.186
 59.89.203.219
 59.89.203.220
 59.89.203.24
@@ -48906,12 +49011,12 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.89.5.237
 59.89.5.238
 59.89.5.243
+59.89.5.26
 59.89.5.29
 59.89.5.55
 59.89.5.62
 59.89.5.71
 59.89.5.72
-59.89.5.86
 59.89.5.9
 59.89.5.91
 59.89.6.10
@@ -48984,6 +49089,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.89.65.67
 59.89.65.70
 59.89.65.81
+59.89.65.85
 59.89.65.92
 59.89.66.105
 59.89.66.124
@@ -49051,6 +49157,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.89.68.160
 59.89.68.168
 59.89.68.189
+59.89.68.190
 59.89.68.191
 59.89.68.195
 59.89.68.198
@@ -49161,7 +49268,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.89.71.226
 59.89.71.230
 59.89.71.238
-59.89.71.31
 59.89.71.34
 59.89.71.37
 59.89.71.40
@@ -49205,11 +49311,13 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.92.166.133
 59.92.166.243
 59.92.167.99
+59.92.168.117
 59.92.168.37
 59.92.170.189
 59.92.173.45
 59.92.173.63
 59.92.175.119
+59.92.175.77
 59.92.176.104
 59.92.176.184
 59.92.176.230
@@ -49218,6 +49326,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.92.177.135
 59.92.177.140
 59.92.177.220
+59.92.177.236
 59.92.177.240
 59.92.177.37
 59.92.177.42
@@ -49324,6 +49433,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.92.216.24
 59.92.216.60
 59.92.216.95
+59.92.217.118
 59.92.217.140
 59.92.217.184
 59.92.217.223
@@ -49344,6 +49454,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.92.219.89
 59.92.219.99
 59.92.32.131
+59.92.32.167
 59.92.32.192
 59.92.32.97
 59.92.33.121
@@ -49381,7 +49492,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.92.43.227
 59.92.43.255
 59.92.43.57
-59.92.44.122
 59.92.44.123
 59.92.44.13
 59.92.44.133
@@ -49425,7 +49535,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.93.16.142
 59.93.16.197
 59.93.16.218
-59.93.16.224
 59.93.16.232
 59.93.16.239
 59.93.16.248
@@ -49459,6 +49568,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.93.18.114
 59.93.18.13
 59.93.18.139
+59.93.18.180
 59.93.18.193
 59.93.18.206
 59.93.18.231
@@ -49541,6 +49651,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.93.181.178
 59.93.181.181
 59.93.181.182
+59.93.181.185
 59.93.181.187
 59.93.181.193
 59.93.181.200
@@ -49654,6 +49765,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.93.183.215
 59.93.183.226
 59.93.183.236
+59.93.183.248
 59.93.183.28
 59.93.183.30
 59.93.183.37
@@ -49677,6 +49789,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.93.184.188
 59.93.184.193
 59.93.184.200
+59.93.184.210
 59.93.184.22
 59.93.184.222
 59.93.184.233
@@ -49703,6 +49816,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.93.185.183
 59.93.185.186
 59.93.185.208
+59.93.185.212
 59.93.185.215
 59.93.185.221
 59.93.185.224
@@ -49836,6 +49950,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.93.19.177
 59.93.19.179
 59.93.19.18
+59.93.19.20
 59.93.19.213
 59.93.19.216
 59.93.19.223
@@ -50061,9 +50176,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.93.31.219
 59.93.31.241
 59.93.31.44
-59.93.31.68
 59.93.31.85
-59.93.31.89
 59.93.31.99
 59.94.101.39
 59.94.104.168
@@ -50131,7 +50244,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.95.125.73
 59.95.125.74
 59.95.125.90
-59.95.126.179
 59.95.126.18
 59.95.126.193
 59.95.126.228
@@ -50142,7 +50254,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.95.127.149
 59.95.127.158
 59.95.127.202
-59.95.127.56
 59.95.127.73
 59.95.127.83
 59.95.128.110
@@ -50295,6 +50406,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.97.114.58
 59.97.115.147
 59.97.115.240
+59.97.115.43
 59.97.116.129
 59.97.116.219
 59.97.116.43
@@ -50305,12 +50417,14 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.97.118.178
 59.97.118.189
 59.97.118.236
+59.97.118.36
 59.97.118.83
 59.97.119.217
 59.97.119.248
 59.97.121.120
 59.97.121.207
 59.97.121.214
+59.97.121.72
 59.97.122.156
 59.97.122.16
 59.97.122.205
@@ -50333,7 +50447,9 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.97.127.116
 59.97.127.147
 59.97.127.159
+59.97.127.18
 59.97.127.181
+59.97.127.32
 59.97.127.53
 59.97.136.188
 59.97.143.69
@@ -50380,7 +50496,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.99.128.114
 59.99.128.135
 59.99.128.140
-59.99.128.165
 59.99.128.191
 59.99.128.23
 59.99.128.250
@@ -50407,7 +50522,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.99.130.14
 59.99.130.153
 59.99.130.172
-59.99.130.178
 59.99.130.230
 59.99.130.247
 59.99.130.3
@@ -50471,6 +50585,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 59.99.135.231
 59.99.135.246
 59.99.136.103
+59.99.136.160
 59.99.136.212
 59.99.136.231
 59.99.136.235
@@ -50672,6 +50787,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 60.211.45.60
 60.211.46.180
 60.211.47.204
+60.211.52.19
 60.211.56.155
 60.211.57.208
 60.211.61.70
@@ -50752,7 +50868,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 60.23.73.182
 60.23.74.20
 60.23.77.198
-60.23.77.88
 60.23.79.248
 60.24.68.180
 60.241.14.143
@@ -50893,7 +51008,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 61.0.9.72
 61.0.97.125
 61.1.144.120
-61.1.144.122
 61.1.144.14
 61.1.144.242
 61.1.145.100
@@ -50918,6 +51032,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 61.1.147.81
 61.1.147.84
 61.1.147.90
+61.1.225.0
 61.1.225.131
 61.1.226.147
 61.1.230.232
@@ -50929,11 +51044,14 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 61.1.232.23
 61.1.232.72
 61.1.233.162
+61.1.233.232
 61.1.234.200
 61.1.235.239
+61.1.235.37
 61.1.235.41
 61.1.236.164
 61.1.236.35
+61.1.237.130
 61.1.237.241
 61.1.239.53
 61.1.76.125
@@ -51019,7 +51137,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 61.166.61.178
 61.166.98.67
 61.167.220.125
-61.168.136.39
 61.168.137.160
 61.168.138.160
 61.168.139.228
@@ -51037,7 +51154,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 61.19.194.225
 61.2.104.128
 61.2.104.15
-61.2.104.191
 61.2.104.195
 61.2.104.21
 61.2.104.236
@@ -51048,6 +51164,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 61.2.105.236
 61.2.105.3
 61.2.106.0
+61.2.106.102
 61.2.106.141
 61.2.106.15
 61.2.106.161
@@ -51071,6 +51188,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 61.2.108.55
 61.2.108.64
 61.2.108.76
+61.2.108.78
 61.2.108.8
 61.2.109.12
 61.2.109.122
@@ -51126,10 +51244,14 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 61.3.10.170
 61.3.10.178
 61.3.10.33
+61.3.100.38
 61.3.100.73
 61.3.100.76
 61.3.101.134
+61.3.102.119
+61.3.102.4
 61.3.102.89
+61.3.103.186
 61.3.103.55
 61.3.104.154
 61.3.104.67
@@ -51138,6 +51260,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 61.3.105.54
 61.3.106.120
 61.3.106.20
+61.3.107.201
 61.3.107.212
 61.3.109.128
 61.3.109.17
@@ -51203,6 +51326,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 61.3.2.78
 61.3.3.28
 61.3.33.147
+61.3.37.215
 61.3.4.139
 61.3.43.72
 61.3.5.26
@@ -51215,9 +51339,9 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 61.3.7.244
 61.3.7.48
 61.3.72.26
+61.3.73.196
 61.3.8.11
 61.3.8.226
-61.3.8.37
 61.3.8.39
 61.3.81.123
 61.3.81.20
@@ -51356,6 +51480,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 61.52.173.63
 61.52.174.161
 61.52.184.180
+61.52.185.120
 61.52.186.138
 61.52.186.199
 61.52.188.188
@@ -51398,6 +51523,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 61.52.32.10
 61.52.32.165
 61.52.32.72
+61.52.33.227
 61.52.33.238
 61.52.33.253
 61.52.33.56
@@ -51423,6 +51549,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 61.52.36.38
 61.52.36.41
 61.52.36.93
+61.52.37.43
 61.52.38.106
 61.52.38.113
 61.52.38.128
@@ -51680,7 +51807,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 61.53.13.163
 61.53.132.106
 61.53.132.143
-61.53.132.253
 61.53.132.43
 61.53.133.100
 61.53.133.101
@@ -51693,6 +51819,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 61.53.133.47
 61.53.133.70
 61.53.133.77
+61.53.133.87
 61.53.135.10
 61.53.135.113
 61.53.135.183
@@ -51859,7 +51986,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 61.53.238.45
 61.53.238.61
 61.53.239.29
-61.53.239.58
 61.53.239.81
 61.53.240.134
 61.53.240.62
@@ -52627,6 +52753,7 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 80.210.27.21
 80.210.28.54
 80.210.35.140
+80.211.203.249
 80.23.51.235
 80.242.108.150
 80.242.97.156
@@ -52842,7 +52969,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 86.38.171.81
 86.38.173.89
 86.38.225.41
-86.42.150.41
 86.60.207.151
 86.60.215.84
 86.63.108.167
@@ -53472,7 +53598,6 @@ $xmlhttprequest,domain=auroravid.to|ddmix.net|dekoder.ws|povwideo.net|powvideo.c
 94.156.69.47
 94.156.71.108
 94.156.71.126
-94.156.71.134
 94.156.71.137
 94.156.71.143
 94.156.71.188
@@ -53991,6 +54116,7 @@ abfallwirtschaft-freiburg.de###pro_cookiebox
 abfallwirtschaft-loerrach-landkreis.de###advertArea
 abhitaak.com
 abicrash.com###cookie
+abissnet.net
 ableton.com###biscuits-overlay
 ably.com##.ui-cookie-message
 aboardtheworld.com##.popmake
@@ -54413,7 +54539,6 @@ apdmarket.pl###popup, .popup
 apemans.com##.xpop
 aperitif.no##.privacy-fixed
 aphqj.members.openarmscv.com
-api-ms.cobainaja.id
 api.52kkg.com
 api.brookiebot.com
 api.cookielaw-script.it
@@ -55309,7 +55434,6 @@ brandvital.eu##.config-messages
 brandwatch.com###bw-cookie-sys-active
 bravotv.com##.gdpr
 braze.com##.opt-in--background
-brazilanimalshelp.com
 brcauto.eu##.cookies_law
 brdfinance.ro###cook, .cook
 breakingitaly.it##.sqs-announcement-bar
@@ -55731,6 +55855,7 @@ checkrobin.com###privacybox
 checkthatcar.com##.csent
 checkyourmath.com##.consent, #consent
 cheeca.com###hebs-consent
+chemsky.tn
 chernobyl.fun
 cherryservers.com##.cherry-footer ~ .shadow-raised, .fixed[x-data="cookiesConsent"]
 cherwellsigns.co.uk###cookieOut
@@ -55890,6 +56015,7 @@ cnet.com###-e_xobwhg_utggxk
 cnig.es###layerCookie
 cnn.com##.m-truste, #new-tos-privacy, #js-tos-prompt, head + div, .user-msg, #notification-legal, .popup_tosEdition
 cnnbrasil.com.br###pop__gdpr
+cnom.sante.gov.ml
 co-opinsurance.co.uk###noticePanel
 co.aptoide.com###news
 coadymarine.com
@@ -56594,6 +56720,7 @@ dkgxxh1czdosr.cloudfront.net
 dkl24.pl###cookies_accepted
 dkv-euroservice.com##.ui-widget-overlay
 dl.1003b.56a.com
+dl.198424.com
 dl.9xu.com
 dl.aginjector.com
 dl.xinjiangworker.shop
@@ -56695,6 +56822,7 @@ douyu.com##li.RightNavigate-item:nth-of-type(2) > [href^="/client"]
 douyu.com,huya.com##a[href^="https://g.wan."]
 dovizborsa.com###tools > div[style*="bottom"]
 dow.com##.screenBlockOverlay
+down.furnitureoptimal.com
 down.pcclear.com
 down.sosoo.xyz
 down.sosoz.xyz
@@ -57044,6 +57172,7 @@ emporium.si###grayOut
 ems.press##section[aria-labelledby*="analytics-consent"]
 emsc.eu###splashscreen
 emtecko.cz###__loadCookie
+emuf.location.oysterfloats.us
 emv1.ib-comm-gateway.com
 en.bestsup.su
 endclothing.com###footer ~ div[style*="opacity"]
@@ -57950,6 +58079,7 @@ go4pro.lt##.wu_holder-wrapper
 go8et.lol
 goasoftwarecompany.com
 gob.es###epd, .alert__msg-Wrapper, .tuss-cookies, #fondotransparencia-gris, #avisoUsoCookies, #phAvisoCookie
+gobesitysurgery.com
 gocards.nl###cbar
 gocompare.com###gc-stickee-cookie-banner
 goetel.de##.cookieControl
@@ -58671,7 +58801,6 @@ indiatimes.com##.consent-container, .du_consent, .cookie_stng
 indicator.be##.cpolicy
 indigogames.xyz##.toast
 indkast.dk###hp_cc
-indonesias.me
 indusface.com##.disclaimer_block
 inelenco.com###hid
 inetprint.cz###stickyFooter
@@ -58999,6 +59128,7 @@ jms.edu.np
 jnjmedical.it###bottom-banner
 jobbio.com##.alert-info, .alert-warning, .alert-box
 jobbsafari.se###__next > footer ~ div
+jobcity.com
 jobdiagnosis.com###benefits
 joberty.hr##.cc-container
 jobmensa.de##.js-usermessage
@@ -59614,7 +59744,6 @@ liberties.eu##.gdpr-window
 libgr.distributors.commdistinc.com
 libmanuels.fr##ion-app ~ div
 libra.com.pl###under_footer
-library.arihantmbainstitute.ac.in
 librinova.com##.ln-cookie-consent
 librogame.net###system-message
 librus.pl##.x-float-wrap
@@ -59761,6 +59890,7 @@ lordicon.com###cookies
 lords.org##.global-notice-wrap
 lost24.eu##.cookies
 lostgames.net###entryCookie
+lostheaven.com.cn
 lostintheusa.fr###toast, .toast
 lot.com###cookies
 loteriainpost.pl###pop_up
@@ -60588,7 +60718,6 @@ moneymaven.io##.consent-ui
 moneyonline.gr###cookies-shell
 moneytalksnews.com###footer-overlay
 mongars.fr###metacontainer > div:not([id]):not([class])
-moninediy.com
 monitoring.krakow.pios.gov.pl##.a-footer
 monkey-tie.com###cookiemt
 monoblocked.com
@@ -61359,6 +61488,7 @@ ophetwww.net###footer_container ~ div, script[src*="cookies.min.js"] ~ div
 opi.org.pl##jsa-cookie
 opisopvoordeelshop.nl##.cv-notifier-container
 opito.com###app > footer ~ div
+opolis.io
 opositatest.com##.otcn
 opovo.com.br##.notificacao-estatica
 opsdjs.ug
@@ -61480,6 +61610,7 @@ paginasamarillas.es###m-notification--bottom
 paivyri.fi##body > center > table[style*="width:100%"]
 paladins.com##section.footer ~ div
 palberryslicker.sbs
+palharesinformatica.com.br
 palit.com###pp_overlay, #pp_info
 palixi.com##.cookies-wrapper
 palixi.net##.cookies-wrapper
@@ -61815,6 +61946,7 @@ pna.ro##.ui-sidebar.ui-widget
 pneuhage.de##.site-blocker
 pnp.be###upGDPR
 pnp.co.za##.policiesPopup
+pns.org.pk
 po-bandzie.com.pl##.elementor-popup-modal
 po-sloveniji.com###cookN
 poba.hr###meerkat-wrap
@@ -62119,6 +62251,7 @@ qbasic.at###ckkasten-container
 qbf.distributors.commdistinc.com
 qbilon.net##.cookie
 qbo.round.fishingreelinvestment.com
+qcollect.co.za
 qdaily.com##.app
 qdaily.com##.clearfix.com-header-brief
 qdlcq.honors.howamerica.com
@@ -62179,6 +62312,7 @@ qv.co.nz##.bootbox, .modal-backdrop
 qwertee.com###root > .bottom-0
 qwgn.round.fishingreelinvestment.com
 qxl.no###cookies
+qxuzn.location.oysterfloats.us
 qz.com###main ~ div
 r-studio.com###pp-info
 r-tt.com###pp-info
@@ -62230,7 +62364,6 @@ ralucamihaela.ro
 rambox.app##footer ~ .fixed
 ramjanakihotelandpartypalace.com
 ranchoboscardin.com.br
-rango009.github.io
 rankersta.com##.cookie
 rankia.com###cookies
 rankinglekarzy.pl###message, .message
@@ -62625,6 +62758,7 @@ sagepub.com##header [role="alert"]
 sahamassurance.ma###rubon
 sainsburysenergy.com###cookie
 sainsburysmagazine.co.uk###CookieTool
+sainzim.co.za
 sajdfue.com
 sajmovi.eu###mBox1, #mBox1+div
 sakharov-center.ru###kuk
@@ -62860,7 +62994,6 @@ service.gov.uk##.cbanner-govuk-cookie-banner, #dm-cookie-banner
 services.gov.gr##.MuiSnackbar-root
 servicestatus.net##.cf__visible
 servihabitat.com##.portlet-boundary[class*="condiciones"]
-servisaludocupacional.pe
 servocode.com##.coockies
 servsafe.com###ppID
 sescsp.org.br##.container-policy, .overlay
@@ -63181,6 +63314,7 @@ soeren-hentzschel.at###storage-notice
 sofiacomputers.net###uslpolzvane
 sofifa.com##.wrapper .bp3-callout.bp3-intent-danger
 sofort.com###Cookietext
+soft.110route.com
 soft112.com###s112_accept_cookies
 soft8soft.com##.total-plus-privacy-policy
 softdl.360tpcdn.com
@@ -63340,6 +63474,7 @@ spreadshirt.dk##.container ~ div > .small
 spreaker.com###ly_flash_message
 spreds.com##.u-marginless[data-react-props*="cookies"]
 sprezyny-strozyk.pl##.head-page-information
+springs-citation-house-congressional.trycloudflare.com
 sprintersports.com##.cookies-settings
 spw.ru##.confidential-block
 spy-ware-dudu.squareweb.app
@@ -63351,6 +63486,7 @@ square-enix.com##div[class^="notice_Notices"]
 squarehabitat.fr##.TelerikModalOverlay, div[id*="Rgpd"]
 squash4you.pl###cookie
 srazenazver.cz##.cookies
+src1.minibai.com
 srenzk.shop
 sro3ga.net
 sromandi.com
@@ -63398,6 +63534,7 @@ stanley.ru##.test-mode__wrap
 starbt.ro##.ava_2.display
 starbucks.co.th##.mpp-container-position-bottom-bar
 starbucks.com.sg##.cookie-modal
+starcountry.net
 stargazerslounge.com##.ipsfocus-globalMessage
 stargreen.com##body > div:not([id]):not([class])
 starmix.de###muffin
@@ -64198,6 +64335,7 @@ travelbags.nl##.snackbar-container
 travelmatters.ro###gpdr, #GPDR, #gdpr, #GDPR
 travelrepublic.co.uk##.sc-c-panel--offset.sc-c-panel--disable-gutters-x
 travelski.com###tf-cookie
+travelwithmanta.co.za
 trcking.min.js^$domain=canalplus.com|canal-plus.com
 trdevents.no##.warning-message
 treated.com###gdprTreated
@@ -64425,7 +64563,6 @@ umm.nordpoolgroup.com###modal-overlay
 ummotosmexico.mx
 umziehen.de###mcCookie
 unaparolaalgiorno.it##.cookie
-unassumed-keel.000webhostapp.com
 unbound.com###js-cookies
 unclutterapp.com##.useCookiesAccept
 uncomo.com##.consent, .app_gdpr--2
@@ -65459,7 +65596,6 @@ yoys.no###section-cookies
 yp.hnggzyjy.cn
 ypoh.register.arpsychotherapy.com
 yqwf.round.fishingreelinvestment.com
-ysbaojia.com
 ytjc.collection.aixpirts.com
 yubico.com##.MuiSnackbar-root, #yubi-root > .bottom-pop-up-container
 yuden.co.jp##[id^="yuden_gdpr"]
@@ -65473,7 +65609,6 @@ yystv.cn##li:nth-of-type(7) > [href="/app/download"]
 yzkzixun.com
 z-ciziny.cz##.euc
 z.hxhk.cc
-z.shavsl.com
 z4u.zurich.com.pt##.CookiesBox
 zacks.com##.disclosure-fixed-slab
 zadovoljstvozaposlenika.hr##.cookies
@@ -66291,6 +66426,7 @@ zyro.com##.zyro-cookies
 ||1.51dongshi.com^
 ||1.51sxue.cn^
 ||1.55.243.196^
+||1.58.139.135^
 ||1.64.200.102^
 ||1.66law.cn^
 ||1.78500.cn^
@@ -66369,7 +66505,6 @@ zyro.com##.zyro-cookies
 ||101.161.231.223^
 ||101.255.103.180^
 ||101.255.103.181^
-||101.42.35.39^
 ||101.51.121.206^
 ||101.58.83.134^
 ||1010pic.com^
@@ -66386,7 +66521,6 @@ zyro.com##.zyro-cookies
 ||101order.com^
 ||102.0.4.86^
 ||102.214.109.76^
-||102.214.111.49^
 ||102.216.69.112^
 ||102.218.172.134^
 ||102.36.229.155^
@@ -66395,14 +66529,12 @@ zyro.com##.zyro-cookies
 ||10228400.fls.doubleclick.net^
 ||1024mzs.pw^
 ||1024wanzhai.
+||103.1.157.126^
 ||103.101.81.142^
-||103.110.181.43^
 ||103.111.210.6^
-||103.116.247.143^
 ||103.116.52.207^
 ||103.118.45.13^
-||103.125.163.10^
-||103.131.60.178^
+||103.133.214.139^
 ||103.133.58.204^
 ||103.137.36.6^
 ||103.142.244.19^
@@ -66410,8 +66542,9 @@ zyro.com##.zyro-cookies
 ||103.146.202.41^
 ||103.15.62.113^
 ||103.16.75.78^
+||103.161.230.107^
+||103.161.230.57^
 ||103.162.59.218^
-||103.164.200.170^
 ||103.171.181.117^
 ||103.173.173.98^
 ||103.174.73.185^
@@ -66423,17 +66556,20 @@ zyro.com##.zyro-cookies
 ||103.183.2.204^
 ||103.183.2.205^
 ||103.183.2.206^
+||103.186.40.12^
 ||103.187.151.107^
 ||103.195.141.241^
 ||103.199.144.62^
 ||103.199.144.65^
 ||103.20.196.206^
 ||103.203.92.41^
+||103.212.128.174^
 ||103.212.237.34^
 ||103.221.254.140^
 ||103.227.116.162^
 ||103.227.118.33^
 ||103.227.118.45^
+||103.227.118.71^
 ||103.228.37.56^
 ||103.229.82.222^
 ||103.230.153.181^
@@ -66442,15 +66578,18 @@ zyro.com##.zyro-cookies
 ||103.237.174.27^
 ||103.237.174.30^
 ||103.245.10.51^
-||103.247.13.147^
 ||103.253.154.142^
-||103.28.86.243^
 ||103.29.0.182^
 ||103.30.85.58^
 ||103.36.11.31^
+||103.38.12.88^
 ||103.4.117.30^
 ||103.4.147.109^
 ||103.42.201.36^
+||103.42.243.130^
+||103.43.6.68^
+||103.43.7.93^
+||103.43.7.94^
 ||103.50.7.123^
 ||103.50.7.126^
 ||103.57.121.123^
@@ -66471,6 +66610,7 @@ zyro.com##.zyro-cookies
 ||103.84.37.101^
 ||103.85.95.5^
 ||103.86.199.82^
+||103.87.136.158^
 ||103.90.207.199^
 ||103.90.207.234^
 ||103.93.177.61^
@@ -66488,12 +66628,8 @@ zyro.com##.zyro-cookies
 ||105app.com^
 ||106.246.224.219^
 ||106.254.250.98^
-||106.41.124.238^
-||106.41.26.64^
 ||107.172.130.130^
 ||107.173.4.20^
-||107.173.58.73^
-||107.174.20.236^
 ||108.162.187.11^
 ||108.190.56.144^
 ||108.6.184.196^
@@ -66514,6 +66650,7 @@ zyro.com##.zyro-cookies
 ||109.235.189.104^
 ||109.235.7.161^
 ||109.245.220.229^
+||109.248.58.238^
 ||109.69.79.44^
 ||109.73.242.146^
 ||109.74.12.246^
@@ -66542,11 +66679,9 @@ zyro.com##.zyro-cookies
 ||110.172.144.163^
 ||110.172.144.165^
 ||110.178.47.78^
-||110.180.140.234^
 ||110.180.165.161^
 ||110.182.47.28^
 ||110.182.63.165^
-||110.182.78.44^
 ||110.182.99.124^
 ||110.183.30.164^
 ||110.34.7.5^
@@ -66556,14 +66691,14 @@ zyro.com##.zyro-cookies
 ||1100ad.com^
 ||111.185.127.181^
 ||111.185.23.84^
-||111.229.239.195^
-||111.229.98.133^
+||111.38.123.165^
 ||111.61.93.4^
 ||111.70.30.72^
 ||1111supjavcom.xyz^
 ||111supjavcom.xyz^
 ||112.120.173.185^
 ||112.124.64.105^
+||112.225.199.219^
 ||112.226.169.143^
 ||112.229.200.21^
 ||112.229.205.169^
@@ -66573,16 +66708,12 @@ zyro.com##.zyro-cookies
 ||112.239.101.184^
 ||112.239.127.115^
 ||112.239.127.88^
-||112.239.97.37^
 ||112.240.184.252^
+||112.242.221.144^
 ||112.248.0.2^
-||112.248.100.201^
 ||112.248.100.235^
-||112.248.101.221^
 ||112.248.101.222^
-||112.248.110.220^
 ||112.248.111.26^
-||112.248.117.62^
 ||112.248.124.176^
 ||112.248.124.65^
 ||112.248.188.79^
@@ -66608,31 +66739,28 @@ zyro.com##.zyro-cookies
 ||113.225.8.66^
 ||113.228.133.126^
 ||113.228.149.246^
-||113.228.86.8^
 ||113.229.88.15^
 ||113.230.244.33^
 ||113.231.104.216^
 ||113.231.71.29^
 ||113.234.179.169^
+||113.236.108.254^
 ||113.236.127.245^
+||113.236.135.116^
 ||113.238.14.182^
 ||113.238.223.193^
 ||113.238.252.39^
 ||113.239.194.49^
 ||113.239.251.18^
-||113.24.165.71^
-||113.25.209.47^
 ||113.254.192.161^
 ||113.26.214.165^
-||113.27.33.207^
 ||113.94.31.236^
 ||114.112.124.194^
-||114.218.211.41^
-||114.220.154.25^
+||114.199.217.58^
+||114.226.105.15^
 ||114.227.244.97^
 ||114.228.73.50^
 ||114.230.23.104^
-||114.230.88.3^
 ||114.31.28.42^
 ||1147112108.rsc.cdn77.org^
 ||115.127.49.130^
@@ -66644,56 +66772,49 @@ zyro.com##.zyro-cookies
 ||115.42.121.22^
 ||115.42.122.1^
 ||115.48.10.201^
-||115.49.4.100^
-||115.49.7.52^
-||115.49.79.222^
-||115.50.232.178^
-||115.50.47.146^
+||115.49.209.73^
+||115.49.47.49^
+||115.49.85.39^
 ||115.50.63.218^
-||115.52.25.136^
 ||115.52.6.25^
-||115.52.65.160^
 ||115.53.238.70^
+||115.54.239.192^
 ||115.55.114.5^
-||115.55.128.121^
-||115.55.136.64^
 ||115.55.167.245^
-||115.55.180.142^
 ||115.55.197.136^
-||115.55.225.161^
+||115.55.226.195^
 ||115.55.232.119^
-||115.55.233.238^
-||115.55.238.190^
 ||115.55.24.120^
 ||115.55.243.231^
 ||115.55.244.24^
-||115.55.246.247^
-||115.55.248.84^
-||115.55.251.58^
-||115.55.252.119^
+||115.55.251.2^
 ||115.55.253.23^
 ||115.55.254.210^
 ||115.55.51.161^
 ||115.55.55.120^
 ||115.55.79.15^
-||115.55.88.78^
-||115.55.92.70^
 ||115.55.95.84^
-||115.55.98.188^
 ||115.56.127.114^
 ||115.56.144.194^
+||115.56.144.219^
+||115.56.155.112^
 ||115.56.58.124^
 ||115.57.33.76^
 ||115.58.119.118^
 ||115.58.143.26^
-||115.58.85.209^
+||115.58.146.168^
 ||115.59.121.125^
+||115.59.239.165^
+||115.59.81.104^
 ||115.60.211.127^
-||115.61.1.219^
+||115.61.105.129^
+||115.62.15.205^
+||115.62.153.176^
 ||115.62.177.108^
 ||115.63.40.247^
 ||115.94.9.181^
 ||1156219164.rsc.cdn77.org^
+||116.138.15.181^
 ||116.139.58.241^
 ||116.226.11.170^
 ||116.49.4.226^
@@ -66705,86 +66826,69 @@ zyro.com##.zyro-cookies
 ||116.58.83.76^
 ||117.120.28.114^
 ||117.121.229.194^
-||117.194.172.204^
-||117.194.215.15^
-||117.196.47.83^
-||117.199.13.222^
+||117.194.164.137^
+||117.194.175.181^
+||117.194.213.154^
+||117.194.214.219^
+||117.199.13.231^
+||117.199.77.239^
 ||117.199.77.27^
-||117.200.44.83^
+||117.200.81.95^
 ||117.202.0.14^
-||117.204.192.169^
-||117.204.192.71^
-||117.204.192.97^
-||117.204.193.236^
-||117.204.194.235^
-||117.204.195.105^
-||117.204.195.76^
-||117.204.196.75^
-||117.204.197.146^
-||117.204.197.27^
+||117.202.183.221^
+||117.203.125.83^
+||117.204.193.125^
+||117.204.194.144^
+||117.204.194.200^
+||117.204.195.114^
+||117.204.196.151^
+||117.204.197.186^
+||117.204.197.224^
 ||117.204.197.77^
-||117.204.199.170^
-||117.204.199.234^
-||117.204.199.247^
-||117.204.199.254^
-||117.204.199.79^
-||117.204.200.166^
-||117.204.200.176^
-||117.204.200.34^
+||117.204.200.110^
 ||117.204.201.172^
-||117.204.202.149^
-||117.204.202.237^
-||117.204.202.249^
-||117.204.202.3^
-||117.204.203.238^
-||117.204.204.15^
+||117.204.203.71^
+||117.204.204.181^
 ||117.204.204.205^
-||117.204.205.69^
+||117.204.205.84^
+||117.204.206.188^
+||117.204.206.205^
+||117.204.206.247^
 ||117.204.206.2^
-||117.204.207.159^
-||117.205.140.46^
-||117.206.177.122^
-||117.206.187.123^
+||117.204.206.94^
+||117.204.207.43^
+||117.205.61.105^
+||117.206.183.72^
+||117.206.186.152^
 ||117.207.251.132^
-||117.210.181.69^
-||117.211.210.30^
-||117.211.38.3^
-||117.212.161.198^
-||117.212.170.99^
-||117.212.75.227^
-||117.213.126.107^
+||117.210.180.177^
+||117.212.163.30^
 ||117.213.94.148^
-||117.215.219.128^
-||117.216.23.73^
-||117.216.3.11^
+||117.217.55.72^
+||117.217.81.11^
+||117.219.118.198^
+||117.219.124.2^
 ||117.220.144.130^
-||117.220.146.18^
-||117.220.147.229^
-||117.222.255.207^
 ||117.235.116.76^
+||117.235.48.20^
+||117.235.63.106^
 ||117.235.71.157^
 ||117.235.80.21^
-||117.241.192.175^
-||117.242.233.173^
-||117.242.239.22^
-||117.243.177.197^
+||117.242.238.228^
+||117.242.239.144^
 ||117.247.104.97^
 ||117.247.138.16^
-||117.248.29.204^
-||117.248.59.46^
 ||117.250.206.217^
-||117.251.163.81^
-||117.251.3.107^
-||117.252.160.193^
-||117.252.165.122^
-||117.252.205.75^
-||117.252.37.191^
+||117.252.161.74^
+||117.252.162.170^
+||117.252.194.147^
 ||117.253.210.233^
-||117.254.102.239^
-||117.254.177.2^
-||117.254.97.233^
-||117.254.98.87^
-||117.255.185.8^
+||117.253.31.68^
+||117.253.98.143^
+||117.254.177.36^
+||117.255.176.93^
+||117.255.190.190^
+||117.255.82.82^
 ||117.50.194.20^
 ||1175980934.rsc.cdn77.org^
 ||118.127.105.182^
@@ -66802,22 +66906,22 @@ zyro.com##.zyro-cookies
 ||118.91.54.34^
 ||118.98.123.178^
 ||1187531871.rsc.cdn77.org^
-||119.109.164.5^
 ||119.109.206.159^
 ||119.109.211.76^
+||119.115.188.180^
+||119.115.247.41^
+||119.117.154.147^
 ||119.15.81.46^
 ||119.15.92.78^
 ||119.166.82.191^
 ||119.179.253.223^
 ||119.18.145.147^
 ||119.186.209.128^
-||119.187.140.167^
 ||119.187.78.219^
 ||119.189.171.223^
 ||119.189.215.3^
 ||119.201.228.197^
 ||119.252.167.174^
-||119.40.84.254^
 ||119.40.91.22^
 ||11g1ip22h.de^
 ||11khsn-dnsotls-ds.metric.gstatic.com^
@@ -66834,6 +66938,7 @@ zyro.com##.zyro-cookies
 ||120.37.232.134^
 ||120.50.10.30^
 ||120.50.4.22^
+||120.57.126.209^
 ||1200555.com^
 ||1201741305.rsc.cdn77.org^
 ||1204491360.rsc.cdn77.org^
@@ -66849,6 +66954,7 @@ zyro.com##.zyro-cookies
 ||121.200.63.162^
 ||121.200.63.165^
 ||121.204.246.*.gif
+||121.234.249.51^
 ||121.236.138.4^
 ||121.25.76.57^
 ||121.52.72.135^
@@ -66861,7 +66967,6 @@ zyro.com##.zyro-cookies
 ||122.170.110.131^
 ||122.201.25.95^
 ||122.242.15.29^
-||122.51.6.232^
 ||1221.page.link^
 ||1221e236c3f8703.com^
 ||1223f33efe.com^
@@ -66872,50 +66977,48 @@ zyro.com##.zyro-cookies
 ||123-vay.com^
 ||123.10.0.51^
 ||123.10.208.60^
-||123.11.240.103^
+||123.10.215.194^
 ||123.11.253.6^
 ||123.110.124.238^
-||123.12.232.171^
 ||123.12.26.137^
 ||123.12.38.94^
 ||123.129.105.142^
 ||123.129.129.59^
-||123.129.130.160^
 ||123.129.130.83^
 ||123.129.131.211^
 ||123.129.134.19^
+||123.129.134.61^
+||123.129.15.105^
 ||123.129.151.124^
 ||123.129.152.8^
 ||123.129.153.96^
-||123.129.3.163^
 ||123.129.91.38^
-||123.13.31.4^
 ||123.130.37.173^
 ||123.132.159.160^
 ||123.134.1.163^
+||123.14.123.224^
+||123.14.169.76^
 ||123.14.196.113^
 ||123.14.198.1^
-||123.14.199.23^
 ||123.14.255.184^
 ||123.14.40.116^
 ||123.172.69.2^
+||123.188.125.34^
 ||123.188.4.15^
-||123.189.133.172^
 ||123.190.29.59^
 ||123.193.21.48^
 ||123.194.35.224^
-||123.207.75.205^
 ||123.231.247.114^
 ||123.232.226.194^
 ||123.235.112.130^
 ||123.4.188.67^
 ||123.4.244.145^
 ||123.4.68.13^
-||123.5.158.228^
+||123.5.138.44^
 ||123.56.24.63^
-||123.7.223.97^
-||123.8.52.4^
+||123.8.49.114^
 ||123.8.83.91^
+||123.9.87.72^
 ||123.manga1001.top^
 ||1234.jjxgly.com
 ||123456.asia^
@@ -66947,12 +67050,8 @@ zyro.com##.zyro-cookies
 ||123w0w.com^
 ||124.129.242.5^
 ||124.131.146.27^
-||124.131.151.185^
 ||124.131.158.195^
-||124.131.42.113^
-||124.133.131.32^
 ||124.135.166.77^
-||124.135.21.188^
 ||124.153.20.102^
 ||124.153.22.49^
 ||124.194.46.204^
@@ -66964,21 +67063,25 @@ zyro.com##.zyro-cookies
 ||125.25.40.64^
 ||125.33.228.251^
 ||125.40.151.205^
-||125.40.64.62^
-||125.41.139.1^
-||125.41.220.238^
-||125.41.73.9^
+||125.41.142.16^
+||125.43.24.12^
+||125.43.240.126^
 ||125.43.241.73^
 ||125.43.248.13^
 ||125.43.35.80^
 ||125.44.153.71^
+||125.44.181.219^
 ||125.44.209.151^
 ||125.44.209.180^
 ||125.44.21.193^
 ||125.44.216.71^
 ||125.44.40.53^
+||125.44.50.17^
 ||125.44.52.61^
-||125.47.203.147^
+||125.45.56.22^
+||125.45.59.51^
+||125.45.65.156^
+||125.47.68.229^
 ||12559529-dnsotls-ds.metric.gstatic.com^
 ||12573ddd51.com^
 ||1267a.xyz^
@@ -67020,7 +67123,6 @@ zyro.com##.zyro-cookies
 ||1379a.xyz^
 ||137kfj65k.de^
 ||138.122.43.76^
-||138.186.156.210^
 ||138.19.251.214^
 ||138.36.239.20^
 ||1381a.xyz^
@@ -67042,11 +67144,14 @@ zyro.com##.zyro-cookies
 ||14.173.109.168^
 ||14.224.174.212^
 ||14.225.204.172^
+||14.52.55.79^
 ||140a1182-dnsotls-ds.metric.gstatic.com^
 ||141.101.226.78^
+||141.105.87.18^
 ||141.144.230.252^
 ||141.148.205.211^
 ||141.98.7.170^
+||143.208.36.11^
 ||1435575.fls.doubleclick.net^
 ||1437953666.rsc.cdn77.org^
 ||144.126.134.25^
@@ -67054,13 +67159,12 @@ zyro.com##.zyro-cookies
 ||144.48.170.111^
 ||1441085683.rsc.cdn77.org^
 ||145.255.30.170^
+||146.120.241.207^
 ||146.196.120.194^
 ||146.196.120.91^
-||146.196.122.176^
 ||146.196.97.231^
 ||146.66.164.51^
 ||146.70.79.36^
-||146.70.79.44^
 ||147.45.47.102^
 ||147.45.47.71^
 ||147.45.47.72^
@@ -67083,7 +67187,6 @@ zyro.com##.zyro-cookies
 ||150.117.7.70^
 ||150.129.202.193^
 ||150.129.202.197^
-||150.129.62.218^
 ||150075.com^
 ||1509986864091.firebaseio.com^
 ||151.177.251.42^
@@ -67099,11 +67202,11 @@ zyro.com##.zyro-cookies
 ||153.152.44.153^
 ||154.0.129.114^
 ||154.0.129.134^
+||154.126.170.119^
 ||154.126.178.16^
 ||154.126.186.56^
 ||154.212.146.164^
 ||154.23.240.102^
-||154.66.125.202^
 ||154.84.212.18^
 ||1541233801.rsc.cdn77.org^
 ||1543481067.rsc.cdn77.org^
@@ -67137,6 +67240,7 @@ zyro.com##.zyro-cookies
 ||162.194.8.169^
 ||162.199.220.67^
 ||162.219.216.183^
+||162.248.46.120^
 ||163.47.209.166^
 ||163.53.205.56^
 ||164.155.241.15^
@@ -67149,6 +67253,7 @@ zyro.com##.zyro-cookies
 ||16500.page.link^
 ||166.88.61.185^
 ||166f.com^
+||167.160.166.205^
 ||167.86.68.78^
 ||1675450967.rsc.cdn77.org^
 ||168.227.56.191^
@@ -67171,6 +67276,7 @@ zyro.com##.zyro-cookies
 ||1723614251.rsc.cdn77.org^
 ||173.166.40.186^
 ||173.19.202.45^
+||173.215.77.169^
 ||173.235.65.44^
 ||173.255.238.129^
 ||1736253261.rsc.cdn77.org^
@@ -67179,13 +67285,16 @@ zyro.com##.zyro-cookies
 ||1742177.fls.doubleclick.net^
 ||175.111.182.234^
 ||175.111.182.237^
+||175.13.191.104^
 ||175.148.83.203^
+||175.149.108.235^
 ||175.165.225.41^
 ||175.166.122.157^
 ||175.172.191.88^
 ||175.173.217.183^
-||175.173.88.73^
 ||175.174.13.73^
+||175.174.48.159^
+||175.175.232.16^
 ||175.210.139.112^
 ||175.31.188.183^
 ||175.43.111.207^
@@ -67195,6 +67304,7 @@ zyro.com##.zyro-cookies
 ||176.100.241.12^
 ||176.106.27.195^
 ||176.12.6.42^
+||176.120.211.83^
 ||176.122.28.26^
 ||176.124.5.135^
 ||176.192.78.254^
@@ -67202,7 +67312,6 @@ zyro.com##.zyro-cookies
 ||176.195.191.123^
 ||176.226.157.192^
 ||176.37.170.214^
-||176.53.192.190^
 ||176.62.179.34^
 ||176.62.237.79^
 ||176.65.35.214^
@@ -67229,12 +67338,11 @@ zyro.com##.zyro-cookies
 ||178.131.81.7^
 ||178.131.84.65^
 ||178.131.95.168^
-||178.134.42.162^
+||178.150.209.205^
 ||178.151.143.2^
 ||178.151.163.54^
 ||178.151.34.26^
 ||178.158.238.2^
-||178.162.210.148^
 ||178.165.112.168^
 ||178.165.79.24^
 ||178.169.136.50^
@@ -67259,6 +67367,7 @@ zyro.com##.zyro-cookies
 ||178.34.183.162^
 ||178.49.214.145^
 ||178.77.228.38^
+||178.95.161.44^
 ||178522.firebaseio.com^
 ||179.189.254.54^
 ||179.190.109.156^
@@ -67300,7 +67409,6 @@ zyro.com##.zyro-cookies
 ||181.199.179.14^
 ||181.204.212.82^
 ||181.204.218.149^
-||181.205.125.58^
 ||181.205.74.178^
 ||181.211.252.34^
 ||181.224.242.131^
@@ -67315,58 +67423,64 @@ zyro.com##.zyro-cookies
 ||181.94.245.254^
 ||181m2fscr.de^
 ||182.112.28.111^
-||182.113.206.48^
+||182.112.30.101^
+||182.113.203.96^
+||182.113.233.60^
+||182.113.44.183^
 ||182.113.5.228^
 ||182.114.191.36^
 ||182.114.197.213^
 ||182.114.202.82^
 ||182.114.249.81^
-||182.115.65.152^
+||182.114.33.86^
+||182.116.12.14^
+||182.116.228.155^
 ||182.116.36.13^
 ||182.116.39.0^
 ||182.116.39.160^
-||182.116.50.37^
-||182.116.8.141^
+||182.116.52.157^
 ||182.117.136.38^
-||182.117.147.143^
 ||182.117.167.243^
+||182.117.28.110^
 ||182.117.33.36^
+||182.117.68.214^
 ||182.117.69.183^
-||182.117.70.29^
+||182.117.71.53^
+||182.117.77.20^
+||182.117.79.11^
 ||182.118.244.5^
 ||182.119.140.211^
 ||182.119.249.206^
-||182.120.136.119^
+||182.119.6.133^
+||182.120.144.238^
 ||182.120.161.115^
+||182.120.61.87^
 ||182.120.96.66^
 ||182.121.115.198^
 ||182.121.15.137^
 ||182.121.168.77^
 ||182.121.175.186^
 ||182.121.57.253^
-||182.121.57.3^
-||182.121.8.110^
-||182.121.84.215^
 ||182.122.213.103^
 ||182.123.247.10^
 ||182.124.179.26^
+||182.124.62.85^
 ||182.126.114.203^
 ||182.126.116.123^
 ||182.126.117.199^
-||182.126.161.70^
-||182.126.243.226^
-||182.126.78.232^
+||182.126.126.191^
 ||182.126.79.180^
 ||182.126.84.146^
-||182.127.101.87^
+||182.126.96.45^
 ||182.127.104.152^
-||182.127.125.102^
-||182.127.128.45^
+||182.127.112.103^
+||182.127.112.32^
+||182.127.115.118^
 ||182.127.152.255^
-||182.127.160.81^
 ||182.127.212.53^
 ||182.127.30.15^
 ||182.127.39.171^
+||182.127.48.92^
 ||182.127.64.226^
 ||182.176.138.75^
 ||182.202.15.254^
@@ -67379,13 +67493,11 @@ zyro.com##.zyro-cookies
 ||182.253.60.197^
 ||182.253.60.198^
 ||182.52.51.239^
-||182.56.229.165^
 ||182.59.133.14^
 ||182.70.245.35^
 ||182.93.83.121^
 ||182.93.84.57^
 ||1821z.website^
-||183.81.33.83^
 ||184.60.63.153^
 ||184c4i95p.de^
 ||185.101.239.41^
@@ -67394,7 +67506,6 @@ zyro.com##.zyro-cookies
 ||185.12.78.161^
 ||185.126.195.110^
 ||185.13.221.50^
-||185.136.195.200^
 ||185.149.146.54^
 ||185.16.100.160^
 ||185.16.38.38^
@@ -67481,6 +67592,7 @@ zyro.com##.zyro-cookies
 ||188.254.255.246^
 ||188.43.201.109^
 ||188.44.110.215^
+||188.65.41.210^
 ||188.68.95.174^
 ||188.72.6.218^
 ||188.75.79.53^
@@ -67503,6 +67615,7 @@ zyro.com##.zyro-cookies
 ||190.109.205.237^
 ||190.109.229.58^
 ||190.110.206.134^
+||190.111.116.96^
 ||190.128.195.138^
 ||190.128.231.114^
 ||190.129.2.198^
@@ -67542,16 +67655,17 @@ zyro.com##.zyro-cookies
 ||192.3.239.30^
 ||192.luyouwang.com^
 ||19273817.com^
-||193.106.58.174^
 ||193.142.147.59^
 ||193.151.82.82^
 ||193.189.172.10^
 ||193.189.188.129^
 ||193.200.134.248^
 ||193.218.142.205^
+||193.228.134.161^
 ||193.228.134.234^
 ||193.228.135.75^
 ||193.234.64.121^
+||193.239.254.115^
 ||193.239.86.163^
 ||193.242.149.32^
 ||193.68.79.82^
@@ -67561,12 +67675,13 @@ zyro.com##.zyro-cookies
 ||1933201447.rsc.cdn77.org^
 ||19333b2e55.com^
 ||194.145.227.21^
-||194.152.35.139^
+||194.183.186.164^
 ||194.187.149.116^
 ||194.187.151.189^
 ||194.208.49.175^
 ||194.208.56.60^
 ||194.36.80.223^
+||194.36.80.225^
 ||194.38.23.2^
 ||194.59.30.95^
 ||194.59.31.206^
@@ -67579,11 +67694,11 @@ zyro.com##.zyro-cookies
 ||195.211.101.219^
 ||195.211.197.30^
 ||195.218.152.38^
-||195.22.110.230^
 ||195.22.237.98^
 ||195.24.131.189^
 ||195.26.254.79^
 ||195.34.91.22^
+||195.66.105.122^
 ||195.9.14.86^
 ||195.9.192.52^
 ||195.98.68.52^
@@ -67598,7 +67713,6 @@ zyro.com##.zyro-cookies
 ||196.43.113.182^
 ||1969301294.rsc.cdn77.org^
 ||196f4d48-dnsotls-ds.metric.gstatic.com^
-||197.159.1.58^
 ||197.210.197.185^
 ||197.210.198.190^
 ||197.248.41.250^
@@ -67797,6 +67911,7 @@ zyro.com##.zyro-cookies
 ||2.136.83.131^
 ||2.180.35.231^
 ||2.180.9.57^
+||2.181.0.146^
 ||2.184.54.225^
 ||2.187.118.46^
 ||2.187.188.113^
@@ -67820,8 +67935,8 @@ zyro.com##.zyro-cookies
 ||20.214.163.70^
 ||20.scale.www.fitbit.com^
 ||200.105.205.26^
-||200.105.249.150^
 ||200.108.131.222^
+||200.111.102.27^
 ||200.116.1.90^
 ||200.122.211.138^
 ||200.123.142.116^
@@ -67858,19 +67973,20 @@ zyro.com##.zyro-cookies
 ||202.148.20.138^
 ||202.148.5.34^
 ||202.151.29.65^
-||202.152.58.198^
 ||202.154.187.26^
 ||202.158.68.243^
 ||202.166.220.109^
 ||202.169.235.107^
-||202.178.125.67^
 ||202.180.25.194^
 ||202.191.123.196^
 ||202.4.110.130^
 ||202.4.124.58^
 ||202.5.36.243^
 ||202.5.36.27^
+||202.5.52.110^
 ||202.5.61.33^
+||202.53.164.114^
+||202.53.164.150^
 ||202.53.164.210^
 ||202.53.164.214^
 ||202.53.164.46^
@@ -67897,14 +68013,12 @@ zyro.com##.zyro-cookies
 ||203.150.253.15^
 ||203.17.23.194^
 ||203.176.137.54^
-||203.177.28.155^
 ||203.188.248.73^
 ||203.188.254.138^
 ||203.201.160.122^
 ||203.201.160.123^
 ||203.202.245.6^
 ||203.223.44.142^
-||203.223.44.206^
 ||203.55.81.4^
 ||203.80.244.154^
 ||204st.us^
@@ -67913,7 +68027,6 @@ zyro.com##.zyro-cookies
 ||206ads.com^
 ||206solutions.com^
 ||207.167.66.242^
-||207.188.94.122^
 ||207.189.221.21^
 ||20786993p.rfihub.com
 ||208.89.168.31^
@@ -67921,7 +68034,6 @@ zyro.com##.zyro-cookies
 ||209.42.55.230^
 ||20dollars2surf.com^
 ||20f51301-dnsotls-ds.metric.gstatic.com^
-||20f555d506.com^
 ||20l2ldrn2.de^
 ||20szp.com^
 ||20trackdomain.com^
@@ -67933,6 +68045,7 @@ zyro.com##.zyro-cookies
 ||210.4.69.226^
 ||210.56.21.206^
 ||211.186.82.229^
+||211.223.126.127^
 ||211.225.18.95^
 ||211.251.10.143^
 ||212.107.231.67^
@@ -67958,12 +68071,11 @@ zyro.com##.zyro-cookies
 ||213.147.120.145^
 ||213.151.47.18^
 ||213.151.92.226^
+||213.155.192.139^
 ||213.16.63.103^
 ||213.175.189.102^
-||213.184.249.83^
 ||213.221.36.18^
 ||213.222.45.158^
-||213.226.199.68^
 ||213.239.218.157^
 ||213.243.216.3^
 ||213.25.20.94^
@@ -67999,20 +68111,24 @@ zyro.com##.zyro-cookies
 ||218.86.123.43^
 ||218emo1t.de^
 ||219.155.174.205^
-||219.156.100.124^
+||219.155.71.200^
+||219.156.125.240^
+||219.156.129.93^
 ||219.156.43.31^
+||219.156.58.145^
+||219.156.64.129^
 ||219.157.147.217^
-||219.157.150.152^
-||219.157.177.155^
+||219.157.16.96^
 ||219.157.179.101^
-||219.157.196.38^
 ||219.157.198.176^
 ||219.157.243.163^
 ||219.157.243.76^
+||219.157.30.40^
 ||219.157.30.74^
-||219.157.49.172^
+||219.157.49.93^
 ||219.157.58.84^
 ||219.157.61.150^
+||219.157.64.141^
 ||219.68.245.35^
 ||219.78.36.170^
 ||219.79.119.50^
@@ -68023,7 +68139,9 @@ zyro.com##.zyro-cookies
 ||21wiz.com^
 ||22.client-channel.google.com^
 ||22.scale.www.fitbit.com^
+||220.143.7.158^
 ||220.201.145.131^
+||220.201.27.189^
 ||220.201.46.229^
 ||220.page.link^
 ||22081b1c58.com^
@@ -68033,40 +68151,44 @@ zyro.com##.zyro-cookies
 ||221.120.98.22^
 ||221.13.248.56^
 ||221.14.11.48^
+||221.14.171.180^
 ||221.15.165.146^
+||221.15.188.200^
+||221.15.217.141^
 ||221.15.231.57^
+||221.15.246.249^
 ||221.15.61.80^
 ||221.15.7.221^
-||221.15.91.96^
 ||221.200.186.77^
 ||221.201.108.94^
 ||221.202.17.29^
 ||221.202.176.78^
 ||221.202.18.194^
 ||221.214.157.168^
-||221.230.38.202^
 ||221.3.87.156^
 ||222.129.237.129^
 ||222.130.139.27^
 ||222.134.163.158^
 ||222.134.173.223^
-||222.135.222.205^
 ||222.136.132.3^
 ||222.137.146.3^
 ||222.137.197.137^
+||222.137.204.231^
 ||222.137.6.251^
+||222.137.72.174^
 ||222.137.76.144^
+||222.138.118.249^
+||222.138.176.224^
 ||222.138.181.78^
-||222.138.22.199^
 ||222.138.23.7^
-||222.138.232.39^
-||222.139.57.54^
-||222.140.181.153^
 ||222.140.186.201^
-||222.141.101.251^
 ||222.141.106.138^
+||222.141.113.136^
 ||222.141.139.225^
+||222.142.203.15^
 ||222.142.242.18^
+||222.185.18.63^
+||222.67.194.239^
 ||222.93.229.56^
 ||2222.ro^
 ||22256da88b.com^
@@ -68075,7 +68197,7 @@ zyro.com##.zyro-cookies
 ||223.13.84.254^
 ||223.13.89.196^
 ||223.15.22.192^
-||223.15.24.68^
+||223.151.227.165^
 ||223.151.231.54^
 ||223.16.143.101^
 ||223.17.9.188^
@@ -68112,6 +68234,7 @@ zyro.com##.zyro-cookies
 ||24-sportnews.com^
 ||24-xxx.biz^
 ||24.106.91.24^
+||24.115.47.199^
 ||24.117.189.245^
 ||24.153.218.165^
 ||24.202.206.66^
@@ -68199,37 +68322,40 @@ zyro.com##.zyro-cookies
 ||27.124.3.117^
 ||27.124.3.120^
 ||27.124.3.87^
+||27.147.168.220^
 ||27.147.174.61^
 ||27.147.178.248^
-||27.157.145.90^
+||27.147.220.151^
 ||27.185.47.220^
 ||27.193.203.43^
 ||27.196.75.182^
 ||27.202.171.57^
-||27.202.189.139^
 ||27.202.44.221^
 ||27.206.194.117^
 ||27.206.235.0^
 ||27.207.10.158^
 ||27.207.139.209^
 ||27.207.188.232^
+||27.207.39.183^
 ||27.209.148.74^
-||27.213.130.227^
+||27.213.192.137^
 ||27.215.108.228^
+||27.215.121.78^
 ||27.215.123.151^
+||27.215.123.93^
 ||27.215.124.70^
+||27.215.125.159^
+||27.215.126.96^
 ||27.215.137.199^
 ||27.215.211.76^
-||27.215.212.248^
-||27.215.239.43^
 ||27.215.45.174^
 ||27.215.78.209^
+||27.215.79.97^
 ||27.215.85.173^
 ||27.215.87.101^
-||27.219.111.86^
+||27.217.52.150^
 ||27.220.11.244^
 ||27.220.224.191^
-||27.54.121.126^
 ||27.71.59.7^
 ||271395.com^
 ||273knt.xyz^
@@ -68512,6 +68638,7 @@ zyro.com##.zyro-cookies
 ||36.64.209.97^
 ||36.64.210.218^
 ||36.64.219.140^
+||36.64.23.219^
 ||36.64.4.199^
 ||36.66.105.177^
 ||36.66.139.36^
@@ -68519,6 +68646,10 @@ zyro.com##.zyro-cookies
 ||36.66.151.7^
 ||36.66.168.49^
 ||36.66.171.191^
+||36.66.174.186^
+||36.66.174.187^
+||36.66.174.188^
+||36.66.174.189^
 ||36.66.231.15^
 ||36.66.233.211^
 ||36.66.59.233^
@@ -68533,7 +68664,6 @@ zyro.com##.zyro-cookies
 ||36.88.180.115^
 ||36.88.244.2^
 ||36.89.11.81^
-||36.89.118.113^
 ||36.89.129.213^
 ||36.89.240.75^
 ||36.91.144.195^
@@ -68604,7 +68734,6 @@ zyro.com##.zyro-cookies
 ||37.130.41.248^
 ||37.139.249.103^
 ||37.140.36.114^
-||37.143.133.215^
 ||37.156.19.167^
 ||37.156.22.163^
 ||37.157.212.138^
@@ -68613,6 +68742,7 @@ zyro.com##.zyro-cookies
 ||37.192.22.166^
 ||37.193.88.34^
 ||37.194.25.119^
+||37.202.49.118^
 ||37.205.81.56^
 ||37.238.132.158^
 ||37.252.66.188^
@@ -68629,6 +68759,7 @@ zyro.com##.zyro-cookies
 ||3765329.fls.doubleclick.net^
 ||3773523.fls.doubleclick.net^
 ||3782920751.com^
+||38.137.248.18^
 ||38.137.248.6^
 ||38.159.67.229^
 ||380.bu2z.com^
@@ -68644,10 +68775,10 @@ zyro.com##.zyro-cookies
 ||38kmute.xyz^
 ||39.126.203.159^
 ||39.164.41.36^
+||39.174.238.56^
 ||39.64.68.23^
 ||39.66.135.80^
 ||39.72.82.31^
-||39.73.26.167^
 ||39.74.2.160^
 ||39.74.37.82^
 ||39.74.71.243^
@@ -68655,11 +68786,15 @@ zyro.com##.zyro-cookies
 ||39.79.149.214^
 ||39.79.155.50^
 ||39.79.232.58^
+||39.79.47.33^
+||39.79.68.75^
+||39.80.61.203^
 ||39.81.108.33^
+||39.81.168.148^
 ||39.81.189.154^
 ||39.81.44.196^
-||39.86.6.137^
 ||39.87.72.5^
+||39.90.144.154^
 ||39.90.144.209^
 ||39.98.107.227^
 ||39236100.lotre.io^
@@ -68785,13 +68920,13 @@ zyro.com##.zyro-cookies
 ||40hardcore.galleryprogram.com^
 ||40nuggets.com^
 ||41.111.213.190^
-||41.139.172.245^
 ||41.180.49.110^
 ||41.190.142.206^
 ||41.190.69.6^
-||41.190.70.254^
 ||41.190.70.78^
 ||41.203.218.38^
+||41.203.92.170^
+||41.205.90.51^
 ||41.207.249.166^
 ||41.211.107.87^
 ||41.211.112.86^
@@ -68801,7 +68936,6 @@ zyro.com##.zyro-cookies
 ||41.230.17.135^
 ||41.67.130.154^
 ||41.76.195.60^
-||41.76.195.90^
 ||41.77.74.90^
 ||41.79.233.62^
 ||41.84.131.154^
@@ -68815,13 +68949,11 @@ zyro.com##.zyro-cookies
 ||4191036.fls.doubleclick.net^
 ||4191748.fls.doubleclick.net^
 ||41f6f373a2.com^
-||42.178.148.228^
 ||42.178.60.37^
 ||42.178.98.165^
 ||42.180.59.126^
-||42.224.137.143^
 ||42.224.209.195^
-||42.224.212.96^
+||42.224.209.254^
 ||42.224.232.252^
 ||42.224.6.201^
 ||42.225.196.75^
@@ -68829,47 +68961,45 @@ zyro.com##.zyro-cookies
 ||42.225.228.191^
 ||42.226.68.130^
 ||42.227.201.2^
+||42.227.236.59^
+||42.227.237.82^
 ||42.227.238.114^
-||42.228.221.217^
+||42.228.235.93^
 ||42.228.246.38^
-||42.230.186.75^
-||42.230.36.60^
-||42.230.38.168^
+||42.230.33.244^
 ||42.230.39.111^
-||42.230.56.39^
-||42.231.207.68^
+||42.230.42.56^
+||42.231.209.51^
 ||42.231.220.208^
 ||42.231.231.189^
 ||42.231.36.90^
 ||42.231.68.150^
+||42.231.91.7^
 ||42.232.24.219^
+||42.234.153.26^
 ||42.235.48.76^
 ||42.237.106.108^
-||42.237.45.239^
 ||42.238.252.223^
 ||42.238.255.249^
-||42.239.149.2^
 ||42.239.158.181^
-||42.239.225.124^
-||42.239.225.74^
+||42.239.171.122^
+||42.239.189.26^
 ||42.239.254.123^
 ||42.239.86.173^
 ||42.4.109.110^
-||42.5.255.160^
 ||42.5.4.113^
+||42.5.59.55^
 ||42.5.65.128^
+||42.5.7.148^
 ||42.52.124.250^
 ||42.54.155.77^
-||42.55.28.17^
-||42.56.102.81^
 ||42.56.163.90^
-||42.57.187.210^
 ||42.58.115.172^
 ||42.58.246.71^
 ||42.58.74.207^
+||42.59.232.133^
 ||42.6.56.40^
 ||42.86.123.101^
-||42.86.169.112^
 ||42.86.52.135^
 ||42.98.156.7^
 ||42.98.254.77^
@@ -68892,6 +69022,7 @@ zyro.com##.zyro-cookies
 ||43.226.35.175^
 ||43.230.158.100^
 ||43.230.158.26^
+||43.230.159.242^
 ||43.240.65.55^
 ||43.249.172.195^
 ||43.249.52.210^
@@ -68928,7 +69059,6 @@ zyro.com##.zyro-cookies
 ||45.114.152.19^
 ||45.115.254.149^
 ||45.115.254.150^
-||45.115.254.151^
 ||45.115.254.194^
 ||45.116.68.70^
 ||45.129.96.86^
@@ -68942,17 +69072,13 @@ zyro.com##.zyro-cookies
 ||45.163.18.138^
 ||45.163.18.139^
 ||45.186.203.13^
-||45.195.204.114^
-||45.195.204.37^
 ||45.195.204.50^
 ||45.195.204.57^
 ||45.195.204.59^
-||45.195.204.76^
+||45.204.80.87^
 ||45.224.100.254^
 ||45.32.105.134^$third-party
 ||45.33.50.155^
-||45.61.184.56^
-||45.61.188.140^
 ||45.62.170.4^
 ||45.64.128.244^
 ||45.70.198.93^
@@ -68976,6 +69102,7 @@ zyro.com##.zyro-cookies
 ||46.183.222.32^
 ||46.188.48.90^
 ||46.20.63.220^
+||46.209.255.18^
 ||46.214.31.179^
 ||46.219.119.69^
 ||46.229.139.93^
@@ -68983,7 +69110,6 @@ zyro.com##.zyro-cookies
 ||46.238.231.91^
 ||46.26.216.74^
 ||46.39.247.173^
-||46.39.251.94^
 ||46.44.203.207^
 ||46.52.164.170^
 ||46.6.7.24^
@@ -69021,6 +69147,7 @@ zyro.com##.zyro-cookies
 ||48whxkj6t2.com^
 ||49.142.114.242^
 ||49.156.46.134^
+||49.158.204.118^
 ||49.174.82.174^
 ||49.213.157.76^
 ||49.213.187.75^
@@ -69153,8 +69280,6 @@ zyro.com##.zyro-cookies
 ||5.200.72.26^
 ||5.201.136.114^
 ||5.201.176.87^
-||5.201.184.206^
-||5.206.227.248^
 ||5.235.186.47^
 ||5.236.93.129^
 ||5.28.38.135^
@@ -69165,6 +69290,7 @@ zyro.com##.zyro-cookies
 ||5.42.96.145^
 ||5.42.96.32^
 ||5.42.96.3^
+||5.42.96.55^
 ||5.42.96.78^
 ||5.42.96.7^
 ||5.ccutu.com^
@@ -69276,25 +69402,29 @@ zyro.com##.zyro-cookies
 ||58c232d55d.com^
 ||58e0.site^
 ||59.173.68.81^
-||59.178.153.61^
-||59.182.127.36^
-||59.182.86.66^
-||59.184.55.136^
+||59.178.147.183^
+||59.178.183.153^
+||59.182.245.200^
+||59.182.82.161^
+||59.182.90.23^
+||59.183.15.83^
 ||59.29.39.111^
+||59.30.12.254^
 ||59.59.6.86^
+||59.88.121.166^
+||59.88.235.193^
 ||59.89.180.239^
-||59.89.194.143^
-||59.89.203.220^
-||59.89.237.130^
-||59.93.181.205^
-||59.93.181.242^
-||59.93.182.248^
-||59.97.112.127^
+||59.89.198.74^
+||59.89.66.105^
+||59.92.175.77^
+||59.92.177.236^
+||59.92.217.118^
+||59.92.32.167^
+||59.93.18.180^
 ||59.97.115.240^
-||59.97.116.129^
-||59.97.122.75^
-||59.97.123.64^
-||59.99.134.211^
+||59.97.115.43^
+||59.97.118.36^
+||59.97.127.18^
 ||590578zugbr8.com^
 ||591520.xyz^
 ||592749d456.com^
@@ -69387,9 +69517,8 @@ zyro.com##.zyro-cookies
 ||6.chart.apis.google.com^
 ||60.18.61.216^
 ||60.211.122.68^
-||60.214.54.56^
+||60.211.52.19^
 ||60.215.167.240^
-||60.215.191.186^
 ||60.22.23.50^
 ||60.23.131.196^
 ||60.23.137.190^
@@ -69406,29 +69535,27 @@ zyro.com##.zyro-cookies
 ||60b2499722.com^
 ||61-nmobads.com^
 ||61.19.194.225^
-||61.3.107.212^
-||61.3.13.211^
+||61.3.102.119^
+||61.3.102.4^
 ||61.43.116.247^
 ||61.48.130.180^
 ||61.52.107.14^
-||61.52.158.158^
 ||61.52.228.217^
+||61.52.33.227^
+||61.52.37.43^
 ||61.52.39.134^
 ||61.52.53.133^
 ||61.53.116.134^
 ||61.53.117.206^
-||61.53.120.245^
 ||61.53.133.215^
+||61.53.133.87^
 ||61.53.148.64^
-||61.53.157.239^
 ||61.53.222.247^
-||61.53.36.79^
 ||61.53.84.220^
 ||61.53.85.105^
-||61.53.85.68^
-||61.53.85.69^
 ||61.53.85.84^
 ||61.53.85.93^
+||61.53.86.192^
 ||61.53.88.203^
 ||61.54.41.29^
 ||61.65.59.4^
@@ -69455,7 +69582,6 @@ zyro.com##.zyro-cookies
 ||62.197.209.247^
 ||62.204.141.26^
 ||62.21.103.194^
-||62.234.2.198^
 ||62.249.140.222^
 ||62.32.86.42^
 ||62.67.203.33^
@@ -69474,6 +69600,8 @@ zyro.com##.zyro-cookies
 ||64.140.100.201^
 ||64.140.105.9^
 ||64.140.99.97^
+||64.188.21.131^
+||64.188.27.210^
 ||64.64.152.242^
 ||64.66.18.79^
 ||64.89.206.97^
@@ -69505,7 +69633,6 @@ zyro.com##.zyro-cookies
 ||66.187.4.213^
 ||66.198.193.249^
 ||66.198.199.18^
-||66.23.157.78^
 ||66.54.98.51^
 ||66.54.98.88^
 ||66.71.242.67^
@@ -69549,6 +69676,7 @@ zyro.com##.zyro-cookies
 ||681ba37858.com^
 ||6836841961.firebaseio.com^
 ||6863fd0afc.com^
+||68646f.xyz^
 ||688de7b3822de.com^
 ||68amt53h.de^
 ||68aq8q352.com^
@@ -69645,7 +69773,6 @@ zyro.com##.zyro-cookies
 ||70.166.80.169^
 ||70.45.241.192^
 ||7011.stia.cn^
-||7050c8b66b.com^
 ||70ba306f76.com^
 ||71.42.105.40^
 ||71.42.105.54^
@@ -69693,6 +69820,7 @@ zyro.com##.zyro-cookies
 ||75416fa555.com^
 ||754480bd33.com^
 ||75d1222852.com^
+||76.125.14.237^
 ||76.76.195.174^
 ||76236osm1.ru^
 ||76362b26c3.com^
@@ -69702,6 +69830,7 @@ zyro.com##.zyro-cookies
 ||76e.org^
 ||76f74721ab.com^
 ||76qwf7f5bv.com^
+||77.120.245.228^
 ||77.162.125.199^$third-party
 ||77.221.151.47^
 ||77.239.22.123^
@@ -69751,6 +69880,7 @@ zyro.com##.zyro-cookies
 ||78.29.14.127^
 ||78.29.19.18^
 ||78.30.234.163^
+||78.30.245.243^
 ||78.38.157.82^
 ||78.38.18.173^
 ||78.41.94.197^
@@ -69776,6 +69906,7 @@ zyro.com##.zyro-cookies
 ||79.140.156.134^
 ||79.143.174.182^
 ||79.165.172.179^
+||79.165.192.3^
 ||79.165.21.78^
 ||79.175.42.206^
 ||79.45.116.89^
@@ -69924,6 +70055,8 @@ zyro.com##.zyro-cookies
 ||81794ea37a.com^
 ||82.114.109.66^
 ||82.114.200.50^
+||82.193.118.248^
+||82.193.120.99^
 ||82.194.55.190^
 ||82.212.109.51^
 ||82.65.205.108^
@@ -69940,7 +70073,6 @@ zyro.com##.zyro-cookies
 ||83.147.93.226^
 ||83.209.41.236^
 ||83.234.147.99^
-||83.234.203.16^
 ||83.234.218.234^
 ||83.239.105.190^
 ||83.243.88.65^
@@ -69958,6 +70090,7 @@ zyro.com##.zyro-cookies
 ||84.255.42.67^
 ||84.52.94.215^
 ||84.54.179.50^
+||84.54.51.37^
 ||847h7f51.de^
 ||8482194.fls.doubleclick.net^
 ||8499583.com^
@@ -70008,7 +70141,7 @@ zyro.com##.zyro-cookies
 ||87.120.179.198^
 ||87.197.107.203^
 ||87.2.101.85^
-||87.76.33.15^
+||87.70.92.167^
 ||87193776899.com^
 ||872edec3-dnsotls-ds.metric.gstatic.com^
 ||874547.men^
@@ -70078,6 +70211,7 @@ zyro.com##.zyro-cookies
 ||88lm15.com^
 ||88lotte.com^
 ||88p2p.com^
+||88tm6.cc^
 ||88vin.shop^
 ||88y7af58x5.com^
 ||89.121.207.186^
@@ -70211,10 +70345,11 @@ zyro.com##.zyro-cookies
 ||91.215.85.18^
 ||91.215.85.223^
 ||91.216.28.112^
-||91.222.173.186^
 ||91.228.64.59^
 ||91.232.188.116^
+||91.237.156.246^
 ||91.237.242.34^
+||91.239.77.159^
 ||91.242.106.137^
 ||91.244.112.102^
 ||91.244.169.56^
@@ -70228,7 +70363,6 @@ zyro.com##.zyro-cookies
 ||9118623467923216370.firebaseio.com^
 ||91199a.xyz^
 ||9119fa4031.com^
-||912648.aioc.qbgxl.com^
 ||913mj.xyz^
 ||9159f9a13d.com^
 ||916cad6201.com^
@@ -70257,11 +70391,14 @@ zyro.com##.zyro-cookies
 ||93.100.78.161^
 ||93.116.219.164^
 ||93.123.53.204^
+||93.123.85.139^
 ||93.175.205.158^
 ||93.175.223.140^
 ||93.177.251.17^
 ||93.189.222.80^
 ||93.39.116.233^
+||93.84.86.104^
+||93.94.156.194^
 ||9309168.fls.doubleclick.net^
 ||933qrzpv31.com^
 ||93bc1.firebaseio.com^
@@ -70311,6 +70448,7 @@ zyro.com##.zyro-cookies
 ||95.43.68.51^
 ||95.6.41.155^
 ||95.65.50.236^
+||95.67.60.25^
 ||95.78.118.134^
 ||95.80.77.125^
 ||95.91.182.4^
@@ -70321,6 +70459,7 @@ zyro.com##.zyro-cookies
 ||95ppq87g.de^
 ||95urbehxy2dh.top^
 ||96.18.165.28^
+||96.65.114.33^
 ||96.92.116.169^
 ||9600015f-dnsotls-ds.metric.gstatic.com^
 ||9603gg.cc^
@@ -70329,7 +70468,6 @@ zyro.com##.zyro-cookies
 ||96a0af5e81.com^
 ||96d80cafb2cc6ad351ea76aea0f55d37.safeframe.googlesyndication.com^
 ||96kso.online^
-||97.128.20.194^
 ||9738624519.com^
 ||973e017e67.com^
 ||975.vn^
@@ -71103,6 +71241,7 @@ zyro.com##.zyro-cookies
 ||abhorcarious.com^
 ||abidedfloria.website^
 ||abiderestless.com^
+||abissnet.net^
 ||abjectionblame.com^
 ||abjectionomnipresent.com^
 ||abjectionpatheticcoloured.com^
@@ -76623,6 +76762,7 @@ zyro.com##.zyro-cookies
 ||analytics.datahc.com^
 ||analytics.datasavannah.com^
 ||analytics.dealmoon.com^
+||analytics.denimdream.com^
 ||analytics.dev.htmedia.in^
 ||analytics.dev.springboardvideo.com^
 ||analytics.developer.riotgames.com^
@@ -77287,7 +77427,6 @@ zyro.com##.zyro-cookies
 ||anti-cheat.info^
 ||anti.69vclub.com^
 ||anti.nukedfans.com^
-||anti.uiiumovies.net^
 ||antiadblock.info^
 ||antiadblocksystems.com^
 ||antiaespheges.com^
@@ -77539,7 +77678,6 @@ zyro.com##.zyro-cookies
 ||api-lb.fitbit.com^
 ||api-logdev.sohatv.vn^
 ||api-mf1.meta.ndmdhs.com^
-||api-ms.cobainaja.id^
 ||api-pro.fitbit.com^
 ||api-project-255162406420.firebaseio.com^
 ||api-project-431765977501.firebaseio.com^
@@ -79226,7 +79364,6 @@ zyro.com##.zyro-cookies
 ||avalanchers.com^
 ||avandor.com/consent$script
 ||avastats.com^
-||avastcsw.com^
 ||avatars.connect.fitbit.com^
 ||avatroom.com^
 ||avault.net^
@@ -80515,7 +80652,6 @@ zyro.com##.zyro-cookies
 ||bc.nhk.jp^
 ||bc16fd1a7f.com^
 ||bc4d452b942c813c2e02dfb1beb30f5c.safeframe.googlesyndication.com^
-||bc5b043a83.com^
 ||bc5c04eefb.com^
 ||bc6dc48b743dc5d01.clicknplay.to^
 ||bc84617c73.com^
@@ -83054,7 +83190,6 @@ zyro.com##.zyro-cookies
 ||bravotrk.com^
 ||brawlperennialcalumny.com^
 ||brazenwholly.com^
-||brazilanimalshelp.com^
 ||brazzerssurvey.com
 ||brazzerssurvey.com^
 ||brbupali.com^
@@ -83450,6 +83585,7 @@ zyro.com##.zyro-cookies
 ||btxxxnav.com^
 ||btyhnbmn289.shop^
 ||btyhnraw653.shop^
+||btyrtr2.com^
 ||bu.sectistfrow.com^
 ||bu1.duba.com^
 ||bu1.vvvdj.com^
@@ -84719,6 +84855,7 @@ zyro.com##.zyro-cookies
 ||cargodisplayads.com^
 ||cargotropical.com^
 ||caribanner.bid^
+||caribedkurukh.com^
 ||caribou.clintgwinter.com^
 ||caribou.color.io^
 ||caribou.mcgregorpublishing.com^
@@ -84769,6 +84906,7 @@ zyro.com##.zyro-cookies
 ||carsickpractice.com^
 ||cartedneogene.com^
 ||cartining-specute.com^
+||cartmansneest.com^
 ||cartponi.tk^
 ||cartrigechances.com^
 ||cartrigestale.com^
@@ -85274,15 +85412,11 @@ zyro.com##.zyro-cookies
 ||cdn.discordapp.com/attachments/1197652759411966144/1213143273623785563/importante_boleta_cita_fiscal_no_005779.js$all
 ||cdn.discordapp.com/attachments/1197652759411966144/1214282076682199130/comprobante_de_pago.js$all
 ||cdn.discordapp.com/attachments/1197790886046740510/1221524393180528790/stealloadersial.exe?ex=6612e43e&is=66006f3e&hm=bd69f9718b560b335d13083ea54d734e5ae027309da877356e3ec32327d29427&$all
-||cdn.discordapp.com/attachments/1199361106133651587/1206985376044941402/grappletanks.rar?ex=65ddffba&is=65cb8aba&hm=84dbc6757e26457fd00103392f7492314382381fdc3bbd9ccdba8828109ba60e&$all
 ||cdn.discordapp.com/attachments/1200938112482816101/1222975709102739567/setup_1.1.5.exe?ex=66182be2&is=6605b6e2&hm=5b58af200745508c23e53b9cbe97d7d1077c8abf2de3bedac45b6c0c33397000&$all
-||cdn.discordapp.com/attachments/1202291311894593550/1208059129021866044/comprobante_de_transferencia.js$all
-||cdn.discordapp.com/attachments/1202291311894593550/1208165934011908126/comprobante_de_pago.vbs$all
 ||cdn.discordapp.com/attachments/1202291311894593550/1211680167970213898/envio_comprobante.js$all
 ||cdn.discordapp.com/attachments/1202291311894593550/1214915489193660426/notificacion_de_pago.wsf$all
 ||cdn.discordapp.com/attachments/1207038707224420402/1212105790098243694/huedini_game.rar?ex=65f0a07c&is=65de2b7c&hm=93838538759ccf2eb5a8a9dd17061d9b72b877599065c6a51ba5480a6e77392e&$all
 ||cdn.discordapp.com/attachments/1207076574973788213/1220543834426179604/animetokyo.rar?ex=660f5306&is=65fcde06&hm=d03c1a05127d6646098e0e2fd8026e51edf05f3019d06bbcd513812cfba67fcb&$all
-||cdn.discordapp.com/attachments/1207947740814770237/1207948399748325376/arenawars.rar?ex=65e1809d&is=65cf0b9d&hm=117e581050664b5adfba91365a66d717394f3078a306d3a303bf0c1e376f5299&$all
 ||cdn.discordapp.com/attachments/1208455733834940496/1208803533730881650/nsfw_package_installer.exe?ex=65e49d04&is=65d22804&hm=cd332ec0eac896dabf7c915f6bab0f0ee72cdc8b17d5e2b784164c3fcc74930f&$all
 ||cdn.discordapp.com/attachments/1208579991122739300/1212144244459049070/mauqes_beta.rar?ex=65f0c44c&is=65de4f4c&hm=b74654c348f4b3e5bfbfdb88c3d708e691b492009279fe53a4bb0dabc61bffb8&$all
 ||cdn.discordapp.com/attachments/1208807524732637188/1208807804534525982/heosnzioznnae1.exe?ex=65e4a0ff&is=65d22bff&hm=cbdb3fe06e25618da74775a3b257a5acdd26277dcdd8ee9a063962cac96100a3&$all
@@ -86163,6 +86297,7 @@ zyro.com##.zyro-cookies
 ||chemicsemsen.guru^
 ||chemistryscramble.com^
 ||chemitug.net^
+||chemsky.tn^
 ||chemtoaxeehy.com^
 ||chengaib.net^
 ||chenhaishan.info^
@@ -87453,6 +87588,7 @@ zyro.com##.zyro-cookies
 ||cnmisflbwrnrtph.com^
 ||cnnected.org^
 ||cnnx.link^
+||cnom.sante.gov.ml^
 ||cnomy.com^
 ||cnqaaa.xyz^
 ||cnrdlpk.xyz^
@@ -89024,7 +89160,6 @@ zyro.com##.zyro-cookies
 ||coveredbetting.com^
 ||coveredsnortedelectronics.com^
 ||coveredstress.com^
-||covid19help.top^
 ||covisithebraic.com^
 ||covivado.club^
 ||cow-timerbudder.org^
@@ -89250,6 +89385,7 @@ zyro.com##.zyro-cookies
 ||cqngirxstgeeg.com^
 ||cqnmtmqxecqvyl.com^
 ||cqpiumcjacb.com^
+||cqpph.cn^
 ||cqqmwkkkfntjr.com^
 ||cqrvwq.com^
 ||cqtlimi.cn^
@@ -92775,6 +92911,7 @@ zyro.com##.zyro-cookies
 ||dhl.135320.com^
 ||dhlexpress-vietnam.com.vn^
 ||dhlvietnam-express.vn^
+||dhnconstrucciones.com.ar/wp-admin/sm02zsvdywdotb7rql/$all
 ||dhobeynandi.com^
 ||dhobieslocater.uno^
 ||dhobisbeiges.top^
@@ -92834,7 +92971,6 @@ zyro.com##.zyro-cookies
 ||diarchkids.guru^
 ||diasciaturned.com^
 ||diated.com^
-||diazoestmark.guru^
 ||dibrachndoderm.com^
 ||dibsemey.com^
 ||dic9vgwbkxd8r.cloudfront.net^
@@ -93499,6 +93635,7 @@ zyro.com##.zyro-cookies
 ||dl-vip.bav.baidu.com
 ||dl-vip.pcfaster.baidu.co.th
 ||dl.1003b.56a.com^
+||dl.198424.com^
 ||dl.2345.com
 ||dl.360safe.com
 ||dl.4kporn.xxx^
@@ -94143,6 +94280,7 @@ zyro.com##.zyro-cookies
 ||doweryacreak.website^
 ||down.360.cn
 ||down.360safe.com
+||down.furnitureoptimal.com^
 ||down.houxingfu.com
 ||down.huyiju.com
 ||down.pcclear.com^
@@ -99814,7 +99952,6 @@ zyro.com##.zyro-cookies
 ||flewroundandro.info^
 ||flexbanner.com^
 ||flexcheekadversity.com^
-||flexiblemaria.com^
 ||flexlinks.com^
 ||flexterkita.com^
 ||flfegwxrctclm.com^
@@ -100771,7 +100908,6 @@ zyro.com##.zyro-cookies
 ||frombatmuch.live^
 ||fromjoytohappiness.com^
 ||fromoffspringcaliber.com^
-||frompolje.uno^
 ||fromthetrenchesworldreport.com/analytics/zy5ntk/$all
 ||front.optimonk.com^
 ||frontcognizance.com^
@@ -103017,6 +103153,7 @@ zyro.com##.zyro-cookies
 ||gobacktothefuture.biz^
 ||gobanspagodas.com^
 ||gobeerta.net^
+||gobesitysurgery.com^
 ||gobetweencomment.com^
 ||gobetweengroan.com^
 ||gobetweensmartlyattic.com^
@@ -105596,6 +105733,7 @@ zyro.com##.zyro-cookies
 ||hfqjfnswctf.xyz^
 ||hfqnbrrutmyqlo.com^
 ||hfresgtyytjncvvh.com^
+||hfs.t1linux.com^
 ||hfufkifmeni.com^
 ||hfugukhcea.com^
 ||hfvqqbwverxy.xyz^
@@ -106183,7 +106321,6 @@ zyro.com##.zyro-cookies
 ||home.trial.nest.com^
 ||home.youzu.com
 ||homebizhangout.com^
-||homebrew.cx^
 ||homecloudcastsdk-pa.googleapis.com^
 ||homecomingrespectedpastime.com^
 ||homecredit1.com^
@@ -107851,6 +107988,7 @@ zyro.com##.zyro-cookies
 ||ilumtoux.net^
 ||ilvnkzt.com^
 ||ilvpbrvrpzrys.com^
+||ilvqyya.cn^
 ||ilxhsgd.com^
 ||ilxkwlhqo.com^
 ||ilyf4amifh.com^
@@ -107910,6 +108048,7 @@ zyro.com##.zyro-cookies
 ||imasdk.googleapis.com^
 ||imathematica.org^
 ||imatrk.net^
+||imawwq.xyz^
 ||imbasedsquidge.com^
 ||imbikh.icu^
 ||imblic.com^
@@ -108173,7 +108312,6 @@ zyro.com##.zyro-cookies
 ||imstks.com^
 ||imtmp.net^
 ||imtoken8.cc^
-||imtokeon.com^
 ||imugjnniij.com^
 ||imvjcds.com^
 ||imwxsu.xyz^
@@ -108334,7 +108472,6 @@ zyro.com##.zyro-cookies
 ||indofad.com^
 ||indofreeads.com^
 ||indoleads.com^
-||indonesias.me^
 ||indooritalian.com^
 ||indraftcoft.digital^
 ||indratankman.com^
@@ -108352,7 +108489,6 @@ zyro.com##.zyro-cookies
 ||ineffectivenaive.com^
 ||ineffectivepest.com^
 ||inegolreklam.net^
-||ineptlyoutblot.com^
 ||ineptsaw.com^
 ||ineriweism.top^
 ||inertimpuredeadlock.com^
@@ -110252,6 +110388,7 @@ zyro.com##.zyro-cookies
 ||jghjhtz.com^
 ||jgidskia.top^
 ||jgmywh.icu^
+||jgntjtyf.icu^
 ||jgpvgjtldgocob.com^
 ||jgqaoipkohsln.com^
 ||jgqflgggex.com^
@@ -110532,6 +110669,7 @@ zyro.com##.zyro-cookies
 ||joathaji.xyz^
 ||joathath.com^
 ||jobbio.com^
+||jobcity.com^
 ||jobfilletfortitude.com^
 ||jobfinder1.page.link^
 ||joblouder.com^
@@ -112876,6 +113014,7 @@ zyro.com##.zyro-cookies
 ||lamkghx.icu^
 ||lammaou.xyz^
 ||lammasbananas.com^
+||lamor.travelfuchsia.biz^
 ||lamp-shade.net^
 ||lampdrewcupid.com^
 ||lampingkilned.com^
@@ -113043,6 +113182,7 @@ zyro.com##.zyro-cookies
 ||launches.appsflyersdk.com^
 ||launchingonsetwhirlwind.com^
 ||laundrydesert.com^
+||laupelezoow.xyz^
 ||laureevie.com^
 ||laurel.macrovision.com^
 ||laurel.rovicorp.com^
@@ -113718,7 +113858,6 @@ zyro.com##.zyro-cookies
 ||librariandemocrattoss.com^
 ||libraries.wmgartistservices.com/gdpr$script
 ||libraries.wmgartistservices.com/pplightbox$script
-||library.arihantmbainstitute.ac.in^
 ||libraryglowingjo.com^
 ||librateam.net^
 ||librato-collector.genius.com^
@@ -115157,6 +115296,7 @@ zyro.com##.zyro-cookies
 ||lossactivity.com^
 ||losstrack.com^
 ||lostdormitory.com^
+||lostheaven.com.cn^
 ||lostinfuture.com^
 ||lostun.com^
 ||losybsno.com^
@@ -118137,7 +118277,6 @@ zyro.com##.zyro-cookies
 ||microadinc.com^
 ||microanalytics.io^
 ||microapps.google.com^
-||microbal.net^
 ||microcounter.de^
 ||micronsecho.com^
 ||micronsofte-online.com^
@@ -118796,6 +118935,7 @@ zyro.com##.zyro-cookies
 ||mobicow.com^
 ||mobidevdom.com^
 ||mobidriven.com^
+||mobiera.ro^
 ||mobiflyc.com^
 ||mobiflyd.com^
 ||mobiflys.com^
@@ -119143,7 +119283,6 @@ zyro.com##.zyro-cookies
 ||mongoose.thechocolatelife.com^
 ||mongoosemetrics.com^
 ||monhax.com^
-||moninediy.com^
 ||monismartlink.com^
 ||monitis.com^
 ||monitor-ads-test.huan.tv^
@@ -120856,6 +120995,7 @@ zyro.com##.zyro-cookies
 ||nch-software.info^
 ||nchxzmhr.com^
 ||ncjpbv.xyz^
+||nclljn.xyz^
 ||ncmxwhf.icu^
 ||ncno1.playno1.com
 ||ncoadbwagfvsdya.com^
@@ -124380,6 +124520,7 @@ zyro.com##.zyro-cookies
 ||oplpectation.xyz^
 ||opmuudn.com^
 ||opnbwg.com^
+||opolis.io^
 ||oponixa.com^
 ||opootsoa.net^
 ||opossum.roleup.com^
@@ -125471,7 +125612,6 @@ zyro.com##.zyro-cookies
 ||pagamento.afya.com.br^
 ||page-events-ustats.udemy.com^
 ||page-hit.de^
-||page.wedl3.com^
 ||page.widget.zalo.me^
 ||pagead.googlesyndication.com^
 ||pagead.l.doubleclick.net^
@@ -125592,6 +125732,7 @@ zyro.com##.zyro-cookies
 ||paleexamsletters.com^
 ||paletotpankin.website^
 ||paletteoverjoyed.com^
+||palharesinformatica.com.br^
 ||palibs.tech^
 ||palibzh.tech^
 ||paliglaiks.life^
@@ -125947,7 +126088,6 @@ zyro.com##.zyro-cookies
 ||passwordssaturatepebble.com^
 ||pasta.esfile.duapps.com^
 ||paste.ee/d/0fq71$all
-||paste.ee/d/0kkom$all
 ||paste.ee/d/0krpn$all
 ||paste.ee/d/0q4c2$all
 ||paste.ee/d/0ucz3$all
@@ -125995,7 +126135,6 @@ zyro.com##.zyro-cookies
 ||paste.ee/d/gvp3u$all
 ||paste.ee/d/hofbw/0$all
 ||paste.ee/d/hpd4q$all
-||paste.ee/d/ijgyf$all
 ||paste.ee/d/ikfbd$all
 ||paste.ee/d/ivnbz/0$all
 ||paste.ee/d/jccvm$all
@@ -128105,6 +128244,7 @@ zyro.com##.zyro-cookies
 ||pnperf.com^
 ||pnq.babcoxmediainc.com^
 ||pnrblholty.com^
+||pns.org.pk^
 ||pnsqsv.com^
 ||pntra.com^
 ||pntrac.com^
@@ -129604,7 +129744,6 @@ zyro.com##.zyro-cookies
 ||prx.com
 ||prx.wayfair.com^
 ||prxeceafdxdlc.xyz^
-||prxof.live^
 ||prxy.online^
 ||prydrains.top^
 ||pryrhoohs.site^
@@ -130734,6 +130873,7 @@ zyro.com##.zyro-cookies
 ||qclgcdtv.com^
 ||qcmjdptyikwf.xyz^
 ||qcohkm.xyz^
+||qcollect.co.za^
 ||qcotzalsettiv.com^
 ||qcroag.com^
 ||qcsjmidihe.com^
@@ -130810,6 +130950,7 @@ zyro.com##.zyro-cookies
 ||qgerr.com^
 ||qgevavwyafjf.com^
 ||qgexkmi.com^
+||qgidskiy.top^
 ||qgisjfmwhhsmfe.com^
 ||qgl27.xyz^
 ||qgnlbjkxrzb.com^
@@ -131021,6 +131162,7 @@ zyro.com##.zyro-cookies
 ||qprthjab.com^
 ||qpvbsekwtwsoe.com^
 ||qpxohp.com^
+||qpzegye.cn^
 ||qpztub.xyz^
 ||qq.5glyqw.com^
 ||qq.8368661.com^
@@ -136159,6 +136301,7 @@ zyro.com##.zyro-cookies
 ||sailundu.xyz^
 ||sainingnuggar.guru^
 ||saintselfish.com^
+||sainzim.co.za^
 ||saipeevit.net^
 ||saipsoan.net^
 ||saishait.net^
@@ -136381,7 +136524,6 @@ zyro.com##.zyro-cookies
 ||saub27i3os.com^
 ||saucebuttons.com^
 ||sauceheirloom.com^
-||saucilytalwood.cam^
 ||saucon-sponsors.streetinteractive.com^
 ||saugeeth.net^
 ||saugerarcate.top^
@@ -137362,7 +137504,6 @@ zyro.com##.zyro-cookies
 ||serialwarning.com^
 ||serie-vostfr.com^
 ||serie-vostfr.com^$third-party
-||serietrk.com^
 ||serifgorry.top^
 ||serious-partners.com^
 ||seriouslygesture.com^
@@ -137470,7 +137611,6 @@ zyro.com##.zyro-cookies
 ||servinghandy.com^
 ||servingserved.com^
 ||servingsurroundworldwide.com^
-||servisaludocupacional.pe^
 ||servo-report.dvdfab.
 ||servote.de^
 ||servsvietnam.com^
@@ -137487,7 +137627,6 @@ zyro.com##.zyro-cookies
 ||sessioncam.com^
 ||sessionm.com^
 ||sessions.bugsnag.com^
-||sessosesso.it^
 ||sestat.baidu.com
 ||sestonenures.com^
 ||setbeat.com^
@@ -138551,7 +138690,6 @@ zyro.com##.zyro-cookies
 ||shuglaursech.com^
 ||shugnais.net^
 ||shugraithou.com^
-||shuiwujc4.cn^
 ||shukriya90.com^
 ||shukselr.com^
 ||shulsbs.cn^
@@ -139350,6 +139488,7 @@ zyro.com##.zyro-cookies
 ||smathe.com^
 ||smatr.icu^
 ||smatr.net^
+||smbeckwithlaw.com^
 ||smbx8.net^
 ||smearedbin.com^
 ||smearincur.com^
@@ -139683,6 +139822,7 @@ zyro.com##.zyro-cookies
 ||sofq.site^
 ||sofseo.cn^
 ||soft-com.biz^
+||soft.110route.com^
 ||soft.tbs.imtt.qq.com^
 ||softboxik1.ru^
 ||softclick.com.br^
@@ -140475,6 +140615,7 @@ zyro.com##.zyro-cookies
 ||springjaywolf.org^
 ||springmetrics.com^
 ||springraptureimprove.com^
+||springs-citation-house-congressional.trycloudflare.com^
 ||springserve.com^
 ||sprinklecontent.com^
 ||sprinkletxt.com^
@@ -140577,6 +140718,7 @@ zyro.com##.zyro-cookies
 ||sragegedand.org^
 ||srasylzu.com^
 ||src.fitbit.com^
+||src1.minibai.com^
 ||srcip.com^
 ||srcip.com^$third-party
 ||srcips.com^
@@ -140849,6 +140991,7 @@ zyro.com##.zyro-cookies
 ||starbucksthai.shop^
 ||starchportraypub.com^
 ||starchytoxifer.top^
+||starcountry.net^
 ||stardatis.com^
 ||stardomcoit.com^
 ||starefolks.com^
@@ -141164,6 +141307,7 @@ zyro.com##.zyro-cookies
 ||staticsns.cdn.bcebos.com^
 ||staticxz.com^
 ||staticz.hotpornfile.org^
+||station-jup.org^
 ||station.google.com^
 ||stationspire.com^
 ||statis.dsp.vn^
@@ -145899,7 +146043,6 @@ zyro.com##.zyro-cookies
 ||tq-eu.resugovex-2.co^
 ||tq.adventurefeeds.com^
 ||tq.clouback-1.online^
-||tq.clouback-2.online^
 ||tq.iforcircles-1.online^
 ||tq.iforcircles-2.online^
 ||tq.ldnpointer.online^
@@ -146993,7 +147136,6 @@ zyro.com##.zyro-cookies
 ||transfer.sh/get/kwyv60sqn1/factory.exe$all
 ||transfer.sh/get/lqjc3v4exn/crypted.exe$all
 ||transfer.sh/get/mmffcg1y1k/fguhgu.exe$all
-||transfer.sh/get/n6me6ksfqy/pheonix.zip$all
 ||transfer.sh/get/nzowjd0wwe/pnkpntr.exe$all
 ||transfer.sh/get/pcxgcoqatq/mugrealistic.exe$all
 ||transfer.sh/get/q3ri8r0lfc/xapaktep_design_crypted_lab.exe$all
@@ -147075,6 +147217,7 @@ zyro.com##.zyro-cookies
 ||travelscream.com^
 ||traveltop.org^
 ||traveltracking.check24.de^
+||travelwithmanta.co.za^
 ||traversefloral.com^
 ||travescorylus.com^
 ||travidia.com^
@@ -147115,6 +147258,7 @@ zyro.com##.zyro-cookies
 ||treasured-dad.pro^
 ||treasureralludednook.com^
 ||treasureravenvulgar.com^
+||treathuffily.com^
 ||treatment.grammarly.com^
 ||treatmentaeroplane.com^
 ||treatrechurn.uno^
@@ -148079,6 +148223,7 @@ zyro.com##.zyro-cookies
 ||txgeszx.com^
 ||txhrnluuyt.com^
 ||txjhmbn.com^
+||txmeeqz.icu^
 ||txnhmdvka.com^
 ||txouliypi.com^
 ||txpwtidvgvt.com^
@@ -149702,6 +149847,7 @@ zyro.com##.zyro-cookies
 ||uvxclrl.com^
 ||uvzomxvbpbgo.com^
 ||uwadpksbkzp.com^
+||uwams.info^
 ||uwandlt.top^
 ||uwavoptig.com^
 ||uwayemfogibbgh.xyz^
@@ -150327,7 +150473,6 @@ zyro.com##.zyro-cookies
 ||vbrbgki.com^
 ||vbtrax.com^
 ||vbutycp.cn^
-||vbwindowsdefnkmebe.pages.dev^
 ||vbzfjh.xyz^
 ||vbzrkme.xyz^
 ||vbzsjkrnsqewy.com^
@@ -151499,8 +151644,6 @@ zyro.com##.zyro-cookies
 ||vjzlgtnaov.com^
 ||vk-ads.ru^
 ||vk.com
-||vk.com/doc329118071_674975669?hash=ojjyivdjxn741xoume56lszhuuujzqksqqo8lo3w5cl&dl=3js5hcrgyxj15xgsvdhbnxstczlihnuctovd25phqtz&api=1&no_preview=1$all
-||vk.com/doc329118071_674994704?hash=nhugmrxztzcs2wvp2zernxdvippdzpkd8rxamtrlrc8&dl=wje3pzogoaie1psiaihkpk25oj7y0bjvnph8xuczjzl&api=1&no_preview=1#1$all
 ||vk.com/doc329118071_675000252?hash=tbzcndrma1ukvjdsmlkpihkbsma06f6alrcnd1afsmh&dl=1zzzn74e0aawla04pvyhkii5wzonq1ewhzgdulxjodh&api=1&no_preview=1#xpira$all
 ||vk.com/doc329118071_675001872?hash=6iwrhqmkzukr9q4yyhhmaiebzivrmgy1en0chu4qfkl&dl=5pzer13jlsd7za8gotlyez2wv4rdcnhag1vhejz3fdh&api=1&no_preview=1$all
 ||vk.com/doc329118071_675022710?hash=wlpkvvtrjsyyqyefidw6jkauwvwx9dpiq9mznz6mw2h&dl=hdsqesgizigetntotr7dzash0coqyvcjezyfjdrlc9l&api=1&no_preview=1#lumma_market$all
@@ -158435,7 +158578,6 @@ zyro.com##.zyro-cookies
 ||ys2000.cdn.bcebos.com^
 ||ys3e965d.top^
 ||ysb76.com
-||ysbaojia.com^
 ||yscfsmxrtcifye.com^
 ||yscntxil.com^
 ||ysdk.qq.com^
@@ -158626,7 +158768,6 @@ zyro.com##.zyro-cookies
 ||z.grfyw.com^
 ||z.nowscore.com^
 ||z.opmnstr.com^
-||z.shavsl.com^
 ||z.tudouxy01.com^
 ||z.webengage.com^
 ||z0000g.yorkvillemarketing.net^
