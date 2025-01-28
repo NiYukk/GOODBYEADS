@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-01-27 20:41:23（北京时间）
+! Version: 2025-01-28 09:40:06（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 328
+! Total count: 330
 @@-ds.metric.gstatic.com^|
 @@broadcastlv.chat.bilibili.com^
 @@jd.com/*ad_
@@ -210,6 +210,7 @@
 @@||lib.baomitu.com/video.js/*/video.min.js$domain=69xx03608.xyz
 @@||lib.baomitu.com/vue/*/vue.global.prod.min.js$domain=69xx03608.xyz
 @@||link.morningbrew.com^|
+@@||link.sylikes.com^|
 @@||linka.page^|
 @@||links.e.theatlantic.com^|
 @@||links.getblueshift.com^|
@@ -261,6 +262,7 @@
 @@||quark.sm.cn^$important
 @@||quiknode.pro^$websocket
 @@||radiofrance.targetspot.com^|
+@@||rd.bizrate.com^|
 @@||recommender.scarabresearch.com^|
 @@||redir.ownpage.fr^|
 @@||redir.tradedoubler.com^|
