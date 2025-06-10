@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-06-09 20:51:56（北京时间）
+! Version: 2025-06-10 10:03:52（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 338
+! Total count: 333
 @@-ds.metric.gstatic.com^|
 @@broadcastlv.chat.bilibili.com^
 @@jd.com/*ad_
@@ -211,9 +211,6 @@
 @@||lags.win/ctf$websocket
 @@||learn.khanacademy.org^|
 @@||leechers-paradise.org^|
-@@||lib.baomitu.com/axios/*/axios.min.js$domain=69xx03608.xyz
-@@||lib.baomitu.com/video.js/*/video.min.js$domain=69xx03608.xyz
-@@||lib.baomitu.com/vue/*/vue.global.prod.min.js$domain=69xx03608.xyz
 @@||link.morningbrew.com^|
 @@||link.sylikes.com^|
 @@||linka.page^|
@@ -277,8 +274,6 @@
 @@||republicbharat.com/_app/immutable/assets/FloatAd.*.css$domain=republicbharat.com
 @@||republicbharat.com/_app/immutable/chunks/FloatAd.*.js$domain=republicbharat.com
 @@||res.ads.nicovideo.jp^|
-@@||res.aidegelin.cn/dom2/js/app.js$domain=69xx03608.xyz
-@@||res.aidegelin.cn/dom2/js/com.js$domain=69xx03608.xyz
 @@||research.hchs.hc.edu.tw/*/banner.php$domain=research.hchs.hc.edu.tw
 @@||rm.sina.com.cn/minisite/*/css/art_normal.css$domain=client.sina.cn
 @@||s1-static.msstatic.com/mfe/huya_main/*.html$xmlhttprequest,elemhide,jsinject,content,extension,domain=huya.com
