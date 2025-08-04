@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-08-04 10:28:47（北京时间）
+! Version: 2025-08-04 20:58:58（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 331
+! Total count: 333
 @@-ds.metric.gstatic.com^|
 @@broadcastlv.chat.bilibili.com^
 @@jd.com/*ad_
@@ -274,6 +274,7 @@
 @@||res.ads.nicovideo.jp^|
 @@||research.hchs.hc.edu.tw/*/banner.php$domain=research.hchs.hc.edu.tw
 @@||rm.sina.com.cn/minisite/*/css/art_normal.css$domain=client.sina.cn
+@@||s.bluecore.com^|
 @@||s1-static.msstatic.com/mfe/huya_main/*.html$xmlhttprequest,elemhide,jsinject,content,extension,domain=huya.com
 @@||sax.sina.com.cn^|
 @@||sbs.demdex.net^|
@@ -313,6 +314,7 @@
 @@||track.webgains.com^|
 @@||tracker.ai.xiaomi.com^
 @@||translate.googleapis.com/element/$badfilter
+@@||trk.ecomm.lenovo.com^|
 @@||union.video.qq.com/fcgi-bin/$script,domain=qq.com
 @@||uniqlo.com^$jsinject,content
 @@||uxip.meizu.com^
