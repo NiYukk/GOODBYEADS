@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2025-12-23 09:57:29（北京时间）
+! Version: 2025-12-23 20:52:29（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 5410
+! Total count: 5412
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@&http_referer=$domain=chaopx.com
 @@*$popup,~third-party,domain=canna.to|canna-power.to
@@ -1470,6 +1470,7 @@
 @@||collect.igodigital.com/collect.js$domain=vitalsource.com
 @@||collect.igodigital.com/collect.js$domain=wilsonparking.com.au
 @@||collections.archives.govt.nz/combo/*/gtag.js$script,~third-party
+@@||collector-*.px-cloud.net^$xmlhttprequest,domain=ifood.com.br
 @@||collector.appconsent.io/hello$domain=lachainemeteo.com|lefigaro.fr
 @@||collector.leaddyno.com/shopify.js$script,domain=s4l.us
 @@||collector.wawlabs.com/mediamarkt.js$domain=mediamarkt.com.tr
@@ -5005,6 +5006,7 @@
 @@||trustprofile.com/banners/$image
 @@||try.abtasty.com/403fb16c20596e4691fbe9ec5db9720e.js$domain=shop.euromaster.de
 @@||try.abtasty.com/78cb84f9b3158bdce6932109a6d7c7c1.js$domain=tf1.fr
+@@||try.abtasty.com^$script,domain=tickpick.com
 @@||tsyndicate.com/sdk/v1/n.js$domain=hpjav.tv
 @@||tt.omtrdc.net/rest/$xmlhttprequest,domain=shop.shoppersdrugmart.ca
 @@||tt1069.com/adbrite.js
