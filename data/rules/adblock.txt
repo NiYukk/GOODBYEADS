@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-01-02 20:49:49（北京时间）
+! Version: 2026-01-03 09:53:53（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 121793
+! Total count: 121806
 
 #
 ###ADtip
@@ -6700,6 +6700,7 @@ bilibili.com##.btn-ctnr
 bilibili.com##.clearfix.h5-download-bar
 bilibili.com##.container > .bili-feed-card:has(> div.bili-video-card div.bili-video-card__info--no-interest + h3 > a[target="_blank"]:not([href^="https://www.bilibili.com/"]))
 bilibili.com##.container > div.bili-video-card.is-rcmd:not(:has(> *))
+bilibili.com##.container > div.feed-card:empty
 bilibili.com##.desktop-download-tip
 bilibili.com##.download-client-trigger.download-entry
 bilibili.com##.eva-banner
@@ -6720,6 +6721,7 @@ bilibili.com##.open-app-bar
 bilibili.com##.open-btn
 bilibili.com##.operate-card[data-target-url*=".miaozhen."]
 bilibili.com##.operate-card[data-target-url*="doubleclick."]
+bilibili.com##.recommended-swipe-body-normal div.vui_carousel__slide:has(> div.carousel-area > div.carousel-area-img > a > img[src$="/eva.png"])
 bilibili.com##.title > span > a[href^="http"]:not([href*=".bilibili."])
 bilibili.com##.topic-preview > li > a[href^="http"]:not([href*=".bilibili."])
 bilibili.com##.video-page-game-card
@@ -17136,6 +17138,7 @@ zzzyk.com###Tinfo
 ||5nt1gx7o57.com^
 ||5o8aj5nt.de^
 ||5odd5zsn.xyz^
+||5p35xkp1p.com^
 ||5pi13h3q.de^
 ||5pub.com^
 ||5qjspf2c.xyz^
@@ -23494,6 +23497,7 @@ zzzyk.com###Tinfo
 ||ainb01011zh.com^
 ||ainb01020zh.com^
 ||ainb01021zh.com^
+||ainb01030zh.com^
 ||ainb12241zh.com^
 ||ainb12250zh.com^
 ||ainb12251zh.com^
@@ -32358,6 +32362,7 @@ zzzyk.com###Tinfo
 ||c0me-get-s0me.net^
 ||c0nmelm3y2.com^
 ||c0p.cepsum.umontreal.ca^
+||c0xz0b2dy.com^
 ||c0zwsdryg.com^
 ||c1.4qx.net^
 ||c1.chajiaotong.com^
@@ -32726,6 +32731,7 @@ zzzyk.com###Tinfo
 ||can-get-some.net^
 ||canadamarketing.travelsavers.com^
 ||cancannicolas.com^
+||cancellation58.top^
 ||canceltrustingunderuse.com^
 ||canddi.com^
 ||candid-dress.com^
@@ -33756,6 +33762,7 @@ zzzyk.com###Tinfo
 ||cgcg01010ht.com^
 ||cgcg01011ht.com^
 ||cgcg01020ht.com^
+||cgcg01030ht.com^
 ||cgcjmgmcpddvh.website^
 ||cgctsw.mytour.vn^
 ||cgdh.fenbengpan.cn^
@@ -51705,6 +51712,7 @@ zzzyk.com###Tinfo
 ||g11885060100.co^
 ||g12083144435.co^
 ||g12281228770.co^
+||g12tm6xl3.com^
 ||g13eyx.com^
 ||g15wt3ci68.com^
 ||g1be.swisslife-direct.fr^
@@ -57181,6 +57189,7 @@ zzzyk.com###Tinfo
 ||hltryajudhiwp.space^
 ||hltxcvdlwka.com^
 ||hlufsqadxupgr.website^
+||hluraiwoy.com^
 ||hlwguammsvikv.online^
 ||hlwtejrntzikz.online^
 ||hlxyidqacaivu.site^
@@ -86077,6 +86086,7 @@ zzzyk.com###Tinfo
 ||ppwknzdoicgkd.website^
 ||ppxndfgf.icu^
 ||ppxomldexqmxf.online^
+||ppxqhx.icu^
 ||ppxwlgpxkr.com^
 ||ppyflc.uniformnext.com^
 ||ppyibei.com^
@@ -92113,6 +92123,7 @@ zzzyk.com###Tinfo
 ||rt.prnewswire.com^
 ||rt.whitebridge.ai^
 ||rt2.m.630book.la^
+||rt5x78mhcq.com^
 ||rta.dailymail.co.uk^
 ||rta2.inews.co.uk^
 ||rta2.metro.co.uk^
@@ -101774,6 +101785,7 @@ zzzyk.com###Tinfo
 ||swat8toot.com^
 ||swatad.com^
 ||swatledgesling.com^
+||swaw.cn^
 ||swbbtzshzxsve.space^
 ||swc.weather.com.cn^
 ||swcnmtb.top^
@@ -113921,6 +113933,7 @@ zzzyk.com###Tinfo
 ||w6xdba54n.com^
 ||w7.berlin.de^
 ||w740.newstimes.com^
+||w75zr9nfj.com^
 ||w766ewvx75.com^
 ||w88.abc.com^
 ||w88.disneynow.com^
