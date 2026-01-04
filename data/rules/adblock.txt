@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-01-03 20:47:44（北京时间）
+! Version: 2026-01-04 10:09:59（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 121813
+! Total count: 121830
 
 #
 ###ADtip
@@ -1478,7 +1478,7 @@
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style^="line-height"][style*="http"][style$="fixed;"]
 ##div[style^="position"][onclick^="window.open"]
-##div[style^="position:fixed; bottom:0vw; left:"][style$="vw;background: #000;opacity:0.01;"]
+##div[style^="position:fixed; bottom:"][style$="vw;background: #000;opacity:0.01;"]
 ##dl#listwoBox
 ##header + #main:nth-child(n+4) .container-fluid.mb-0.p-0
 ##header + #main:nth-child(n+4) .container-fluid.mb-3.p-0
@@ -1540,6 +1540,7 @@
 ##vg-pause-f
 $$div[style="display: none !important;"]:contains(!function(){function a(a){var _idx=)
 $$div[style="display: none !important;"]:contains('ed2k://)
+$$div[style="display: none !important;"]:contains(return atob()
 $csp=script-src 'self' * 'unsafe-inline',domain=bijiyd.com|7zhens.com|wamuku.cc|scmmxs.com|jinduxs.com|buhesw.com|luenbook.cc|zahubook.com|heciwk.com|quhesw.com|erzuwk.com|bowoxs.com|guashuge.com|mudanxs.com|mzbook.cc|haduks.com|caimozw.com|zaaizw.com|bogeks.com|oushuku.com|haxu8.com|pucixs.com|tuqisw.com|xueyisw.com|zuye8.com|yawoxs.com|guwoxs.com|jiufuzw.com|beianxs.com|shuying6.com|mafusw.com|cule9.com|riquzw.com|xingksw.com|enbusw.com|waguwk.cc|ruyisw.com|zuxiku.com|jinmusb.com|hunshuge.com|puyewk.com|kaaiwk.com|hadu520.com|qubosw.com|meisibook.com|cuaizw.cc|boxue8.cc|cipubook.com|ququsk.cc|yiyezao.com|shanhuxs.com|jiutusw.com|chahuax.com|candoug.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|nuoshuge.com|puquz.com|wuwusk.com
 $csp=script-src 'self' * 'unsafe-inline',domain=erciyan.com|feiguaks.com|iqmxs.cc|jinpai123.net|hshfm.com|xbiqige.cc|1qxs.com|xddxsw.net|jakxs.net|bisowu.net|zyywenxue.com|xiakezw.com|biqul.com|biqugeks.org|girlsoncam.net|japonfilmleri.com|minaeast.net|shumi.la|59xs.com|biqugen.com|8181zw.vip|biqugequ.org|69shumi.com|fxxs3.com|efuxs.com|i3book.com|genbiquge.com|quanbiqu.com|pinshu.org|13xsw.com|bbiquge.cc|taobiquge.com|haijiaobooksw.top|zlobin.net|piaotianxiaoshuo.com|jvbiquge.com|vipbiquge.com|jpbqg7.com|zuizhong.net|oldtimeswx.org|5book.cc|softtechsolution.org|product44.com|snxsw.com|xiexinde.net|m.6666xsw.com|m.chenkuan.com|jmshuwu.net|wodexiaoshuoh.com|tetservices.net|haitangsoshu.org|4hrz.net|x33yq.org|56xiaoshuo.net|novelser.com|ykxs.cc|biqudd.com|diyibanzhu44444.com|dbrxs.org|kaixindu.net|1ingatlan.net|gaofuwu.org|yushuwu.cloud|yswxs.com|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|1kans.net|aidu123.com|biquluo.info|bqgh.com|jmshuwu.net|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com|zk01.net
 $csp=script-src 'self' * 'unsafe-inline',domain=smsonline.cloud
@@ -1876,6 +1877,7 @@ $websocket,domain=wap.yushuwu.cloud
 .top/herebyad
 .top/upload/ad.js
 .top:*/js.php?z=*=$third-party
+.top:9956/$third-party
 .top^*-960x80-*.gif
 .tor*/js/jquery.bpopup.
 .tv/gg/
@@ -4543,7 +4545,9 @@ $websocket,domain=wap.yushuwu.cloud
 :701/Pus/pus.js
 :701/gd_xueersi/$popup
 :7701/load.cw.js
+:800*/d/*?t=$script,third-party,xmlhttprequest
 :800*/d/*n=$script,third-party
+:800*/d/*n=$script,third-party,xmlhttprequest
 :800*/d/*n=$third-party
 :800*/d/*t=$script,third-party
 :800*/sc/*n=$script,third-party
@@ -23500,6 +23504,7 @@ zzzyk.com###Tinfo
 ||ainb01021zh.com^
 ||ainb01030zh.com^
 ||ainb01031zh.com^
+||ainb01040zh.com^
 ||ainb12241zh.com^
 ||ainb12250zh.com^
 ||ainb12251zh.com^
@@ -33767,6 +33772,7 @@ zzzyk.com###Tinfo
 ||cgcg01020ht.com^
 ||cgcg01030ht.com^
 ||cgcg01031ht.com^
+||cgcg01040ht.com^
 ||cgcjmgmcpddvh.website^
 ||cgctsw.mytour.vn^
 ||cgdh.fenbengpan.cn^
@@ -57820,6 +57826,7 @@ zzzyk.com###Tinfo
 ||hrxphjcj.icu^
 ||hs-analytics.net^
 ||hs-banner.com^
+||hs.178yc.com^
 ||hs.cnfol.com/Cm/Imgs/Load.gif
 ||hs640.com/js/jquery.js
 ||hsa.wageworks.info^
@@ -67797,6 +67804,7 @@ zzzyk.com###Tinfo
 ||lf6-ad-union-sdk.pglstatp-toutiao.com^
 ||lf9-static.bytednsdoc.com/obj/tos-cn-i-0813
 ||lfafacbfqrsom.online^
+||lfamuxkaqobp.com^
 ||lfapbe.quiksilver.co.jp^
 ||lfapxjnjapalg.space^
 ||lfarewesbeginn.com^
@@ -79865,6 +79873,7 @@ zzzyk.com###Tinfo
 ||nstclj.rubylane.com^
 ||nsteq.queensland.com^
 ||nster.net^
+||nstltp.icu^
 ||nstools.tsrv1.ws^
 ||nstracking.com^
 ||nstytzmbwuylf.site^
@@ -83713,6 +83722,7 @@ zzzyk.com###Tinfo
 ||pausalcaulks.world^
 ||pausauptoaglavo.net^
 ||pauxihypoxia.com^
+||pavdiibdvr.com^
 ||pavoissamanid.click^
 ||pavwrr.icu^
 ||pawgleamed.com^
@@ -86274,6 +86284,7 @@ zzzyk.com###Tinfo
 ||pregrados.javeriana.edu.co^
 ||prelandappslab.com^
 ||prelecdjladde.website^
+||prelude69.com^
 ||premierbuyer.edm.globalsources.com^
 ||premiermylodei.com^
 ||premierpearlet.shop^
@@ -108802,6 +108813,7 @@ zzzyk.com###Tinfo
 ||tthrirgud.com^
 ||ttienli.top^
 ||ttihclkpugctw.website^
+||ttimhethzm.com^
 ||ttimiyi.top^
 ||ttiohdktykm.com^
 ||ttkfjmovlwrvb.space^
@@ -109218,6 +109230,7 @@ zzzyk.com###Tinfo
 ||txgpgszrhedyl.online^
 ||txgtadnmmwwte.space^
 ||txgupjxzbxvsx.online^
+||txh201a51k.com^
 ||txhywh.cn^
 ||txjfso.com^
 ||txljgipkkispw.space^
@@ -117091,6 +117104,7 @@ zzzyk.com###Tinfo
 ||x23qb.com/skin/themex.js
 ||x2tsa.com^
 ||x360xs.com/tops/
+||x3lps9uuog.com^
 ||x3os.com^
 ||x3pfkiohz.com^
 ||x3zy2.icu^
@@ -117396,6 +117410,7 @@ zzzyk.com###Tinfo
 ||xgozhrjmwwgxf.site^
 ||xgraph.net^
 ||xgspzv.troyestore.com^
+||xgsvpsz7f4.com^
 ||xgsxkzscxapvj.online^
 ||xgszciooysvcj.site^
 ||xgubwpvoyqgtd.online^
@@ -121320,6 +121335,7 @@ zzzyk.com###Tinfo
 ||zpe.klre.18183.com^
 ||zpeqosn.icu^
 ||zpfmqfxgrtttb.icu^
+||zpgb.cn^
 ||zpgetworker11.com^
 ||zpgnipitynywq.space^
 ||zpguxkvsnjobx.website^
@@ -121797,6 +121813,7 @@ zzzyk.com###Tinfo
 ~github.com$$script:contains(!function(){function a(a){var _idx=)
 ~github.com$$script:contains(/document\.write[^|&%$#@!]{0,400}:8007"\+"\/cc\//)
 ~github.com$$script:contains(?is_not=1&target=1&ty=2)
+~github.com$$script:contains(F6O2cY=Fa[67c}vFvvcY85cYaa)
 ~github.com$$script:contains(_mJd5Y2FNOfYm62LY5FuY7O5Yc6)
 ~github.com$$script:contains(var d10={win:false,mac:false,xll:false};)
 ~github.com$$script:contains(||!navigator.platform){setTimeout(function () {w.location.href=url)
