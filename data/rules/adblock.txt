@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-01-05 10:09:54（北京时间）
+! Version: 2026-01-05 20:54:54（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 118178
+! Total count: 118187
 
 #
 ###ADtip
@@ -4398,6 +4398,18 @@ $websocket,domain=wap.yushuwu.cloud
 88448.com###ad_forum_banner
 88files.net#%#//scriptlet("prevent-window-open")
 8se.me##.push-bottom
+8se.me,xchina.*##.block-overlay
+8se.me,xchina.*##.content-box > .list > .item:not(.photo-image):has(> a[clickmode="cpt"])
+8se.me,xchina.*##.content-box > .list > .item:not(.photo-image):has(> div > ins[data-zoneid])
+8se.me,xchina.*##.content-box:has(> .static-container-4:only-child > .a-media)
+8se.me,xchina.*##.ex-widget
+8se.me,xchina.*##.photos > div.item:has(> div > a[target="_blank"])
+8se.me,xchina.*##.photos > div.item:has(> div[class^="exoclick_"])
+8se.me,xchina.*##.push-top
+8se.me,xchina.*##div[class^="item photo zone"]
+8se.me,xchina.*##div[style*="width: 300px;"][style*="height: 455px;"]
+8se.me,xchina.*#%#//scriptlet('abort-current-inline-script', '$', 'adModal')
+8se.me,xchina.*#%#//scriptlet('prevent-addEventListener', '/DOMContentLoaded|load|complete/', '/check|detected/')
 8ziyuan.com##.deanadsside
 900.la##.banner_ad1
 900.la##.font-ad
@@ -13300,6 +13312,8 @@ tieba.baidu.com##.tbui_slideshow_slide
 tieba.baidu.com##.tl_spread
 tieba.baidu.com##.top-guide-wrap.top-guide
 tieba.baidu.com##.top_toutu_admarks
+tieba.baidu.com##.ylh-ad-container
+tieba.baidu.com##.ylh-ad-wrap
 tieba.baidu.com##DIV[id^='aside-ad']
 tieba.baidu.com##DIV[id^='mediago-tb-frs-list']
 tieba.baidu.com##div[class*="appPromote"]
@@ -14124,16 +14138,6 @@ xc6b.com##a[href="http://61.160.236.52"]
 xcar.com.cn###eMeng
 xcar.com.cn###show_car
 xcar.com.cn##div[class^="adset"]
-xchina.*##.block-overlay
-xchina.*##.content-box > .list > .item:not(.photo-image):has(> a[clickmode="cpt"])
-xchina.*##.content-box > .list > .item:not(.photo-image):has(> div > ins[data-zoneid])
-xchina.*##.photos > div.item:has(> div > a[target="_blank"])
-xchina.*##.photos > div.item:has(> div[class^="exoclick_"])
-xchina.*##.push-top
-xchina.*##div[class^="item photo zone"]
-xchina.*##div[style*="width: 300px;"][style*="height: 455px;"]
-xchina.*#%#//scriptlet('abort-current-inline-script', '$', 'adModal')
-xchina.*#%#//scriptlet('prevent-addEventListener', '/DOMContentLoaded|load|complete/', '/check|detected/')
 xchina.co##.block-overlay
 xclient.info###pop_business
 xdf.cn##.footadv
@@ -16681,6 +16685,7 @@ zzzyk.com###Tinfo
 ||4ifhpfi1.xyz^
 ||4jaehnfqizyx.controlconceptsusa.com^
 ||4jc.icu^
+||4jh1le34m.com^
 ||4jnzhl0d0.com^
 ||4kfv18.cn^
 ||4kwu.cc/static/js/tj.js
@@ -23418,6 +23423,7 @@ zzzyk.com###Tinfo
 ||ainb01040zh.com^
 ||ainb01041zh.com^
 ||ainb01050zh.com^
+||ainb01051zh.com^
 ||ainb12241zh.com^
 ||ainb12250zh.com^
 ||ainb12251zh.com^
@@ -33288,6 +33294,7 @@ zzzyk.com###Tinfo
 ||cgcg01040ht.com^
 ||cgcg01041ht.com^
 ||cgcg01050ht.com^
+||cgcg01051ht.com^
 ||cgcjmgmcpddvh.website^
 ||cgctsw.mytour.vn^
 ||cgdh.fenbengpan.cn^
@@ -86729,6 +86736,7 @@ zzzyk.com###Tinfo
 ||qwkfdcetwk.net^
 ||qwlbvlyeqlkob.top^
 ||qwlmacbmwmtum.online^
+||qwnzzp50x.com^
 ||qwoqfbgq.com^
 ||qwpsgqyzrzcr.life^
 ||qwrnkpow.com^
@@ -108378,6 +108386,7 @@ zzzyk.com###Tinfo
 ||uvccpk.1800petmeds.com^
 ||uvcnmtt.top^
 ||uvcourse.net^
+||uvd9re60w.com^
 ||uvegvbggvfthr.online^
 ||uvettjofogfozc.com^
 ||uvfnhhyoyd.xyz^
