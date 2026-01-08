@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-01-08 09:59:59（北京时间）
+! Version: 2026-01-08 20:54:27（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 118679
+! Total count: 118682
 
 #
 ###ADtip
@@ -13440,6 +13440,7 @@ tsubasa.im#@#.text-ads
 tsubasa.im#@#.textAd
 tsubasa.im#@#.text_ad
 tsubasa.im#@#.text_ads
+tt1069.com#@##ad-slot
 tt776.com##iframe[src="/app/ad.html"]
 ttmeiju.me##DIV[style="float:left;margin-bottom:27px;margin-top:27px;"]
 ttshow.tw##div[id^="ad_article_"]
@@ -14462,8 +14463,10 @@ ysxs8.vip##.ysxs8_w960_1
 ytbbs.com###dd1
 ytbbs.com##.ftop_ad_2016
 yuanbao.tencent.com##.agent-dialogue__content-qrcode
+yuanbao.tencent.com##.agent-dialogue__tool
 yuanbao.tencent.com##.icon-yb-downapp
 yuanbao.tencent.com##div[class^="index_pc_download"]
+yuanbao.tencent.com#?#div.input-guide-v2-item:contains(下载)
 yuanxue365.com#?#.content-main > div > .container-fluid:has(span:contains(广告))
 yufile.com##.fb_r > a
 yufile.com##.lo_box
