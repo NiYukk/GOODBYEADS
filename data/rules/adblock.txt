@@ -2,7 +2,7 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-01-08 20:54:27（北京时间）
+! Version: 2026-01-09 10:01:08（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
 ! Total count: 118682
 
@@ -1242,7 +1242,6 @@
 ##a[href*=".fdgsnnvfsdv2df1bf3fdb1.cc"]
 ##a[href*=".gaimin.gg/cn"]
 ##a[href*=".jmtybc.com"]
-##a[href*=".kaiyunty.live"]
 ##a[href*=".labsda.com"] > img[src^="/game/20"]
 ##a[href*=".lui8426.xyz"]
 ##a[href*=".ssmh"][href*="?u="]
@@ -1741,11 +1740,8 @@ $websocket,domain=wap.yushuwu.cloud
 .com:*/cc/*?is_not=*&target=*
 .com:*/d/*?c=*$third-party
 .com:*/sc/*?n=$third-party
-.com:1*/static/lbsite/*/*.js?v=$script,third-party
 .com:10446/*/get*.html
 .com:12289/$script,third-party
-.com:2*/static/lbsite/*/*.js?v=$script,third-party
-.com:3*/static/lbsite/*/*.js?v=$script,third-party
 .com:7891/stats$third-party
 .com:8*/mj*$third-party
 .com:8001/*/*?*=$third-party
@@ -1835,8 +1831,6 @@ $websocket,domain=wap.yushuwu.cloud
 .o0*aokk.com/iis.$script,xmlhttprequest,third-party
 .oeya.com/$domain=realtw.com
 .okp*ai.com/$script,xmlhttprequest,third-party
-.okpp0*.xyz/$script,xmlhttprequest,third-party
-.okpp1*.xyz/$script,third-party
 .org/config/v7.js
 .org/js/ads/
 .org/topjs/
@@ -2042,7 +2036,6 @@ $websocket,domain=wap.yushuwu.cloud
 /\.[a-z]dinma[a-z].top\//$script,third-party
 /\.[a-z]dinmi[a-z].top\//$script,third-party
 /\.[a-z]domsi[a-z].top\//$script,third-party
-/\.[a-z]dyurli[a-z].top\//$script,third-party
 /\/[a-z0-9]+$/$script,third-party,domain=gimy1.com|gimy.com.tw
 /\/\w{17}\//$script,~third-party,domain=xiguashuwu.com|shruxiang.com|lancaizhu.com|haitangwenxue999.com|hbhmzt.com
 /\/\w{8}\/\w{10}\./$script,~third-party,domain=xwbxsw1.com|31xa.org|xpshuku.com|2kk.la|badaoge.org|xiumb12.com|xqishuta.net|kudushu.org|xshuquge.net|xuanshu.la|bqgns.com|duswx.com|mhtxs.net|bookszw.com|shukuge.com|xbotaodz.com|biquke.info|chensiwx.com|mayiwsk.com|3yt.la|shenshuzw.net|xbiquzw.net|aixiashu.info|biqusk.la|paoshu8.info|xbiqugu.la|lewenge.cc|00ksw.com|0794.org|123dua.com|123wx.cc|126shu.org|12zw.net|13txt.net|147xiaoshuo.com|17k.com|1biqu.com|1kans.net|1pwx.com|23hh.com|23qb.com|23qb.net|23sk.net|23us.tw|23wxx.com|23xstxt.net|2kxs.info|360xs.com|3yt.com|477zw.com|4xiaoshuo.net|50zw.co|50zw.com|50zww.net|52xs.net|56shuku.info|59xs.com|6666xsw.com|67shu.net|69kshu.win|69zww.com|7017k.net|777zw.net|77xsw.cc|81book.com|91zww.com|93xscc.com|99mk.net|9tiefu.com|a6ksw.net|aiwx.info|aixiashu.net|aixs.la|aikushuge.com|b520.cc|b5200.net|bbiquge.cc|bbiquge8.net|bequmo.com|bimixsw.com|biqivge.cc|biqudd.com|biqudu.tv|biquge775.com|biquge98.net|xbiquge99.cc|biqugecd.com|biqugewu.net|aidu123.com|biquluo.info|biqusk.com|biqutsxs.com|boquku.com|bqq999.cc|bqwxg8.com|bshuku.com|bxwx.live|bxwx00.com|changduzw.com|chenkuan.com|damengzhu1.com|ddbqgtxt.cc|diyibanzhu9.pro|dizishu.cc|dobiez.com|doupocangqiong.info|dpcq1.com|dpcq1.net|fxsc6.net|gaofuwu.org|gdbzkz.info|hongyeshuzhai.com|ibiquges.com|ibotaodz.org|idzs.org|ijjjxs.net|imianhuatang.info|ishisetianxia.com|ishubao.org|xvipxs.net|iwurexs.info|ixs.la|jcdf99.com|jieshengit.com|jiezhong.cc|jingwubook.com|jmshuwu.net|kanshushi.com|lewen123.com|lewxs.com|liewenn.com|liudatxt.org|longzu5.net|luoqiu.io|maxreader.la|mcmssc.net|mingrenteahouse.com|nuanyuehanxing.com|paoshu8.com|paoshuzw.com|piaotian.la|pksge.com|prpcoin.com|qiqidu.net|qishula.com|qishuta.info|qqxsw.so|quge66.com|ranwen.la|rizhaoxs.com|roushuwu6.com|sdhear.com|shanhaimiwenlu.com|shenshuxs.org|shu008.com|shubaowang.cc|shumi.la|shumil.co|shuquso.com|shuyy8.com|silukex.com|siluwx.org|sinodan.cc|sjks88.com|soduha.la|sthuojia.org|stxsw.com|sxcnw.net|sytxt.cc|tpsge.info|trxs.cc|tutengzw.com|txtduo.com|txtwan.com|tysk.cc|u33.cc|u33.me|wenxuem.com|wenxuemi.cc|whzh-xs.com|wodexiaoshuoh.com|wolaidu1.com|x23us.us|xbiqugela.com|xbiquke.com|xdingdian.cc|xhytd.com|xiashuyun.com|xiaxs.info|xinremenxs.com|xiushukong.com|xs5200.com|xs7788.com|xsb-xs.com|xstt5.com|xszww8.net|xuanjiezhimen.org|xuanshu.org|xuessex.com|xxbiqudu.com|xygwh.cc|xyuanzunxs.com|yemancomic.com|ygshu.com|yingsx.com|ymxwx.com|yqd6.com|ysxs8.vip|yunxs.info|yuyougu.com|zhuishubox.com|zydu3.com|zzs5.info
@@ -16062,6 +16055,7 @@ zzzyk.com###Tinfo
 ||2pc6q54ga.de^
 ||2performant.com^
 ||2pogg4c.cn^
+||2pqma2nuv.com^
 ||2qj7mq3w4uxe.com^
 ||2qpqwkx.cn^
 ||2r1jqii2c.com^
@@ -16999,7 +16993,6 @@ zzzyk.com###Tinfo
 ||5888.tv/Js/topBanner.js
 ||5888.tv/User_Ad/
 ||588yw.com^
-||5891344.xn--j1amh^
 ||58ar.com^
 ||58avgo.*/AirADPic/
 ||58cdn.com.cn/*.gif$domain=mmff30.com
@@ -31416,6 +31409,7 @@ zzzyk.com###Tinfo
 ||bugs01070ko.com^
 ||bugs01071ko.com^
 ||bugs01080ko.com^
+||bugs01090ko.com^
 ||bugs2022.com^
 ||bugscrawled.com^
 ||bugsnag.com^
@@ -42842,6 +42836,7 @@ zzzyk.com###Tinfo
 ||dqydzfzvwvaxt.website^
 ||dqyyafwgujjsa.online^
 ||dqzsteel.com/Website/Image/Index/ytgg.gif
+||dqzuroorrt.com^
 ||dqzzyimbtankc.website^
 ||dr3k6qonw2kee.cloudfront.net^
 ||dr6su5ow3i7eo.cloudfront.net^
@@ -50772,6 +50767,7 @@ zzzyk.com###Tinfo
 ||g33ktr4ck.com^
 ||g33tr4c3r.com^
 ||g3f3.com/love/
+||g3m92egwo.com^
 ||g3we2pj43ijkpfjmi.3utilities.com^
 ||g4.iqilu.com^
 ||g4yk4cyyw.com^
@@ -52431,7 +52427,6 @@ zzzyk.com###Tinfo
 ||gmsizwxqspypi.space^
 ||gmsllx.sorteonline.com.br^
 ||gmso01010oka.top^
-||gmso1*oka.top/$script,third-party
 ||gmso12251oka.top^
 ||gmso12261oka.top^
 ||gmso12271oka.top^
@@ -65332,6 +65327,7 @@ zzzyk.com###Tinfo
 ||kzgmpu.com^
 ||kzgwhioswkztt.one^
 ||kzhesi.corcoran.com^
+||kzi6mbwbk.com^
 ||kzihiewkrwxwg.space^
 ||kzjkexn.cn^
 ||kzjnuicskzmol.space^
@@ -80078,6 +80074,7 @@ zzzyk.com###Tinfo
 ||operationintelligence7.com^
 ||operationnail.com^
 ||operatorhighsnake.com^
+||operetta17.com^
 ||opfourpro.org^
 ||opgirl-tmp.adbxb.cn^
 ||opgolan.com^
@@ -82037,6 +82034,7 @@ zzzyk.com###Tinfo
 ||peakclick.com^
 ||peakcounter.dk^
 ||peakilygluten.com^
+||pealefe.com^
 ||pear.ca-eko-globetrotter.fr^
 ||pear.dleke.com^
 ||peards.zevvle.com^
@@ -82622,6 +82620,7 @@ zzzyk.com###Tinfo
 ||pianbar.net/JS/bootfloat.js
 ||pianbar.net/JS/hottj.js
 ||pianistdusted.com^
+||pianola76.com^
 ||pianoonoclea.shop^
 ||pianopleadedenlighten.com^
 ||pianwela.xyz^
@@ -83994,7 +83993,6 @@ zzzyk.com###Tinfo
 ||pphgtdhjtfvui.online^
 ||pphqq.com^
 ||pphwrevr.com^
-||ppio1*ios.top/$script,third-party
 ||ppio12181ios.top^
 ||ppio12191ios.top^
 ||ppio12200ios.top^
@@ -109075,6 +109073,7 @@ zzzyk.com###Tinfo
 ||v7.shaoyumuye.com^
 ||v84tz11w7.com^
 ||v88yaat.xyz^
+||v8j1rkai1.com^
 ||v9-ad.ixigua.com^
 ||v9-dc-ad.ixigua.com^
 ||v9gfm.xyz^
@@ -117018,6 +117017,7 @@ zzzyk.com###Tinfo
 ||yy4480qpgyy.com^
 ||yy8090.vip/js/abc/
 ||yy9s51b2u05z.com^
+||yyax.cn^
 ||yybeast.mobi^
 ||yycgyufotxqxy.space^
 ||yydsxs.com/js/cnzzpiao.
