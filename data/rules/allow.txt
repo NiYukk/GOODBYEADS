@@ -2,7 +2,7 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-01-11 20:49:05（北京时间）
+! Version: 2026-01-12 10:06:10（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
 ! Total count: 3942
 @@&http_referer=$domain=chaopx.com
@@ -3508,7 +3508,7 @@
 @@||sundaysky.com/sundaysky.js?$domain=lenovo.com
 @@||sundaysky.com^*/default/sundaysky.js$domain=lenovo.com
 @@||suning.cn/project/msIndex/js/??
-@@||supercloudsms.com/js/ad
+@@||supercloudsms.com^*/ad
 @@||support.thesslstore.com/visitor/index.php
 @@||support.weixin.qq.com^
 @@||surirt.com/ad/ads.php?id=$script,domain=surirt.com

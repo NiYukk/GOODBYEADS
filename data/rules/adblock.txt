@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-01-11 20:49:05（北京时间）
+! Version: 2026-01-12 10:06:10（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 119017
+! Total count: 119028
 
 #
 ###ADtip
@@ -4168,10 +4168,10 @@ $websocket,domain=wap.yushuwu.cloud
 52ch.net##div[style^="margin-top:5px; height:60px;"]
 52che.com##a[href^="http://count.52che.com/goto.html?"]
 52fx.cn##.nex_index_top_ads
-52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zn513.cc##.GzList
+52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zn524.cc##.GzList
 52kd.com###frame2cu3VU
 52life.cc##table[style="margin-top:0"]
-52movieba.com,acglala.cc,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cgown.com,cn163.net,comicat.org,cosersuki.org,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,touchgal.org,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
+52movieba.com,acglala.cc,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cgown.com,cn163.net,comicat.org,cosersuki.org,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,ifenpaidy.com,jitapu.com,jitashe.org,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,touchgal.org,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 52niuyan.cc##.top_fixed
 52niuyan.cc##a[onclick][rel][style*="toutiaoimg.com"]
@@ -5731,7 +5731,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||studioclassroom.com/ad/
 @@||sudupan.com^*/*.gif
 @@||suning.cn/project/msIndex/js/??
-@@||supercloudsms.com/js/ad
+@@||supercloudsms.com^*/ad
 @@||surirt.com/ad/ads.php?id=$script,domain=surirt.com
 @@||swsc.com.cn/download/ad_images/
 @@||sxjbjt.com^*/ad
@@ -9458,9 +9458,6 @@ icourse163.org##.promotion-banner-wrapper
 icourse163.org#@#.sns-link
 icu##.banner-layout-box
 id97.cc##.fed-part-case > a
-idanmu.ee##.entry-body > div[class]:first-child
-idanmu.ee##aside > div[class="widget "]
-idanmu.ee##div[class^="g "]
 idreamx.com#?##threadlisttableid > tbody:not([id]):has(> tr > td > a[target="_blank"])
 idreamx.com#?##threadlisttableid > tbody:not([id]):has(> tr > td > ins.adsbygoogle)
 iduba.com,newduba.cn##.m_nav_top
@@ -13094,6 +13091,7 @@ sunofbeach.net##div[id$="-ad"]
 suopao.org##.t5[style^="margin-top:8px;"]
 suopao.org##.tr3.t_one[onmouseout]
 super.sina.cn##.call_up_banner
+supercloudsms.com##.container > img
 supercloudsms.com##a[href^="/redirect?"]
 superlife.ca##.sidebar-ad-zone
 supertaste.tvbs.com.tw###ad_m_bottom
@@ -14633,8 +14631,8 @@ zj.qq.com##.mod-side + div[style="width:300px;height:257px;"]
 zjhlcp.com##.middle_list
 zjst.net##body > style ~ *,.vod-gd
 zk001.cc##section[class^="ch"]
-zn513.cc###klp_hdp
-zn513.cc#?##portal_block_69_content > li:has(a[href^="http"])
+zn524.cc###klp_hdp
+zn524.cc#?##portal_block_69_content > li:has(a[href^="http"])
 znds.com###diy_mobanbus_view_right2
 zol.com.cn###Article_Top_Banner
 zol.com.cn###btmLoginLayer
@@ -17649,6 +17647,7 @@ zzzyk.com###Tinfo
 ||7moor.com^$third-party
 ||7mx.eider.com^
 ||7mx.eidershop.com^
+||7mx63ygcti.com^
 ||7mxn77h4vr.com^
 ||7nb71ub2xi.com^
 ||7ng6v3lu3c.execute-api.us-east-1.amazonaws.com^
@@ -27405,6 +27404,7 @@ zzzyk.com###Tinfo
 ||ax.ggfeng.com^
 ||ax.idg.se^
 ||ax.ifeng.com^
+||ax07in8xkr.com^
 ||ax1x.com/2020/06/14/NSoyHe.png
 ||ax1x.com^$domain=caibaojian.com|hktvyb.com|zzvips.com
 ||axaoljestciyj.online^
@@ -31437,6 +31437,7 @@ zzzyk.com###Tinfo
 ||bugs01101ko.com^
 ||bugs01110ko.com^
 ||bugs01111ko.com^
+||bugs01120ko.com^
 ||bugs2022.com^
 ||bugscrawled.com^
 ||bugsnag.com^
@@ -62925,6 +62926,7 @@ zzzyk.com###Tinfo
 ||joxaviri.com^
 ||joxmvhwkqhqvb.site^
 ||joy.ochronus.online^
+||joyacg.top/wp-content/uploads/*-640
 ||joycreatorheader.com^
 ||joyeriatauro.com^
 ||joyfuldistrict.pro^
@@ -84768,6 +84770,7 @@ zzzyk.com###Tinfo
 ||projetodegente.com^
 ||prokyrn.icu^
 ||prollerotolite.shop^
+||prologue23.com^
 ||prom.b.qq.com^
 ||prom.gome.com.cn^
 ||promdamagecomplain.com^
@@ -86276,6 +86279,7 @@ zzzyk.com###Tinfo
 ||qgpiphehhrcvl.space^
 ||qgpmmlqbqzddw.online^
 ||qgpsrnpchevrc.site^
+||qgreedreau.com^
 ||qgrkbfewsasid.site^
 ||qgsaohnxbkpez.site^
 ||qgthiomylmdvo.online^
@@ -94942,6 +94946,7 @@ zzzyk.com###Tinfo
 ||sniveling-opening.pro^
 ||snjjfdfzvkcdp.online^
 ||snljexumhfcyx.online^
+||snlyplsoli.com^
 ||snmi.cn^
 ||snmi.cn^$third-party
 ||sno1.snowrental.com^
@@ -109140,6 +109145,7 @@ zzzyk.com###Tinfo
 ||uxernab.com^
 ||uxetbckbptdba.space^
 ||uxfa.cn^
+||uxfe.cn^
 ||uxffgxaqqkiha.site^
 ||uxibgyftvdzyr.site^
 ||uxihlrtlkmdow.website^
@@ -110225,6 +110231,7 @@ zzzyk.com###Tinfo
 ||violentlybashfulpert.com^
 ||violet-attitude.pro^
 ||violetop33.top^
+||violoncello21.top^
 ||vionito.com^
 ||vip-vip-vup.com^
 ||vip.agentteam.com.au^
@@ -111310,6 +111317,7 @@ zzzyk.com###Tinfo
 ||w55c.net^
 ||w58547.cc^
 ||w58ce6.cc^
+||w5ba5b.cc^
 ||w5bi16f3co.com^
 ||w5ftl8bhu3.com^
 ||w5sac788c1.360doc.cn^
@@ -112543,6 +112551,7 @@ zzzyk.com###Tinfo
 ||wgyapq.stormberg.com^
 ||wgzaprexwmzki.site^
 ||wh.ipaddress.com^
+||wh2mu9uj5f.com^
 ||whabhksilcnct.website^
 ||whackclumsiness.com^
 ||whackedburdon.com^
@@ -115231,6 +115240,7 @@ zzzyk.com###Tinfo
 ||xolfzsxmgswqt.site^
 ||xomawzdjrbvlf.online^
 ||xomipvdmpzbik.online^
+||xommzrn.com^
 ||xoniwltrsxgot.site^
 ||xonlines.com/upload/gg/
 ||xonlines.com/yyh_qp_200_200.png
@@ -118365,6 +118375,7 @@ zzzyk.com###Tinfo
 ||zmjagawa.com^
 ||zmjtjuacdfvmw.tech^
 ||zmk.pw/zfb.png
+||zmk852tp7.com^
 ||zmkevvbrymkrb.top^
 ||zmkma.com^
 ||zmkp6jvq4.com^
