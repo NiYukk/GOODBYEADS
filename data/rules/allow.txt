@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-01-12 10:06:10（北京时间）
+! Version: 2026-01-12 20:55:43（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3942
+! Total count: 3944
 @@&http_referer=$domain=chaopx.com
 @@*$popup,~third-party,domain=canna.to|canna-power.to
 @@-social-bar.$domain=mobi.yahoo.com
@@ -261,6 +261,7 @@
 @@||a-fds.youborafds01.com/data?$xmlhttprequest,domain=pluto.tv
 @@||a.alimama.cn/tkapi$domain=ieeee.com
 @@||a.bf-ad.net/adengine/fff/adengine.js$domain=fitforfun.de
+@@||a.klaviyo.com/client/subscriptions/
 @@||a.klaviyo.com/client/subscriptions/$xmlhttprequest,domain=ahead-nutrition.com
 @@||a.klaviyo.com/consent-pages/client/$xmlhttprequest
 @@||a.klaviyo.com/forms/api/*/full-forms?company_id=$domain=complyfoam.com
@@ -3433,6 +3434,7 @@
 @@||st.dynamicyield.com/st$domain=mediamarkt.de
 @@||st.dynamicyield.com/st?$domain=dafiti.com.br
 @@||st.dynamicyield.com/st?$domain=dafiti.com.co
+@@||st.dynamicyield.com/st?$domain=noelleeming.co.nz
 @@||st.top100.ru/top100/top100.js$domain=rambler.ru|m.gazeta.ru|motor.ru|ferra.ru
 @@||st.wetteronline.de/dr/*/css/p_*.css
 @@||stapewithadblock.monster^$generichide
