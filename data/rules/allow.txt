@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-01-12 20:55:43（北京时间）
+! Version: 2026-01-13 09:57:22（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3944
+! Total count: 3945
 @@&http_referer=$domain=chaopx.com
 @@*$popup,~third-party,domain=canna.to|canna-power.to
 @@-social-bar.$domain=mobi.yahoo.com
@@ -3702,6 +3702,7 @@
 @@||tvid.in/sdk/loader.js$domain=tvid.in
 @@||tvpgapl.hit.gemius.pl/*.js$domain=tvp.pl|swipeto.pl|tvp.info|tvpparlament.pl
 @@||tvppl.hit.gemius.pl/*.js$domain=tvp.pl|swipeto.pl|tvp.info|tvpparlament.pl
+@@||tw.netcore.co.in/smartechclient.js$domain=investor-web.hdfcfund.com
 @@||twowheeler.policybazaar.com/js/googleanalytics.js
 @@||txws.yyzb456.top^$domain=857zb7.tv
 @@||udn.com/mall/images/spacer.gif?
