@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: GOODBYEADS
-! Homepage: https://github.com/8680/GOODBYEADS
+! Homepage: https://github.com/NiYukk/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-01-16 10:01:41（北京时间）
+! Version: 2026-01-16 11:50:55（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
 ! Total count: 3949
 @@&http_referer=$domain=chaopx.com
@@ -37,7 +37,6 @@
 @@/adblockDetector.$domain=softwarebrother.com
 @@/adblock_$domain=xingk.cc
 @@/adfile/*$domain=cidianwang.com
-@@/adguard.$domain=llq.dml.ink
 @@/adimage/*$domain=scyts.com|wacom.tw
 @@/adimages/*$domain=p9.com.tw
 @@/adimg/*$domain=laniqu.com
@@ -510,6 +509,7 @@
 @@||api.cxense.com/public/widget/data?json=$domain=bild.de
 @@||api.cxense.com/public/widget/data?json=$domain=business.nikkei.com
 @@||api.cxense.com/public/widget/data?json=$domain=delfi.lt
+@@||api.cxense.com/public/widget/data?json=$domain=elle.com
 @@||api.cxense.com/public/widget/data?json=$domain=euractiv.com
 @@||api.cxense.com/public/widget/data?json=$domain=i-voce.jp
 @@||api.cxense.com/public/widget/data?json=$domain=journaldemontreal.com
@@ -815,6 +815,7 @@
 @@||cdn.cxense.com/cx.cce.js$domain=business.nikkei.com
 @@||cdn.cxense.com/cx.cce.js$domain=dhnet.be
 @@||cdn.cxense.com/cx.cce.js$domain=elcorreogallego.es
+@@||cdn.cxense.com/cx.cce.js$domain=elle.com
 @@||cdn.cxense.com/cx.cce.js$domain=euractiv.com
 @@||cdn.cxense.com/cx.cce.js$domain=i-voce.jp
 @@||cdn.cxense.com/cx.cce.js$domain=journaldemontreal.com
@@ -831,6 +832,7 @@
 @@||cdn.cxense.com/cx.js$domain=cdn.cxpublic.com
 @@||cdn.cxense.com/cx.js$domain=dhnet.be
 @@||cdn.cxense.com/cx.js$domain=elcorreogallego.es
+@@||cdn.cxense.com/cx.js$domain=elle.com
 @@||cdn.cxense.com/cx.js$domain=euractiv.com
 @@||cdn.cxense.com/cx.js$domain=i-voce.jp
 @@||cdn.cxense.com/cx.js$domain=itmedia.co.jp
@@ -1140,7 +1142,6 @@
 @@||crackedresource.com^$generichide
 @@||creaders.net^$generichide
 @@||create.jd.com/ad/
-@@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
 @@||criteo.com/delivery/retailmedia$domain=plazavea.com.pe
 @@||crowdscience.com/max-$script,domain=everydayhealth.com
 @@||crowdscience.com/start-$script,domain=everydayhealth.com
@@ -2509,7 +2510,6 @@
 @@||jav777.xyz^$generichide
 @@||javedit.com/d/js/acmsd/thea0.
 @@||jbprogramnotes.com^$generichide
-@@||jd.com/adclick?$popup,~third-party
 @@||jd.com/adclick?$~third-party
 @@||jd.com/setCookie?
 @@||jd.com^*&refer=http$script
