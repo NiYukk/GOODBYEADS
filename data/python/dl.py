@@ -42,7 +42,8 @@ adblock = [
     "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt",
     "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-easylist.txt",
     "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
-    "https://raw.githubusercontent.com/sjhgvr/oisd/main/abp_small.txt"
+    "https://raw.githubusercontent.com/sjhgvr/oisd/main/abp_small.txt",
+    "https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_trackers.txt"
 ]
 
 # 白名单规则
