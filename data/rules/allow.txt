@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/NiYukk/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-01-23 10:00:55（北京时间）
+! Version: 2026-01-23 20:56:08（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3954
+! Total count: 3956
 @@&http_referer=$domain=chaopx.com
 @@*$popup,~third-party,domain=canna.to|canna-power.to
 @@-social-bar.$domain=mobi.yahoo.com
@@ -2665,6 +2665,7 @@
 @@||lp.longtailvideo.com/5/yourlytics/yourlytics-1.js$domain=indiedb.com|indieroyale.com|moddb.com
 @@||lp.sophos.com/email-preferences-
 @@||lprs*.fr/assets/js/lib/squid/smarttag.js$domain=leparisien.fr
+@@||lptag.liveperson.net^$domain=yesstyle.com
 @@||lsi.com^*/google-analytics.js
 @@||lun.com/*/Scripts/Analytics.js
 @@||luoxiadushu.com^$generichide
@@ -3415,6 +3416,7 @@
 @@||sport.be/javascripts/tracking/metriweb/spring.js
 @@||sportsgrid.com/decor/javascript/magnify_stats.js
 @@||spot.im/api/tracker/spot/$domain=russian.rt.com
+@@||src.litix.io/*/bitmovin-mux.js$domain=shoof.alkass.net
 @@||src.litix.io/core/*/mux.js$domain=kanald.com.tr
 @@||src.litix.io/videojs/*/videojs-mux.js$domain=nasa.gov
 @@||srv.tunefindforfans.com/showads/track/srvclk.php?
