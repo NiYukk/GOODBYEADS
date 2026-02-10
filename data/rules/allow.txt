@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/NiYukk/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-02-10 10:44:27（北京时间）
+! Version: 2026-02-10 21:22:45（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3963
+! Total count: 3965
 @@&http_referer=$domain=chaopx.com
 @@*$popup,~third-party,domain=canna.to|canna-power.to
 @@-social-bar.$domain=mobi.yahoo.com
@@ -2699,6 +2699,7 @@
 @@||maxmind.com^*/geoip.js$domain=sportube.tv
 @@||mboxedge37.tt.omtrdc.net^$app=com.aa.android
 @@||mc.yandex.ru/metrika/tag.js$domain=7flowers.ru
+@@||mc.yandex.ru/metrika/tag.js$domain=apteka22.ru
 @@||mc.yandex.ru/metrika/tag.js$domain=banki.ru
 @@||mc.yandex.ru/metrika/tag.js$domain=id.x5.ru
 @@||mc.yandex.ru/metrika/tag.js$domain=newton.by
@@ -3545,6 +3546,7 @@
 @@||t-online.de^*/xtcore.jstpl
 @@||t.cpdsrv.de/cpt.js$domain=noz.de
 @@||t2.hulu.com/*/adinteraction^$domain=player.hulu.com
+@@||t7z.cupid.iqiyi.com/mixer$domain=iqiyi.com
 @@||tablespoon.com/library/js/TBSP_ntpagetag.js
 @@||tablica.pl^*/xtcore.js
 @@||taboola.com/libtrc/*/loader.js$domain=dailymail.co.uk|entrepreneur.com|foxsports.com
