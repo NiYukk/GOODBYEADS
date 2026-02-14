@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/NiYukk/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-02-13 21:08:44（北京时间）
+! Version: 2026-02-14 10:26:04（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3965
+! Total count: 3967
 @@&http_referer=$domain=chaopx.com
 @@*$popup,~third-party,domain=canna.to|canna-power.to
 @@-social-bar.$domain=mobi.yahoo.com
@@ -2691,6 +2691,7 @@
 @@||marketo.com//js/forms$script,stylesheet
 @@||marketo.com/index.php/form/
 @@||marketo.com/js/forms$script,stylesheet
+@@||martech.condenastdigital.com/lib/martech.js$domain=wired.com
 @@||masterkong.com.cn/adimages/
 @@||matomo.moeci.com/matomo.js$domain=moeci.com
 @@||matsukiyococokara-online.com/store/*/rtoaster.js
@@ -3411,6 +3412,7 @@
 @@||soufunimg.com/count/uvbforpc.js
 @@||sourcepointcmp.bloomberg.*/mms/get_site_data?requestUUID=$domain=bloomberg.*
 @@||sovrn.com^$domain=mens1069.com
+@@||sozcu.com.tr/lib/adsv2_dist/postDetailPageClient_tr.js$script
 @@||sozi.cn/images/ad/tj
 @@||sp0.baidu.com/*/finance.pae.baidu.com/vapi/async$domain=baidu.com
 @@||sp1.baidu.com/*/gettts?$media
