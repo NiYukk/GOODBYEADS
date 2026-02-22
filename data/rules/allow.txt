@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/NiYukk/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-02-22 20:58:08（北京时间）
+! Version: 2026-02-22 22:08:26（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3970
+! Total count: 3973
 @@&http_referer=$domain=chaopx.com
 @@*$popup,~third-party,domain=canna.to|canna-power.to
 @@-social-bar.$domain=mobi.yahoo.com
@@ -392,6 +392,7 @@
 @@||adverts.1foo.com^
 @@||adx.yiche.com/cityindex.ashx
 @@||adx.yiche.com/ssp/echo/v1.0/en?*,*,*&cs=
+@@||aeventlog.beacon.qq.com^
 @@||affyun.com^$generichide
 @@||afisha.ru/proxy/videonetworkproxy.ashx?$xmlhttprequest
 @@||aflac.com/js/wt_capi.js
@@ -998,6 +999,7 @@
 @@||ced.sascdn.com/tag/*/smart.js$domain=ln24.be
 @@||cedexis.com/zones/*/customers/*/apps/*/decision$domain=play.history.com
 @@||center-h5api.m.taobao.com^
+@@||cfg.flurry.com^
 @@||cgmodel.com/plugin/share/
 @@||chaintv.xyz/homestatic/js/adjs.js
 @@||chanel.com/js/chanel-tracking.js$script
@@ -1202,6 +1204,7 @@
 @@||data-*.faz.net^$domain=m.faz.net
 @@||data-*.herz-fuer-tiere.de/*/bootstrap/loader.js$domain=herz-fuer-tiere.de
 @@||data-*.rtl.de/iomm/latest/bootstrap/stub.js$domain=rtl.de
+@@||data.flurry.com^
 @@||data.mistat.xiaomi.com^$app=com.tencent.mm
 @@||data.sec.miui.com^
 @@||data.service.paypal.com^
