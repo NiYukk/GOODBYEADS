@@ -47,6 +47,7 @@ adblock = [
     "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.xiaomi.txt",
     "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.vivo.txt",
     "https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt",
+    "https://raw.githubusercontent.com/miaoermua/AdguardFilter/main/rule.txt",
     "https://raw.githubusercontent.com/NiYukk/Yuedu/refs/heads/master/hostr.txt"
 ]
 
