@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/NiYukk/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-02-27 10:26:58（北京时间）
+! Version: 2026-02-27 21:07:10（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3977
+! Total count: 3979
 @@&http_referer=$domain=chaopx.com
 @@*$popup,~third-party,domain=canna.to|canna-power.to
 @@-social-bar.$domain=mobi.yahoo.com
@@ -2119,6 +2119,7 @@
 @@||googletagmanager.com/gtm.js$domain=prego.ua
 @@||googletagmanager.com/gtm.js$domain=propertydesign.pl
 @@||googletagmanager.com/gtm.js$domain=prostoprosport.ru
+@@||googletagmanager.com/gtm.js$domain=puccini.pl
 @@||googletagmanager.com/gtm.js$domain=pult.ru
 @@||googletagmanager.com/gtm.js$domain=qrcode-monkey.com
 @@||googletagmanager.com/gtm.js$domain=qt.io
@@ -3782,6 +3783,7 @@
 @@||vaillant.de/inc/assets/js/webtrekk_$script
 @@||valf.atm.youku.com/vf?site=1&rst=mp4&
 @@||vanclimg.com/js.ashx?*/google-analytics.js$domain=vancl.com
+@@||vansprint.de/theme/*/js/storefront/google-analytics.plugin.$domain=vansprint.de
 @@||vast.btrll.com^$domain=hinet.net
 @@||vast.com/vimpressions.js$domain=everycarlisted.com
 @@||vatanbilgisayar.com/upload/banner/
