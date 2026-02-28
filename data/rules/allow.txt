@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/NiYukk/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-02-27 21:07:10（北京时间）
+! Version: 2026-02-28 10:10:11（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3979
+! Total count: 3981
 @@&http_referer=$domain=chaopx.com
 @@*$popup,~third-party,domain=canna.to|canna-power.to
 @@-social-bar.$domain=mobi.yahoo.com
@@ -2252,6 +2252,7 @@
 @@||googletagmanager.com/gtm.js$script,domain=musinsa.com
 @@||googletagmanager.com/gtm.js$script,domain=okwave.jp
 @@||googletagmanager.com/gtm.js$script,domain=radiko.jp
+@@||googletagmanager.com/gtm.js$script,domain=streetstyle24.pl
 @@||googletagmanager.com/gtm.js$script,domain=viviennewestwood-tokyo.com
 @@||googletagmanager.com/gtm.js$script,domain=www.nap-camp.com
 @@||googletagmanager.com/gtm.js?$domain=ozon.ru
@@ -2904,6 +2905,7 @@
 @@||oauth-login-drcn.platform.dbankcloud.com^
 @@||odb.outbrain.com^$domain=nypost.com
 @@||odcdn.com^*/cm.js
+@@||officeapps.live.com^$domain=cloud.microsoft
 @@||officeworks.com.au^*/site-tracker.js
 @@||ohmanhua.com/js/*.js
 @@||ohmynews.com/NWS_Web/Common/JS/TagManager.JS
