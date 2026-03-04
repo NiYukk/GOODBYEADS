@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/NiYukk/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-03-04 10:25:36（北京时间）
+! Version: 2026-03-04 21:05:07（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3982
+! Total count: 3985
 @@&http_referer=$domain=chaopx.com
 @@*$popup,~third-party,domain=canna.to|canna-power.to
 @@-social-bar.$domain=mobi.yahoo.com
@@ -509,6 +509,7 @@
 @@||api.cxense.com/public/widget/data?$domain=tvnet.lv
 @@||api.cxense.com/public/widget/data?json$domain=bangkokpost.com
 @@||api.cxense.com/public/widget/data?json$domain=tn.com.ar
+@@||api.cxense.com/public/widget/data?json=$domain=abc.com.py
 @@||api.cxense.com/public/widget/data?json=$domain=bild.de
 @@||api.cxense.com/public/widget/data?json=$domain=business.nikkei.com
 @@||api.cxense.com/public/widget/data?json=$domain=delfi.lt
@@ -812,6 +813,7 @@
 @@||cdn.cxense.com/cx*.js$domain=farodevigo.es
 @@||cdn.cxense.com/cx*.js$domain=onetz.de
 @@||cdn.cxense.com/cx*.js$domain=tn.com.ar
+@@||cdn.cxense.com/cx.cce.js$domain=abc.com.py
 @@||cdn.cxense.com/cx.cce.js$domain=bild.de
 @@||cdn.cxense.com/cx.cce.js$domain=bizjournals.com
 @@||cdn.cxense.com/cx.cce.js$domain=business.nikkei.com
@@ -827,6 +829,7 @@
 @@||cdn.cxense.com/cx.cce.js$domain=tvnet.lv
 @@||cdn.cxense.com/cx.cce.js$domain=variety.com
 @@||cdn.cxense.com/cx.cce.js$domain=wsj.com
+@@||cdn.cxense.com/cx.js$domain=abc.com.py
 @@||cdn.cxense.com/cx.js$domain=allgemeine-zeitung.de|buerstaedter-zeitung.de|lampertheimer-zeitung.de|echo-online.de|main-spitze.de|wiesbadener-kurier.de|wormser-zeitung.de|mittelhessen.de
 @@||cdn.cxense.com/cx.js$domain=bild.de
 @@||cdn.cxense.com/cx.js$domain=bizjournals.com
