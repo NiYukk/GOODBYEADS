@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/NiYukk/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-03-10 10:24:40（北京时间）
+! Version: 2026-03-10 21:09:58（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3997
+! Total count: 3998
 @@&http_referer=$domain=chaopx.com
 @@*$popup,~third-party,domain=canna.to|canna-power.to
 @@-social-bar.$domain=mobi.yahoo.com
@@ -910,6 +910,7 @@
 @@||cdn.optimizely.com/js/3148790251.js$domain=shopsmarter.com
 @@||cdn.optimizely.com/js/8143030612.js$domain=bestbuy.com
 @@||cdn.optimizely.com/public/$script,domain=nytimes.com
+@@||cdn.perfops.net/rom3/rom3.min.js$domain=catbox.moe
 @@||cdn.permutive.app/*-web.js$domain=theglobeandmail.com
 @@||cdn.permutive.com/*-web.js$domain=independent.co.uk
 @@||cdn.petametrics.com^$script,domain=mechacomic.jp
@@ -3556,7 +3557,7 @@
 @@||sundaysky.com/sundaysky.js?$domain=lenovo.com
 @@||sundaysky.com^*/default/sundaysky.js$domain=lenovo.com
 @@||suning.cn/project/msIndex/js/??
-@@||supercloudsms.com^*/ad
+@@||supercloudsms.com^*/a_d
 @@||support.thesslstore.com/visitor/index.php
 @@||support.weixin.qq.com^
 @@||surirt.com/ad/ads.php?id=$script,domain=surirt.com
