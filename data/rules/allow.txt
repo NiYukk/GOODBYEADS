@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/NiYukk/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-03-18 10:35:36（北京时间）
+! Version: 2026-03-18 21:21:48（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 3999
+! Total count: 4000
 @@&http_referer=$domain=chaopx.com
 @@*$popup,~third-party,domain=canna.to|canna-power.to
 @@-social-bar.$domain=mobi.yahoo.com
@@ -498,6 +498,7 @@
 @@||api.cxense.com/public/widget/$domain=farodevigo.es
 @@||api.cxense.com/public/widget/$domain=nippon.com
 @@||api.cxense.com/public/widget/$domain=president.jp
+@@||api.cxense.com/public/widget/$domain=tv-tokyo.co.jp
 @@||api.cxense.com/public/widget/data$domain=dhnet.be
 @@||api.cxense.com/public/widget/data$domain=friday.gold
 @@||api.cxense.com/public/widget/data$domain=friday.kodansha.co.jp
