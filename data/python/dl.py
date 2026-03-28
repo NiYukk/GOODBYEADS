@@ -35,6 +35,7 @@ subprocess.run("cp ./data/mod/whitelist.txt ./tmp/allow01.txt", shell=True)
 
 # 拦截规则
 adblock = [
+    "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
     "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt",
     "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt",
     "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
