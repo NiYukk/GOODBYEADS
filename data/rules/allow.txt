@@ -2,7 +2,7 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/NiYukk/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-04-05 10:49:55（北京时间）
+! Version: 2026-04-05 21:05:37（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
 ! Total count: 13691
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
@@ -11973,7 +11973,7 @@
 @@||suratkargo.com.tr^$stealth=dpi
 @@||surfguru.com^$generichide
 @@||surirt.com/ad/ads.php?id=$script,domain=surirt.com
-@@||surrit.com^$image,stealth=referrer,domain=missav.live
+@@||surrit.com^$image,xmlhttprequest,stealth=referrer,domain=missav.live|missav.ws
 @@||survey.devographics.com^$stealth=useragent
 @@||survey.g.doubleclick.net^$script,domain=sporcle.com
 @@||suwonlib.go.kr^$stealth=dpi
