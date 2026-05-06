@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/NiYukk/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-05-06 11:31:42（北京时间）
+! Version: 2026-05-06 22:23:06（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 13735
+! Total count: 13740
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -2640,6 +2640,7 @@
 @@||cargocollective.com/designs/$document
 @@||carsales.com.au/afx_prid/$domain=carsales.com.au
 @@||cart.books.com.tw/member/login$stealth=java|flash
+@@||cartaocontinente.pt^$stealth=flash
 @@||cartoon.porn^$generichide
 @@||casos-aislados.com^$generichide
 @@||catalog.mann-filter.com/media/werbebanner^
@@ -4895,6 +4896,7 @@
 @@||g.adspeed.net/ad.php?do=detectadblocker$domain=btcbunch.com
 @@||g.alicdn.com/??*/criteo
 @@||g.alicdn.com/AWSC/et/$domain=ele.me
+@@||g.alicdn.com/alilog/mlog/aplus_o.js$domain=v.youku.com
 @@||g.alicdn.com^*/banner_ad_
 @@||g.doubleclick.net/aclk?$popup,domain=bodas.com.mx|bodas.net|casamentos.com.br|casamentos.pt|casamiento.com.uy|casamientos.com.ar|mariages.net|matrimonio.com|matrimonio.com.co|matrimonio.com.pe|matrimonios.cl|pianobuyer.com|weddingspot.co.uk|zillow.com
 @@||g.doubleclick.net/gampad/ads$xmlhttprequest,domain=bloomberg.com|chromatographyonline.com|formularywatch.com|journaldequebec.com|managedhealthcareexecutive.com|medicaleconomics.com|physicianspractice.com|samsclub.com
@@ -5199,6 +5201,7 @@
 @@||gogoanime.*//page-recent-release*.html
 @@||gogodl.com/*/js/advertisement.js
 @@||golangnote.com^$generichide
+@@||goldenergy.pt^$stealth=dpi
 @@||goldmansachs.com/a/pg/js/prod/gs-analytics-init.js
 @@||gomaainfo.com^$generichide
 @@||gomediago.baidu.com/api/bidder/$domain=jump2.bdimg.com
@@ -6672,6 +6675,7 @@
 @@||ifsaembed.site^$stealth=referrer
 @@||igen.fr/sites/www.igen.fr/files/advagg_js/
 @@||ign.com^$generichide
+@@||iherb.com^$stealth=useragent
 @@||ihlv1.xyz/images$image,stealth=referrer,domain=weloma.art
 @@||ihlv1.xyz/images$stealth=referrer
 @@||ihow.info^$generichide
@@ -7860,6 +7864,7 @@
 @@||localizaagencia.com^$generichide
 @@||loco.kr3m.com/f/$image,stealth=referrer
 @@||log.go.com/log$xmlhttprequest,domain=disneyvacationclub.disney.go.com
+@@||log.mmstat.com/eg.js$domain=v.youku.com
 @@||log.mmstat.com/eg.js$domain=youku.tv
 @@||log.mmstat.com^
 @@||log000.goo.ne.jp/gcgw.js$domain=nttxstore.jp
