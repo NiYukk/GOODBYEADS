@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/NiYukk/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-05-28 11:57:18（北京时间）
+! Version: 2026-05-29 00:06:20（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 13772
+! Total count: 13767
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -399,7 +399,7 @@
 @@/tracking.php?id$domain=a1.express
 @@/tracks-v1a1/*$xmlhttprequest,stealth=referrer
 @@/unadblock/adjs_$domain=hepan.com
-@@/uploads/*$image,stealth=referrer,domain=zonatmo.com|culturanimation.com|recetasmaria.com|techobras.com|babynombres.com
+@@/uploads/*$image,stealth=referrer,domain=culturanimation.com|recetasmaria.com|techobras.com|babynombres.com
 @@/uploads/*.m3u8$stealth=referrer,domain=agemys.net
 @@/uploads/ads/*$domain=newauto46.ru
 @@/urchin.js$domain=on.cc
@@ -766,7 +766,6 @@
 @@||a.magsrv.com/video-slider.js$domain=xfreehd.com
 @@||a.magsrv.com^$domain=in91vip.win
 @@||a.poki.com/prebid/$script,domain=poki-gdn.com|repuls.io
-@@||a.pub.network/core/prebid-universal-creative.js$domain=aeroinsta.com
 @@||a.pub.network/core/pubfig/cls.css$domain=vrcmods.com
 @@||a.pub.network/vrcmods-com/pubfig.min.js$domain=vrcmods.com
 @@||a.pub.network^$domain=automobile-catalog.com
@@ -2602,7 +2601,6 @@
 @@||camiris.com^$generichide
 @@||camsclips.com/player/stats.php?event=Init$image
 @@||camsecure.co/httpswebcam/*.html$stealth=referrer
-@@||camsexvideo.net/js/advertising.js
 @@||camspacelive.com/widgets/$domain=lemoncams.com
 @@||camvideoshub.com/livejasmin.com.js$script
 @@||camwhores.co^$generichide
@@ -3015,6 +3013,7 @@
 @@||cdn.performax.cz/ads|$domain=idnes.cz|novinky.cz
 @@||cdn.permutive.app/*-web.js$domain=theglobeandmail.com
 @@||cdn.permutive.com/*-web.js$domain=independent.co.uk
+@@||cdn.petametrics.com/*.js$domain=thestreet.com
 @@||cdn.petametrics.com^$script,domain=mechacomic.jp
 @@||cdn.playwire.com/bolt/js/zeus/embed.js$domain=abcya.com
 @@||cdn.plyr.io/*/plyr.svg$domain=akwam.*
@@ -5572,13 +5571,11 @@
 @@||googleads.g.doubleclick.net/pagead/id$domain=guides.magicgameworld.com
 @@||googleads.g.doubleclick.net/pagead/id$xmlhttprequest,domain=gamemag.ru
 @@||googleads.g.doubleclick.net/pagead/id$xmlhttprequest,domain=resulthubdtu.com
-@@||googleads.g.doubleclick.net/pagead/id$xmlhttprequest,domain=sanoybonito.club
 @@||googleads.g.doubleclick.net/pagead/images/abg$domain=lolalytics.com
 @@||googleads.g.doubleclick.net/pagead/imgad$domain=zeroupload.com
 @@||googleads.g.doubleclick.net/pagead/interaction/$domain=hotels.historyofyesterday.com
 @@||googleads.g.doubleclick.net/pagead/interaction/$domain=quins.us
 @@||googleads.g.doubleclick.net/pagead/interaction/$domain=starkroboticsfrc.com|cryptednews.space|seoliv.com|blackwoodacademy.org|crypto-radio.eu|tiktokcounter.net
-@@||googleads.g.doubleclick.net/pagead/interaction/|$xmlhttprequest,domain=ecosolardigest.com
 @@||googleads.g.doubleclick.net/pagead/interaction/|$xmlhttprequest,domain=finance240.com|2wheelslife.com
 @@||googleads.g.doubleclick.net/pagead/js/adsbygoogle.js$domain=sportshub.to
 @@||googleads.g.doubleclick.net/pagead/js/adsbygoogle.js$xmlhttprequest,domain=werfgt.fun
@@ -9756,7 +9753,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=snapwordz.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=textstudio.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=truffeonline.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$script,domain=tamilyogi.wiki
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$xmlhttprequest,domain=getpaidtowritearticle.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$xmlhttprequest,domain=news-724.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$xmlhttprequest,domain=ottverse.com
@@ -13758,7 +13754,6 @@
 @@||zoigvids.zoigg.com^$stealth=referrer,domain=zoig.com
 @@||zol-img.com.cn^$stealth=referrer,domain=zol.com.cn
 @@||zombicide.com^$stealth
-@@||zonatmo.com/index.php/view_uploads/$stealth=referrer
 @@||zone.msn.com/js/gameplayer/admanager.js$domain=zone.msn.com
 @@||zonebourse.com/js/googleads.js
 @@||zonegfx.com^$generichide
