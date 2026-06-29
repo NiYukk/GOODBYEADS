@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/NiYukk/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-06-28 21:54:04（北京时间）
+! Version: 2026-06-29 12:15:58（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 13901
+! Total count: 13903
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -1195,6 +1195,7 @@
 @@||ads.springer.de^$domain=ads.springer.de
 @@||ads.taboola.com^
 @@||ads.taboola.com^$popup
+@@||ads.temu.com^
 @@||ads.temu.com^$popup
 @@||ads.themoneytizer.com/*/gen.js$domain=mylink.*|my1ink.*|myl1nk.*|myli3k.*
 @@||ads.themoneytizer.com/s/gen.js$domain=shorterall.com
@@ -11832,6 +11833,7 @@
 @@||stars24.cz^$generichide
 @@||start-player.npo.nl/video/$stealth=ip
 @@||startpage.com/js/abp.js^
+@@||startpage.com^$generichide
 @@||startrek.website/pictrs/image/$xmlhttprequest
 @@||stat-rock.com/player.js$domain=4shared.com
 @@||stat-rock.com/player/$domain=4shared.com|adplayer.pro
