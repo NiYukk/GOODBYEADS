@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/NiYukk/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-07-06 11:53:45（北京时间）
+! Version: 2026-07-06 23:40:06（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 13922
+! Total count: 13928
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -3070,6 +3070,7 @@
 @@||cdn.optimizely.com/public/$script,domain=nytimes.com
 @@||cdn.orangeclickmedia.com/tech/libs/ocm_iab_compliance.js$domain=protothema.gr
 @@||cdn.perfops.net/rom3/rom3.min.js$domain=catbox.moe
+@@||cdn.perfops.net/rom3/rom3.min.js$domain=cdnperf.com
 @@||cdn.performax.cz/ads|$domain=idnes.cz|novinky.cz
 @@||cdn.permutive.app/*-web.js$domain=theglobeandmail.com
 @@||cdn.permutive.com/*-web.js$domain=independent.co.uk
@@ -3476,6 +3477,7 @@
 @@||cloud.roistat.com/dist/module.js$domain=pandashop.md
 @@||cloud.typography.com/*/css/fonts.css$stealth=referrer
 @@||cloudapp.chinacloudapi.cn/lb.php?url=$stealth=referrer
+@@||cloudfam.io/*/pixel.gif
 @@||cloudfam.io/assets/ads/adnetwork-sync.js
 @@||cloudfam.io/assets/ads/adsense.js
 @@||cloudfam.io/assets/ads/gpt-publisher.js
@@ -5258,7 +5260,6 @@
 @@||gms.plus.pl/service/$stealth=referrer,domain=plushbezlimitu.pl
 @@||gn-web-assets.api.bbc.com/bbcdotcom/assets/$script,domain=bbc.co.uk
 @@||gn-web-assets.api.bbc.com/ngas/*/dotcom-ads.js$domain=bbc.com
-@@||gng.gumroad.com^$stealth=flash|java
 @@||gntm.connect.prosieben.de^$generichide
 @@||gnula.club/embed.php$stealth=referrer
 @@||go-links.net^$generichide
@@ -6345,6 +6346,7 @@
 @@||grodnoplustv.by^$stealth=dpi
 @@||gse.it^$stealth=ip
 @@||gsm1x.xyz^$generichide
+@@||gsmfile2025.blogspot.com^$generichide
 @@||gstatic.com/_/mss/boq-ads-privacy-consumer-frontend$domain=googleads.g.doubleclick.net
 @@||gstatic.com/admanager/outstream/rewarded_web_video_$script,domain=safeframe.googlesyndication.com
 @@||gstatic.com/ads/external/images/$image,domain=support.google.com
@@ -6369,6 +6371,7 @@
 @@||guce.engadget.com/consent
 @@||guide.imggaming.com/prod|$stealth=3p-auth
 @@||guim.co.uk/flash/video/embedded/player-$object,domain=thedailywh.at
+@@||gumroad.com^$stealth=flash|java
 @@||gumtree.co.za/my/ads.html$~third-party
 @@||gumtree.com*/p-post-ad*.html
 @@||gumtree.com.au/p-post-ad*.html
@@ -7591,6 +7594,7 @@
 @@||jsc.adskeeper.com/i/n/indexsubtitle.cc.*.js$domain=indexsubtitle.cc
 @@||jsc.adskeeper.com/site/*.js$domain=ranoz.gg
 @@||jsc.adskeeper.com/site/*.js$xmlhttprequest,domain=lockr.so
+@@||jsc.adskeeper.com/site/1091589.js$domain=cloudfam.io
 @@||jsc.idealmedia.io/*/onedio.com.*.js$domain=onedio.com
 @@||jscdn.greeter.me/dropgalaxy.onlinehead.js$script,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in
 @@||jsdelivr.net/combine/npm/$domain=ulifestyle.com.hk
@@ -13677,6 +13681,7 @@
 @@||xda-developers.com/adsninja_package/js/adsninja-refreshing-ad-zone.js
 @@||xda-developers.com/app/plugins/xda-kco-affiliate/public/js/xda-kco-affiliate-public.js
 @@||xdiv.space/io/p/?token=$stealth=referrer
+@@||xdownloaderz.com^$generichide
 @@||xe.awinriglet.com/*/$domain=olamovies.blog
 @@||xes.pl/sign-in.html$stealth=ip
 @@||xfinity.com/stream/js/api/fingerprint.js$domain=xfinity.com
@@ -13736,6 +13741,7 @@
 @@||xvideos.com/video-get-comments/
 @@||xweb.instagram.com/ads/preferences/
 @@||xxvideoss.net/e/$subdocument,stealth=useragent
+@@||xxxcdn.org^$image,stealth=referrer
 @@||xxxdao.com^$generichide
 @@||xxxxx520.com^$generichide
 @@||xzeepb2clookuppsta001.blob.core.windows.net/comed/src/js/google-analytics.js$domain=secure1.comed.com
