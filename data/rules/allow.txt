@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/NiYukk/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-07-16 22:00:12（北京时间）
+! Version: 2026-07-17 10:52:29（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 13932
+! Total count: 13936
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -4443,6 +4443,7 @@
 @@||egun.adj.st^$app=jp.naver.line.android
 @@||egybest.*^$stealth=referrer
 @@||egydead.com^$generichide
+@@||ehgt.org/*.jpg|$image,domain=e-hentai.org
 @@||eikaiwamastery.blogspot.com^$generichide
 @@||einthusan.ca/prebid.js
 @@||einthusan.com/prebid.js
@@ -4834,6 +4835,7 @@
 @@||fluxteam.xyz/*/checkpoint/css/advert/
 @@||flycutlink.com^$generichide
 @@||flyert.com/plug/socialShare/js/social-share.
+@@||flyfile.app^$generichide
 @@||flying-lines.com/banners/$image,~third-party
 @@||flyordie.com/games/online/iframeafg*.html
 @@||flysmartavia.com^$stealth=donottrack|java|location|push|useragent|webrtc
@@ -9367,6 +9369,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=flacdownloader.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=flash-guide.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=flowsoft7.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=flyfile.app
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=fontyukle.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=foodbusinessnews.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=forum.release-apk.com
@@ -10101,6 +10104,7 @@
 @@||pictasty.com^$generichide
 @@||pictogo.net^$stealth=referrer,third-party
 @@||pictures.spordunyasi.site^$stealth=referrer
+@@||pidlio.com^$generichide
 @@||pikabu.ru/story/*_reklama_
 @@||pikio.pl^$generichide
 @@||pilet.elron.ee^$extension
