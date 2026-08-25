@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/NiYukk/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-08-24 20:55:26（北京时间）
+! Version: 2026-08-25 09:24:00（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14037
+! Total count: 14042
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -4803,6 +4803,7 @@
 @@||feyorra.top^$generichide
 @@||fforfree.net^$generichide
 @@||fharr.com^$generichide
+@@||fhlsport*.*.json?_ver=*&_ctump=$third-party,xmlhttprequest,stealth=referrer
 @@||fifa.com^*/webanalytics.js?
 @@||fifakitcreator.com^$generichide
 @@||figma.com^$generichide
@@ -7628,6 +7629,7 @@
 @@||js-agent.newrelic.com/async-api$domain=northwell.edu
 @@||js-agent.newrelic.com/nr-*.min.js$domain=copy.com
 @@||js-agent.newrelic.com^$script,domain=abema.tv
+@@||js-cdn.dynatrace.com/jstag/$domain=fido.ca
 @@||js-sec.indexww.com/asl/asl_*.js$domain=envedette.ca
 @@||js-sec.indexww.com/ht/*.js$domain=bloomberg.com
 @@||js-sec.indexww.com/ht/htw-baltimore-sun.js$domain=baltimoresun.com
@@ -10622,6 +10624,7 @@
 @@||pythonmatplotlibtips.blogspot.com^$generichide
 @@||q-net.or.kr^$stealth=dpi
 @@||q32.ru/themes/default/reklama/advertising.js
+@@||qa.nicovideo.jp^$stealth=dpi
 @@||qa.smbc.co.jp^$stealth=dpi
 @@||qccommunity.qcloudimg.com^$stealth=referrer,domain=cloud.tencent.com
 @@||qcheng.cc/x/statics/js/guanggao.
@@ -12205,6 +12208,7 @@
 @@||stream2watch.ws/js/app.js
 @@||stream4free.live^$generichide
 @@||stream4free.tv^$generichide
+@@||streamas*.*.json?_ver=*&_ctump=$third-party,xmlhttprequest,stealth=referrer
 @@||streambox*.xyz/cdn/down/$stealth=referrer,domain=ddizi.im
 @@||streambucket.xyz^$stealth=useragent
 @@||streamdata.vaplayer.ru/api.php?$xmlhttprequest,third-party,stealth=referrer
@@ -12540,6 +12544,7 @@
 @@||tg1.aniview.com/api/adserver/spt?$domain=nuovavenezia.it
 @@||tgc1.ru^$stealth=dpi
 @@||tgfcer.com/advert.js
+@@||th-rosenheim.de/splan/mobile/js/fingerprint.js$domain=th-rosenheim.de
 @@||th-sjy.com^$generichide
 @@||th-world.com^$generichide
 @@||th.thgim.com/static/js/adsframe.min.js$domain=thehindu.com
