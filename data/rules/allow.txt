@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/NiYukk/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-09-07 11:39:48（北京时间）
+! Version: 2026-09-08 01:32:24（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14079
+! Total count: 14083
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -525,6 +525,7 @@
 @@?seg=$xmlhttprequest,stealth=referrer,domain=cinesrc.st
 @@?sid=ads$domain=126.com|mail.163.com
 @@?type=*&id=$third-party,stealth=referrer,domain=nextbox.uno|next-box.su
+@@?u_id=*&ssid=*&session_id=$xmlhttprequest,third-party,stealth=referrer
 @@?url=$xmlhttprequest,media,stealth=referrer,domain=cinezo.live
 @@^abcheck=$domain=animeshqip.org
 @@^probe=$script,domain=coinadster.com
@@ -821,6 +822,7 @@
 @@||a.magsrv.com/video-slider.js$domain=xfreehd.com
 @@||a.magsrv.com^$domain=in91vip.win
 @@||a.pemsrv.com/popunder1000.js$domain=unicorn.edu.eu.org
+@@||a.pemsrv.com/popunder1000.js$domain=unicorn.gt.tc
 @@||a.poki.com/prebid/$script,domain=poki-gdn.com|repuls.io
 @@||a.pub.network/core/pubfig/cls.css$domain=vrcmods.com
 @@||a.pub.network/vrcmods-com/pubfig.min.js$domain=vrcmods.com
@@ -2406,6 +2408,8 @@
 @@||bg-gledai.live^$generichide
 @@||bgnvrsk.ru/ads/
 @@||bham.pl/templates/bham_res/js/adsbygoogle.js
+@@||bharat-connect.com^$extension='AdGuard Popup Blocker'
+@@||bharat-connect.com^$stealth=location
 @@||bhaskar.com/adblock/*.js^
 @@||bhavanijewellery.in/ads9.gif$domain=atozmath.com
 @@||bhc.co.kr^$stealth=dpi
@@ -2775,7 +2779,6 @@
 @@||cbsistatic.com/fly/js/libs/ads/bidbarrel-*.js$domain=cnet.com
 @@||cbsistatic.com/scripts/NativeAdManager.js^$domain=cbsnews.com
 @@||cc-collab.adobe.io/profile$stealth=3p-auth
-@@||cc.zorores.com/ad/*.vtt$domain=rapid-cloud.co
 @@||ccb.com^*^ad
 @@||ccllaa.com^$generichide
 @@||ccna6.com^$generichide
@@ -2852,9 +2855,9 @@
 @@||cdn.adsninja.ca/adsninja_worker_caller.js$domain=makeuseof.com|howtogeek.com
 @@||cdn.adsninja.ca/an_sn.js$domain=polygon.com
 @@||cdn.adsninja.ca/api/$domain=polygon.com
-@@||cdn.adsninja.ca/v*/an.js$domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
-@@||cdn.adsninja.ca/v*/init.js$domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
-@@||cdn.adsninja.ca/v*/valstream.js$domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
+@@||cdn.adsninja.ca/v*/an.js$domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com|polygon.com
+@@||cdn.adsninja.ca/v*/init.js$domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com|polygon.com
+@@||cdn.adsninja.ca/v*/valstream.js$domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com|polygon.com
 @@||cdn.adspirit.de/banner/_default/160x600.jpg$domain=streetdir.com|roaddir.com
 @@||cdn.adspirit.de/banner/_default/300x250.jpg$domain=streetdir.com|roaddir.com
 @@||cdn.adspirit.de/banner/_default/468x60.jpg$domain=streetdir.com|roaddir.com
@@ -3072,6 +3075,7 @@
 @@||cdn.jsdelivr.net/npm/*/fuckadblock.min.js$domain=theandroidpro.com
 @@||cdn.jsdelivr.net/npm/*/videojs-contrib-ads.min.js$domain=24ur.com
 @@||cdn.jsdelivr.net/npm/@thumbmarkjs/$domain=dienynas.tamo.lt
+@@||cdn.jsdelivr.net/npm/@thumbmarkjs/thumbmarkjs/dist/thumbmark.umd.js$domain=archive.is
 @@||cdn.jsdelivr.net/npm/bootstrap-icons$stealth=referrer,domain=kimoitv.com
 @@||cdn.jsdelivr.net/npm/fingerprintjs2$domain=wannadep.com
 @@||cdn.jsdelivr.net/npm/fuckadblock*/fuckadblock.js$domain=shinden.pl
