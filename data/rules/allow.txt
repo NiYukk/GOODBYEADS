@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/NiYukk/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-09-09 11:49:43（北京时间）
+! Version: 2026-09-10 00:12:00（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14085
+! Total count: 14091
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -3834,7 +3834,6 @@
 @@||covid19m.kdca.go.kr^$stealth=dpi
 @@||cowcotland.com/scripjs.php
 @@||cowcotland.com/scripjs.php$document
-@@||cp.zirvedesin34.sbs/*.m3u8$stealth=referrer
 @@||cpaalberta.ca^$stealth=dpi
 @@||cpmlink.net^$generichide
 @@||cpro.baidu.com^$script,domain=rjno1.com
@@ -4796,6 +4795,7 @@
 @@||fdj.fr/oad/js/xiti/xtcore.js
 @@||fdyn.pubwise.io^$script,domain=urbanglasgow.co.uk
 @@||fea-contracts.24.privatbank.ua^$stealth=referrer,domain=24.privatbank.ua
+@@||featureassets.org/v1/initialize?k=$domain=bloomberg.com
 @@||fedex.com/Tracking?
 @@||fedex.com/apps/fedextrack$generichide
 @@||fedex.com/apps/fedextrack/
@@ -7635,6 +7635,7 @@
 @@||jkanime.net//buscar/q/?q=
 @@||jkanime.net/jk.php?
 @@||jkwaveblog.com^$generichide
+@@||jlr.scene7.com/is/content/jlr/$media,stealth=referrer
 @@||jlr.scene7.com/is/image/jlr/$image,stealth=referrer
 @@||jlthjy.com^$generichide
 @@||jmap.io/*/libs/Overture.js
@@ -8132,6 +8133,7 @@
 @@||login.olx.$stealth=flash|java
 @@||login.swissid.ch^$stealth=dpi
 @@||login.sydneywater.com.au^$stealth=referrer,domain=sydneywater.com.au
+@@||login.tohotheater.jp/js/$subdocument,stealth=referrer,domain=tohotheater.jp
 @@||login.tomorrowland.com^$stealth=referrer,domain=my.tomorrowland.com
 @@||login.uid.me^$domain=ucoz.ru,stealth=3p-cookie
 @@||login.vk.com/?act=openapi$domain=220vk.com,stealth=referrer
@@ -10711,6 +10713,7 @@
 @@||quicksounds.com^$generichide
 @@||quizack.com/assets/img/ads.js
 @@||quoteacademy.com^$generichide
+@@||qwen-webui-prod.oss-accelerate.aliyuncs.com^$stealth=3p-auth,domain=chat.qwen.ai
 @@||r-type.org/adverts/adv$image,domain=r-type.org
 @@||r.*.tk/*/xox_*/jpeg$stealth=referrer
 @@||r.bat.bing.com/?ld=test$domain=mcappx.com
@@ -13422,6 +13425,9 @@
 @@||vk.payservice.io^$stealth
 @@||vkcdn5.com^$stealth=referrer,image,media
 @@||vkcdnservice.com/api/spots/$domain=waaw.to|waaw1.tv|waaw.tv|hqq.tv
+@@||vknsorgula.net/ads/banners/$image
+@@||vknsorgula.net/adverts/adsbygoogle-loader$script
+@@||vknsorgula.net^$generichide
 @@||vkprime.com/embed-*.html$stealth=referrer
 @@||vle.aston.ac.uk/branding/themes/
 @@||vlm-ads.aimatch.com/vlm/jserver/$domain=titulky.com
@@ -14064,7 +14070,7 @@
 @@||ziffdavis.com/edaa^$domain=youronlinechoices.com
 @@||zillowstatic.com/c/*/linktrack.js$domain=zillow.com
 @@||ziperto.com^$generichide
-@@||zirvedesin120.cfd/yayinzirve.m3u8$stealth=referrer
+@@||zirvedesin*.*/*.m3u8$stealth=referrer
 @@||zive.cz/Client.Scripts/advertisment.js
 @@||zjjcxy.cn^*/ad.css?$stylesheet
 @@||zlavomat.sk/akcia^
