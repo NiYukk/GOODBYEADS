@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/NiYukk/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-09-15 12:03:19（北京时间）
+! Version: 2026-09-16 00:34:13（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14105
+! Total count: 14102
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -275,6 +275,7 @@
 @@/dh-new-anti-adblocker-lite/public/js/prebid-ads.js
 @@/e/*$subdocument,stealth=referrer,domain=sportsonlinee.*|sportsonline.*|wikisport.info
 @@/e/*$third-party,subdocument,stealth=referrer,domain=dlive.sx
+@@/e/*?sub.info=https://svetserialu.to$stealth=referrer
 @@/email-decode.min.js$domain=linkneverdie.net
 @@/embed/*$stealth=referrer,subdocument,domain=ldcstreaming.info|sportsonline.*|elixx.xyz|primefoot.ru|lavents.la
 @@/embed/*$subdocument,stealth=referrer,domain=strims.*|daddyhd.com|daddylive.*
@@ -284,6 +285,7 @@
 @@/favicon.ico$domain=cricket365.com|football365.com|golf365.com|loverugbyleague.com|planetf1.com|planetfootball.com|planetrugby.com|teamtalk.com|tennis365.com
 @@/favicon.ico$domain=lubetube.com
 @@/favicon.ico$third-party,domain=thehouseofportable.com
+@@/favicon.ico^$domain=cinefreak.nl
 @@/file$xmlhttprequest,stealth=referrer,domain=streameeeeee.site|videostr.net
 @@/file2/*$xmlhttprequest,stealth=referrer,domain=vidora.stream
 @@/file2/*==/*$xmlhttprequest,stealth=referrer,domain=megacloud.*
@@ -4158,7 +4160,6 @@
 @@||diamant.ua/*/search$xmlhttprequest,elemhide,jsinject,extension
 @@||diariodopeixe.com.br^$generichide
 @@||dicasvalores.com^$stealth=referrer
-@@||dickpritchettrealestate.com^$generichide
 @@||dict.rambler.ru/fcgi-bin/$xmlhttprequest,domain=rambler.ru
 @@||dictionary.search.yahoo.com/beacon/sc?&ajaxdd=tabsCard&
 @@||dictionnaire-medical.net^$generichide
@@ -6574,7 +6575,6 @@
 @@||hcdn.online^$generichide
 @@||hd-tch.com^$generichide
 @@||hdbkell.com/xv8ip.js$domain=hmanga.world
-@@||hdbox.ws^$generichide
 @@||hdfree.tv/live^$stealth=referrer
 @@||hdliveextra-a.akamaihd.net/*/config/ads.js$domain=nbcsports.com
 @@||hdliveextra-a.akamaihd.net/*/showads*.js
@@ -8573,7 +8573,6 @@
 @@||milfzr.com^$generichide
 @@||mimaletadepeliculas.blogspot.com^$generichide
 @@||mimaletamusical.blogspot.com^$generichide
-@@||minecraft-forum.net/v/adblock-detection-master/advert.js
 @@||minecraftbuildinginc.com/wp-content/themes/*/js/advertisement.js
 @@||minhaoperadora.com.br^$generichide
 @@||mini.surveyenquete.net^$generichide
@@ -10323,7 +10322,6 @@
 @@||player*.cinestream.bid^$stealth=referrer
 @@||player-feedback-v1.glomex.com/pf/|$domain=player.glomex.com
 @@||player-smotri.mail.ru^$stealth=referrer
-@@||player.9cartoon.me/static/ads.js^
 @@||player.adcdn.tv^$stealth=webrtc
 @@||player.aniview.com/script/$script,domain=odysee.com|pogo.com
 @@||player.aniview.com/script/*/AVmanager.js$domain=adnkronos.com
@@ -13329,7 +13327,6 @@
 @@||vidembed.re/stream$stealth=referrer
 @@||video*.xhcdn.com/key=$stealth=referrer
 @@||video*.yxhhdl.com^$media,stealth=referrer,domain=video.5054399.com
-@@||video-download.online/js/advertisement.js
 @@||video.520call.me/ad.php
 @@||video.520cc.cc/ad.php|
 @@||video.520cc.cc^$generichide
