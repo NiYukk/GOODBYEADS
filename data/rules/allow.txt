@@ -2,9 +2,9 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/NiYukk/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2026-09-27 12:27:04（北京时间）
+! Version: 2026-09-28 00:39:14（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 14142
+! Total count: 14144
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
@@ -2891,6 +2891,7 @@
 @@||cdn.adsafeprotected.com/*.*.js$domain=gentside.com|gentside.de|gentside.co.uk|gentside.com.br|maxisciences.com|ohmymag.com|ohmymag.de
 @@||cdn.adsafeprotected.com/*.js$domain=gentside.com|ohmymag.com
 @@||cdn.adsafeprotected.com^$domain=tio.ch
+@@||cdn.adsbetnet.com/libs/$script,domain=naijavault.com
 @@||cdn.adsninja.ca/ads_initiator.js$domain=polygon.com
 @@||cdn.adsninja.ca/ads_injector.js$domain=polygon.com
 @@||cdn.adsninja.ca/adsninja_client.js$domain=androidpolice.com
@@ -6256,6 +6257,7 @@
 @@||googletagmanager.com/gtm.js$domain=sferis.pl
 @@||googletagmanager.com/gtm.js$domain=shieldsgazette.com
 @@||googletagmanager.com/gtm.js$domain=shockwave.com
+@@||googletagmanager.com/gtm.js$domain=shonenjumpplus.com
 @@||googletagmanager.com/gtm.js$domain=shop-apotheke.com
 @@||googletagmanager.com/gtm.js$domain=shop.kyivstar.ua
 @@||googletagmanager.com/gtm.js$domain=shop.mango.com
